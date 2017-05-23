@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 oct. 2015, 20:49:55
+    Author     : silnti
+*/
+
+body {
+    color: white;
+    background-color: black;
+}
+
+body > div.header {
+    position: absolute;
+    top: 0px;
+    border: 2px solid crimson;
+    width: 99%;
+    height: 200px;
+    margin: auto;
+}
+
+body > div.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border: 2px solid crimson;
+    width: 99%;
+    height: 100px;
+}
+
+body > div.footer > span {
+    border: medium aqua groove;
+    position: absolute;
+    //bottom: 0px;
+    right: 0px;
+}
+
+body > div.header > span {
+    border: medium aqua groove;
+    position: relative;
+}
+/*
+p {
+    float: right;
+    border: 1px dashed crimson;
+    margin-top: 0px;
+}
+*/
+
+body > div.content {
+    border: white double thick;
+    position: absolute;
+    top: 205px;
+    width: 98.5%;
+}
+

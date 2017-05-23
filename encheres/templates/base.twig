@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="style.css" />
+            <link rel="stylesheet" href="xmlForm/xmlObject2.css" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>{% block title %}{% endblock %}</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h2>Squelette générique de site internet</h2>
+                {% if user is defined %}
+                    Bienvenu {{ user.nom }}. Votre niveau est {{ user.role }} <a href="deconnexion.html">se déconnecter</a>
+                {% endif %}
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="accueil.html">accueil</a></li>
+                        {% if user is defined %}
+                        <li><a href="deconnexion.html">se déconnecter</a></li>
+                        {% else %}
+                        <li><a href="connexion.html">se connecter</a></li>
+                        {% endif %}
+                    <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+            </div>
+            <div id="content">{% block content %}{% endblock %}
+                <h2 >{{ msg }}</h2>
+            </div>
+            <div id="footer">
+                {% block footer %}
+                    &copy; Copyright 2011 by <a href="http://domain.invalid/">you</a>.
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

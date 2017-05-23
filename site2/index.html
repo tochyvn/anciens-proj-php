@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta http-equiv="Content-Language" content="fr"/>
+    <title>commande_shell - Documentation Ubuntu Francophone</title>
+    <meta name="Description" content="Documentation francophone pour la distribution Ubuntu" lang="fr" />
+    <meta name="language" content="fr-FR" />
+
+    <!--[if IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <![endif]-->
+        <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="date" content="2014-08-30T08:57:20+0200"/>
+<meta name="keywords" content="portail,debutant,shell,terminal,console"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Documentation Ubuntu Francophone"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/commande_shell?do=index" title="Plan du site"/>
+<link rel="alternate" type="application/rss+xml" title="Derniers changements" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Namespace actuel" href="/feed.php?mode=list&amp;ns="/>
+<link rel="edit" title="Modifier cette page" href="/commande_shell?do=edit"/>
+<link rel="alternate" type="text/html" title="HTML brut" href="/_export/xhtml/commande_shell"/>
+<link rel="alternate" type="text/plain" title="Wiki balise" href="/_export/raw/commande_shell"/>
+<link rel="canonical" href="http://doc.ubuntu-fr.org/commande_shell"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=ubuntu-2010&amp;tseed=4af22dedc19f28c99fa67afabbb173df"/>
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"id":"commande_shell","namespace":""};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=4af22dedc19f28c99fa67afabbb173df"></script>
+    <link rel="shortcut icon" href="//www-static.ubuntu-fr.org/theme2010/images/commun/ubuntu/icone.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="//www-static.ubuntu-fr.org/theme2010/images/commun/ubuntu/touch-ico.png" />
+
+    <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc.css" />
+    <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc-ubuntu.css" />
+    <link rel="stylesheet" media="print" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc-print.css" />
+
+    <script type="text/javascript">
+      var menu_hidden;
+      var static_url = "UFR_STATIC";
+    </script>
+    <script src="//www-static.ubuntu-fr.org/theme2010/js/menu.js" type="text/javascript"></script>
+    <script src="//www-static.ubuntu-fr.org/theme2010/js/common.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div id="accessibar">
+      <a href="#main" tabindex="1">Contenu</a> | <a href="#qsearch__in" tabindex="2">Rechercher</a> | <a href="#navigation" tabindex="3">Menus</a>
+    </div>
+
+    <div id="page">
+
+      <div id="header">
+
+        <div id="logo">
+          <h1>Ubuntu-fr</h1>
+          <a href="/" title="Accueil de la documentation">Communauté francophone d'utilisateurs d'Ubuntu</a>
+        </div>
+
+        <form action="http://ubuntu-fr.org/recherche" accept-charset="utf-8" id="search" onsubmit="if (document.getElementById('qsearch__in').value == 'Recherche rapide....') {document.getElementById('qsearch__in').value = '';}">
+          <fieldset>
+            <label for="qsearch__in">Recherche : </label><input type="text" value="Recherche rapide...." id="qsearch__in" accesskey="f" name="sk_q" alt="[F]" size="34" tabindex="4" />
+            <label for="tsearch_field">Chercher dans : </label><select name="sk_engine" tabindex="5" id="tsearch_field" title="Chercher dans">
+              <option value="all">Site</option>
+              <option selected="selected" value="doc">Documentation</option>
+              <option value="forum">Forum</option>
+              <option value="planet">Planet</option>
+            </select>
+            <input type="submit" value="ok" class="button" alt="Lancer la recherche" tabindex="5" />
+          </fieldset>
+        </form>
+        <!--[if lte IE 7]><div class="clear"></div><![endif]-->
+
+        <form action="" accept-charset="utf-8" id="login_top" method="post">
+          <fieldset>
+            <label for="u_field">Identifiant : </label><input type="text" value="Identifiant" name="u" id="u_field" size="9" /><label for="p_field">Mot de passe : </label><input type="password" value="Mot de passe" name="p" id="p_field" size="9" alt="Mot de passe" /><input type="submit" value="connexion" id="connect" /> / <a href="http://forum.ubuntu-fr.org/register.php">inscription</a>
+          </fieldset>
+        </form>
+ 
+
+      </div>
+
+      <div id="navbar">
+          <h2 id="pagetitle"><a href="/commande_shell" >commande_shell</a></h2>
+      </div>
+
+      
+      <div id="main" class="dokuwiki">
+
+        <div id="hidemenu" title="Masquer le menu"></div>
+
+        <div id="pagerror"></div>
+                <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle">Table des matières</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#aide_systeme">Aide système</a></div></li>
+<li class="level1"><div class="li"><a href="#action_sur_les_fichiers_et_repertoires">Action sur les fichiers et répertoires</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#systeme_de_fichiers">Système de fichiers</a></div></li>
+<li class="level2"><div class="li"><a href="#manipulation">Manipulation</a></div></li>
+<li class="level2"><div class="li"><a href="#liens_liens_symboliques">Liens &amp; liens symboliques</a></div></li>
+<li class="level2"><div class="li"><a href="#archives_compression">Archives &amp; Compression</a></div></li>
+<li class="level2"><div class="li"><a href="#recherche">Recherche</a></div></li>
+<li class="level2"><div class="li"><a href="#visualiser_le_contenu_des_fichiers">Visualiser le contenu des fichiers</a></div></li>
+<li class="level2"><div class="li"><a href="#modification_des_droits_d_acces_proprietes_et_modes">Modification des droits d&#039;accès (propriétés et modes)</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#gestion_des_peripheriques">Gestion des périphériques</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#monter_ou_demonter_des_peripheriques">Monter ou démonter des périphériques</a></div></li>
+<li class="level2"><div class="li"><a href="#entretien_des_volumes_de_donnees">Entretien des volumes de données</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#gestion_des_processus_systeme">Gestion des processus système</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#visualisation">Visualisation</a></div></li>
+<li class="level2"><div class="li"><a href="#modification">Modification</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#informations_systeme">Informations système</a></div></li>
+<li class="level1"><div class="li"><a href="#securite">Sécurité</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#gerer_les_utilisateurs_et_les_groupes">Gérer les utilisateurs et les groupes</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#installer_des_logiciels">Installer des logiciels</a></div></li>
+<li class="level1"><div class="li"><a href="#voir_aussi">Voir aussi</a></div></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+<div class="tags"><span>
+	<a href="/portail" class="wikilink1" title="portail" rel="tag">portail</a>,
+	<a href="/debutant" class="wikilink1" title="debutant" rel="tag">débutant</a>,
+	<a href="/shell" class="wikilink1" title="shell" rel="tag">shell</a>,
+	<a href="/terminal" class="wikilink1" title="terminal" rel="tag">terminal</a>,
+	<a href="/console" class="wikilink1" title="console" rel="tag">console</a>
+</span></div>
+<hr />
+
+<h1 class="sectionedit1" id="commandes_et_lignes_de_commandes">Commandes et lignes de commandes</h1>
+<div class="level1">
+
+<p>
+Une <strong>commande</strong> est une instruction qu&#039;un utilisateur envoie au système d&#039;exploitation de son ordinateur pour lui faire exécuter une tâche. Il peut s&#039;agir de manipuler des fichiers, d&#039;accéder à des répertoires, de modifier des droits d&#039;accès, etc. Du fait de la complexité des systèmes d&#039;exploitation, il en existe un très grand nombre, et les actions précises de chacune d&#039;elles sont de plus conditionnées par un jeu plus ou moins volumineux d&#039;options. Elles constituent ainsi un outil extrêmement puissant, mais encore faut-il les connaître et parfaitement comprendre leurs actions ! 
+</p>
+
+<p>
+Ces commandes peuvent être déclenchées soit indirectement par le biais d&#039;outils graphiques (outils de l&#039;environnement) soit directement par le biais de lignes de commandes saisies sur un <strong><a href="/terminal" class="wikilink1" title="terminal">terminal</a></strong> ou une <strong><a href="/console" class="wikilink1" title="console">console</a></strong> dans un langage extrêmement concis pour en simplifier la frappe, au risque de les faire apparaître comme extrêmement mystérieuses aux néophytes ou même aux utilisateurs aguerris.
+</p>
+
+<p>
+Le présent document a pour but de cataloguer les plus utiles et les plus fréquemment utilisées d&#039;entre elles, en les classant par catégorie et par usage. Pour obtenir tous les détails de chacune d&#039;elles (syntaxe, sémantique, exemples), reportez-vous aux pages correspondantes du manuel.
+</p>
+
+<p>
+<p><div class="notetip">Les néophytes sont invités à consulter également les pages suivantes :
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/console" class="wikilink1" title="console">La console</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/terminal" class="wikilink1" title="terminal">Le terminal GNU/Linux</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tutoriel/console_commandes_de_base" class="wikilink1" title="tutoriel:console_commandes_de_base">Tutoriel : Les commandes de base en console</a></div>
+</li>
+</ul>
+
+<p>
+Pour une liste de commandes supplémentaires, consultez le document <a href="http://fr.wikipedia.org/wiki/Commandes UNIX" class="interwiki iw_wpfr" title="http://fr.wikipedia.org/wiki/Commandes UNIX">Commandes UNIX</a> de Wikipedia.
+</div></p>
+</p>
+
+<p>
+<p><div class="noteclassic"><em class="u"><strong>Pour une bonne compréhension des liens présents dans les tableaux ci-dessous :</strong></em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Commande &amp; lien vers synopsis :</strong> Il s&#039;agit du nom de la commande et du lien vers l&#039;entrée correspondant à celle-ci dans la page <a href="/tutoriel/console_commandes_de_base" class="wikilink1" title="tutoriel:console_commandes_de_base">Tutoriel : Les commandes de base en console</a> (si la commande y est référencée).</div>
+</li>
+<li class="level1"><div class="li"> <strong>Pages relatives :</strong></div>
+<ul>
+<li class="level2"><div class="li"> Les autres liens internes vers les pages de la documentation « ubuntu-fr » où la commande est abordée.</div>
+</li>
+<li class="level2"><div class="li"> Les liens externes sont exclusivement ceux <a href="http://wiki.debian-facile.org/manuel:commandes:alphabetique" class="urlextern" title="http://wiki.debian-facile.org/manuel:commandes:alphabetique"  rel="nofollow">des pages correspondant à la commande</a> sur le <a href="http://wiki.debian-facile.org/" class="urlextern" title="http://wiki.debian-facile.org/"  rel="nofollow">Wiki de la Documentation de Debian-Facile</a>.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <strong>Manuel d&#039;utilisation :</strong> Il s&#039;agit du lien vers une version en ligne de la page du manuel de la commande appelée aussi « <a href="/man" class="wikilink1" title="man">manpage</a> », en français pour autant qu&#039;une traduction existe, en anglais sinon.<sup><a href="#fn__1" id="fnt__1" class="fn_top">1)</a></sup></div>
+</li>
+</ul>
+
+<p>
+
+</div></p>
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_1'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Commandes et lignes de commandes] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="56-2942" /><input type="submit" value="Modifier" class="button" title="Commandes et lignes de commandes" /></div></form></div>
+<h2 class="sectionedit2" id="aide_systeme">Aide système</h2>
+<div class="level2">
+<div class="table sectionedit3"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Lister toutes les pages de manuels contenant une chaîne de caractère déterminée </td><td class="col1"> apropos </td><td class="col2 leftalign">  </td><td class="col3 leftalign"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/apropos.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/apropos.1.html"  rel="nofollow">man apropos</a>  </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Lire le manuel d&#039;utilisation d&#039;une commande </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#man" class="wikilink1" title="tutoriel:console_commandes_de_base">man</a> </td><td class="col2 rightalign">  → <a href="http://wiki.debian-facile.org/commande:man" class="urlextern" title="http://wiki.debian-facile.org/commande:man"  rel="nofollow">[debian-facile] man</a> </td><td class="col3 leftalign"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/man.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/man.1.html"  rel="nofollow">man man</a>  </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Accéder à la documentation système </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#info" class="wikilink1" title="tutoriel:console_commandes_de_base">info</a> </td><td class="col2 leftalign"> → <a href="http://wiki.debian-facile.org/commande:info" class="urlextern" title="http://wiki.debian-facile.org/commande:info"  rel="nofollow">[debian-facile] info</a>  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/en/man1/info.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/en/man1/info.1.html"  rel="nofollow">man info</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Afficher l&#039;aide succincte d&#039;une commande </td><td class="col1"> <em>commande</em> --help </td><td class="col2 leftalign">  </td><td class="col3 leftalign">  </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_2'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Aide système] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="2943-3823" /><input type="submit" value="Modifier" class="button" title="Aide système" /></div></form></div>
+<h2 class="sectionedit4" id="action_sur_les_fichiers_et_repertoires">Action sur les fichiers et répertoires</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_4'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Action sur les fichiers et répertoires] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="3824-3876" /><input type="submit" value="Modifier" class="button" title="Action sur les fichiers et répertoires" /></div></form></div>
+<h3 class="sectionedit5" id="systeme_de_fichiers">Système de fichiers</h3>
+<div class="level3">
+<div class="table sectionedit6"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Se déplacer dans un autre répertoire </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#cd" class="wikilink1" title="tutoriel:console_commandes_de_base">cd</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#se_deplacer_dans_le_systeme_de_fichier" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+ → <a href="/console#cd" class="wikilink1" title="console">[console] cd</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:cd" class="urlextern" title="http://wiki.debian-facile.org/commande:cd"  rel="nofollow">[debian-facile] cd</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/en/man1/cd.1posix.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/en/man1/cd.1posix.html"  rel="nofollow">man cd</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Indiquer l&#039;espace occupé par les systèmes de fichiers </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#df" class="wikilink1" title="tutoriel:console_commandes_de_base">df</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:df" class="urlextern" title="http://wiki.debian-facile.org/commande:df"  rel="nofollow">[debian-facile] df</a> </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/df.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/df.1.php"  rel="nofollow">man df</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Évaluer l&#039;espace disque occupé par des fichiers </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#du" class="wikilink1" title="tutoriel:console_commandes_de_base">du</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:du" class="urlextern" title="http://wiki.debian-facile.org/commande:du"  rel="nofollow">[debian-facile] du</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/du.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/du.1.html"  rel="nofollow">man du</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Déterminer le type d&#039;un fichier </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#file" class="wikilink1" title="tutoriel:console_commandes_de_base">file</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/file.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/file.1.php"  rel="nofollow">man file</a> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> Informations détaillées sur un fichier </td><td class="col1"> stat </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/stat.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/stat.1.html"  rel="nofollow">man stat</a> </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"> Lister les fichiers et dossiers présents dans un répertoire </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#ls" class="wikilink1" title="tutoriel:console_commandes_de_base">ls</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#lister_le_contenu_d_un_dossier" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="/console#ls" class="wikilink1" title="console">[console] ls</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:ls" class="urlextern" title="http://wiki.debian-facile.org/commande:ls"  rel="nofollow">[debian-facile] ls</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/ls.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/ls.1.html"  rel="nofollow">man ls</a> </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0"> Afficher le chemin vers le répertoire de travail courant </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#pwd" class="wikilink1" title="tutoriel:console_commandes_de_base">pwd</a> </td><td class="col2">→ <a href="http://wiki.debian-facile.org/commande:pwd" class="urlextern" title="http://wiki.debian-facile.org/commande:pwd"  rel="nofollow">[debian-facile] pwd</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/pwd.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/pwd.1.html"  rel="nofollow">man pwd</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_5'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Système de fichiers] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="3877-5800" /><input type="submit" value="Modifier" class="button" title="Système de fichiers" /></div></form></div>
+<h3 class="sectionedit7" id="manipulation">Manipulation</h3>
+<div class="level3">
+<div class="table sectionedit8"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Copie </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#cp" class="wikilink1" title="tutoriel:console_commandes_de_base">cp</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#deplacer_renommer_et_copier_des_fichiers" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="/console#commandes_et_parametres" class="wikilink1" title="console">[console] exemple avec cp</a> <br/>
+ → <a href="http://wiki.debian-facile.org/commande:cp" class="urlextern" title="http://wiki.debian-facile.org/commande:cp"  rel="nofollow">[debian-facile] cp</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/cp.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/cp.1.html"  rel="nofollow">man cp</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Déplacement </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#mv" class="wikilink1" title="tutoriel:console_commandes_de_base">mv</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#deplacer_renommer_et_copier_des_fichiers" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:mv" class="urlextern" title="http://wiki.debian-facile.org/commande:mv"  rel="nofollow">[debian-facile] mv</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/mv.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/mv.1.html"  rel="nofollow">man mv</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Suppression </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#rm" class="wikilink1" title="tutoriel:console_commandes_de_base">rm</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#deplacer_renommer_et_copier_des_fichiers" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:rm" class="urlextern" title="http://wiki.debian-facile.org/commande:rm"  rel="nofollow">[debian-facile] rm</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/rm.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/rm.1.html"  rel="nofollow">man rm</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Création de répertoire </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#mkdir" class="wikilink1" title="tutoriel:console_commandes_de_base">mkdir</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#deplacer_renommer_et_copier_des_fichiers" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:mkdir" class="urlextern" title="http://wiki.debian-facile.org/commande:mkdir"  rel="nofollow">[debian-facile] mkdir</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/mkdir.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/mkdir.1.html"  rel="nofollow">man mkdir</a> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> Suppression de répertoire </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#rmdir" class="wikilink1" title="tutoriel:console_commandes_de_base">rmdir</a> </td><td class="col2"> → <a href="/tutoriel/learn_unix_in_10_minutes#deplacer_renommer_et_copier_des_fichiers" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Linux en 10 minutes</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:rmdir" class="urlextern" title="http://wiki.debian-facile.org/commande:rmdir"  rel="nofollow">[debian-facile] rmdir</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/rmdir.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/rmdir.1.html"  rel="nofollow">man rmdir</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_7'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Manipulation] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="5801-7618" /><input type="submit" value="Modifier" class="button" title="Manipulation" /></div></form></div>
+<h3 class="sectionedit9" id="liens_liens_symboliques">Liens &amp; liens symboliques</h3>
+<div class="level3">
+<div class="table sectionedit10"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Créer des liens physiques ou symboliques </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#ln" class="wikilink1" title="tutoriel:console_commandes_de_base">ln</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:ln" class="urlextern" title="http://wiki.debian-facile.org/commande:ln"  rel="nofollow">[debian-facile] ln</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/ln.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/ln.1.html"  rel="nofollow">man ln</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_9'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Liens &amp; liens symboliques] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="7619-7987" /><input type="submit" value="Modifier" class="button" title="Liens &amp; liens symboliques" /></div></form></div>
+<h3 class="sectionedit11" id="archives_compression">Archives &amp; Compression</h3>
+<div class="level3">
+<div class="table sectionedit12"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Archiver/désarchiver des répertoires et des fichiers </td><td class="col1"> tar </td><td class="col2"> → <a href="/tar" class="wikilink1" title="tar">tar</a> <br/>
+→ <a href="/archivage" class="wikilink1" title="archivage">archivage</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:tar" class="urlextern" title="http://wiki.debian-facile.org/commande:tar"  rel="nofollow">[debian-facile] tar</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/tar.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/tar.1.html"  rel="nofollow">man tar</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Extraire des fichiers d&#039;une archive ZIP </td><td class="col1"> unzip </td><td class="col2"> → <a href="/zip#gerer_les_zip_en_ligne_de_commande" class="wikilink1" title="zip">unzip</a> <br/>
+→ <a href="/archivage" class="wikilink1" title="archivage">archivage</a> </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/unzip.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/unzip.1.php"  rel="nofollow">man unzip</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Compresser/décompresser des fichiers avec l&#039;extension <strong>.gz</strong> </td><td class="col1"> gzip </td><td class="col2"> → <a href="/tar#compression_avec_gzip_targz" class="wikilink1" title="tar">[tar] compression avec gzip targz</a> <br/>
+→ <a href="/archivage" class="wikilink1" title="archivage">archivage</a> </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/gzip.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/gzip.1.php"  rel="nofollow">man gzip</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Compresser/décompresser avec p7zip (.zip, .7z,…) </td><td class="col1"> 7z </td><td class="col2"> → <a href="/p7zip#lignes_de_commande" class="wikilink1" title="p7zip">[p7zip] lignes de commande</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/en/man1/7z.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/en/man1/7z.1.html"  rel="nofollow">man 7z</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_11'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Archives &amp; Compression] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="7988-8991" /><input type="submit" value="Modifier" class="button" title="Archives &amp; Compression" /></div></form></div>
+<h3 class="sectionedit13" id="recherche">Recherche</h3>
+<div class="level3">
+<div class="table sectionedit14"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Rechercher des fichiers </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#find" class="wikilink1" title="tutoriel:console_commandes_de_base">find</a> </td><td class="col2"> → <a href="/recherche_ligne_commande#find" class="wikilink1" title="recherche_ligne_commande">[Recherche en ligne commande] find</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:find" class="urlextern" title="http://wiki.debian-facile.org/commande:find"  rel="nofollow">[debian-facile] find</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/find.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/find.1.html"  rel="nofollow">man find</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Faire des recherches plein texte </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#grep" class="wikilink1" title="tutoriel:console_commandes_de_base">grep</a> </td><td class="col2"> → <a href="/recherche_ligne_commande#grep" class="wikilink1" title="recherche_ligne_commande">[Recherche en ligne commande] grep</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:grep" class="urlextern" title="http://wiki.debian-facile.org/commande:grep"  rel="nofollow">[debian-facile] grep</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/grep.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/grep.1.html"  rel="nofollow">man grep</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Lister les fichiers à partir d&#039;une base de données </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#locate" class="wikilink1" title="tutoriel:console_commandes_de_base">locate</a> </td><td class="col2"> → <a href="/recherche_ligne_commande#locate" class="wikilink1" title="recherche_ligne_commande">[Recherche en ligne commande] locate</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:locate" class="urlextern" title="http://wiki.debian-facile.org/commande:locate"  rel="nofollow">[debian-facile] locate</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/locate.findutils.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/locate.findutils.1.html"  rel="nofollow">man locate</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Compter les lignes, mots,… d&#039;un fichier </td><td class="col1"> wc </td><td class="col2"> → <a href="/projets/ecole/scripting/initiation_au_shell#entrees" class="wikilink1" title="projets:ecole:scripting:initiation_au_shell">[Initiation au shell] exemple avec wc</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:wc" class="urlextern" title="http://wiki.debian-facile.org/commande:wc"  rel="nofollow">[debian-facile] wc</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/wc.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/wc.1.html"  rel="nofollow">man wc</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_13'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Recherche] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="8992-10392" /><input type="submit" value="Modifier" class="button" title="Recherche" /></div></form></div>
+<h3 class="sectionedit15" id="visualiser_le_contenu_des_fichiers">Visualiser le contenu des fichiers</h3>
+<div class="level3">
+<div class="table sectionedit16"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Concaténer des fichiers et les afficher sur la sortie standard </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#cat" class="wikilink1" title="tutoriel:console_commandes_de_base">cat</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:cat" class="urlextern" title="http://wiki.debian-facile.org/commande:cat"  rel="nofollow">[debian-facile] cat</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/cat.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/cat.1.html"  rel="nofollow">man cat</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Afficher un fichier page par page </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#more" class="wikilink1" title="tutoriel:console_commandes_de_base">more</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:more" class="urlextern" title="http://wiki.debian-facile.org/commande:more"  rel="nofollow">[debian-facile] more</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/more.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/more.1.html"  rel="nofollow">man more</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Afficher un fichier page par page </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#less" class="wikilink1" title="tutoriel:console_commandes_de_base">less</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:less" class="urlextern" title="http://wiki.debian-facile.org/commande:less"  rel="nofollow">[debian-facile] less</a> </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/less.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/less.1.php"  rel="nofollow">man less</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_15'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Visualiser le contenu des fichiers] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="10393-11269" /><input type="submit" value="Modifier" class="button" title="Visualiser le contenu des fichiers" /></div></form></div>
+<h3 class="sectionedit17" id="modification_des_droits_d_acces_proprietes_et_modes">Modification des droits d&#039;accès (propriétés et modes)</h3>
+<div class="level3">
+<div class="table sectionedit18"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Modifier les permissions d&#039;accès aux fichiers/dossiers </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#chmod" class="wikilink1" title="tutoriel:console_commandes_de_base">chmod</a> </td><td class="col2 rightalign">  → <a href="/permissions" class="wikilink1" title="permissions">Permissions (ou droits d&#039;accès)</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:chmod" class="urlextern" title="http://wiki.debian-facile.org/commande:chmod"  rel="nofollow">[debian-facile] chmod</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/chmod.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/chmod.1.html"  rel="nofollow">man chmod</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Changer le propriétaire et le groupe propriétaire d&#039;un fichier </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#chown" class="wikilink1" title="tutoriel:console_commandes_de_base">chown</a> </td><td class="col2"> → <a href="/permissions" class="wikilink1" title="permissions">Permissions (ou droits d&#039;accès)</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:chown" class="urlextern" title="http://wiki.debian-facile.org/commande:chown"  rel="nofollow">[debian-facile] chown</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/chown.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/chown.1.html"  rel="nofollow">man chown</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Changer le groupe propriétaire d&#039;un fichier </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#chgrp" class="wikilink1" title="tutoriel:console_commandes_de_base">chgrp</a> </td><td class="col2"> → <a href="/permissions" class="wikilink1" title="permissions">Permissions (ou droits d&#039;accès)</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/chgrp.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/chgrp.1.html"  rel="nofollow">man chgrp</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_17'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Modification des droits d'accès (propriétés et modes)] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="11270-12334" /><input type="submit" value="Modifier" class="button" title="Modification des droits d'accès (propriétés et modes)" /></div></form></div>
+<h2 class="sectionedit19" id="gestion_des_peripheriques">Gestion des périphériques</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_19'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Gestion des périphériques] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="12335-12375" /><input type="submit" value="Modifier" class="button" title="Gestion des périphériques" /></div></form></div>
+<h3 class="sectionedit20" id="monter_ou_demonter_des_peripheriques">Monter ou démonter des périphériques</h3>
+<div class="level3">
+<div class="table sectionedit21"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Monter un système de fichiers (ou un périphérique) </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#mount" class="wikilink1" title="tutoriel:console_commandes_de_base">mount</a> </td><td class="col2"> → <a href="/mount_fstab#la_commande_mount" class="wikilink1" title="mount_fstab">[mount et fstab] La commande mount</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:mount" class="urlextern" title="http://wiki.debian-facile.org/commande:mount"  rel="nofollow">[debian-facile] mount</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/jaunty/fr/man8/mount.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/jaunty/fr/man8/mount.8.html"  rel="nofollow">man mount</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Démonter un système de fichiers </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#umount" class="wikilink1" title="tutoriel:console_commandes_de_base">umount</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:umount" class="urlextern" title="http://wiki.debian-facile.org/commande:umount"  rel="nofollow">[debian-facile] umount</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/umount.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/umount.8.html"  rel="nofollow">man umount</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Éjecter un CD/DVD-ROM, disquette ZIP ou disque JAZ </td><td class="col1"> eject </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:eject" class="urlextern" title="http://wiki.debian-facile.org/commande:eject"  rel="nofollow">[debian-facile] eject</a> </td><td class="col3"> <a href="http://jp.barralis.com/linux-man/man1/eject.1.php" class="urlextern" title="http://jp.barralis.com/linux-man/man1/eject.1.php"  rel="nofollow">man eject</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_20'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Monter ou démonter des périphériques] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="12376-13324" /><input type="submit" value="Modifier" class="button" title="Monter ou démonter des périphériques" /></div></form></div>
+<h3 class="sectionedit22" id="entretien_des_volumes_de_donnees">Entretien des volumes de données</h3>
+<div class="level3">
+<div class="table sectionedit23"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Vérifier/réparer un volume de données </td><td class="col1"> fsck </td><td class="col2"> → <a href="/fsck" class="wikilink1" title="fsck">fsck</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:fsck" class="urlextern" title="http://wiki.debian-facile.org/commande:fsck"  rel="nofollow">[debian-facile] fsck</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/fsck.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/fsck.8.html"  rel="nofollow">man fsck</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Réparer les problèmes communs d&#039;une partition NTFS </td><td class="col1"> ntfsfix </td><td class="col2"> → <a href="/ntfsfix" class="wikilink1" title="ntfsfix">ntfsfix</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/en/man8/ntfsfix.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/en/man8/ntfsfix.8.html"  rel="nofollow">man ntfsfix</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Vérifier/réparer une partition FAT </td><td class="col1"> dosfsck </td><td class="col2"> → <a href="/dosfsck" class="wikilink1" title="dosfsck">dosfsck</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/dosfsck.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/dosfsck.8.html"  rel="nofollow">man dosfsck</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_22'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Entretien des volumes de données] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="13325-14028" /><input type="submit" value="Modifier" class="button" title="Entretien des volumes de données" /></div></form></div>
+<h2 class="sectionedit24" id="gestion_des_processus_systeme">Gestion des processus système</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_24'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Gestion des processus système] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="14029-14072" /><input type="submit" value="Modifier" class="button" title="Gestion des processus système" /></div></form></div>
+<h3 class="sectionedit25" id="visualisation">Visualisation</h3>
+<div class="level3">
+<div class="table sectionedit26"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Afficher les tâches en cours </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#top" class="wikilink1" title="tutoriel:console_commandes_de_base">top</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:top" class="urlextern" title="http://wiki.debian-facile.org/commande:top"  rel="nofollow">[debian-facile] top</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/top.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/top.1.html"  rel="nofollow">man top</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Afficher les processus en cours </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#ps" class="wikilink1" title="tutoriel:console_commandes_de_base">ps</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:ps" class="urlextern" title="http://wiki.debian-facile.org/commande:ps"  rel="nofollow">[debian-facile] ps</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/ps.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/ps.1.html"  rel="nofollow">man ps</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_25'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Visualisation] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="14073-14652" /><input type="submit" value="Modifier" class="button" title="Visualisation" /></div></form></div>
+<h3 class="sectionedit27" id="modification">Modification</h3>
+<div class="level3">
+<div class="table sectionedit28"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Envoyer un signal à un processus </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#killkillall" class="wikilink1" title="tutoriel:console_commandes_de_base">kill / killall</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:kill" class="urlextern" title="http://wiki.debian-facile.org/commande:kill"  rel="nofollow">[debian-facile] kill</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/kill.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/kill.1.html"  rel="nofollow">man kill</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_27'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Modification] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="14653-15029" /><input type="submit" value="Modifier" class="button" title="Modification" /></div></form></div>
+<h2 class="sectionedit29" id="informations_systeme">Informations système</h2>
+<div class="level2">
+<div class="table sectionedit30"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Afficher la mémoire libre / utilisée du système </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#free" class="wikilink1" title="tutoriel:console_commandes_de_base">free</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/free.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/free.1.html"  rel="nofollow">man free</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Afficher (créer/modifier) les partitions d&#039;un disque dur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#fdisk" class="wikilink1" title="tutoriel:console_commandes_de_base">fdisk</a> </td><td class="col2"> → <a href="/fdisk" class="wikilink1" title="fdisk">fdisk</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:fdisk" class="urlextern" title="http://wiki.debian-facile.org/commande:fdisk"  rel="nofollow">[debian-facile] fdisk</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/fdisk.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/fdisk.8.html"  rel="nofollow">man fdisk</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Afficher (créer/modifier) les partitions d&#039;un disque dur </td><td class="col1"> cfdisk </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:fdisk" class="urlextern" title="http://wiki.debian-facile.org/commande:fdisk"  rel="nofollow">[debian-facile] cfdisk</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/cfdisk.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/cfdisk.8.html"  rel="nofollow">man cfdisk</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Indiquer depuis quand le système a été mis en route </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#uptime" class="wikilink1" title="tutoriel:console_commandes_de_base">uptime</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/uptime.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/uptime.1.html"  rel="nofollow">man uptime</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_29'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Informations système] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="15030-16074" /><input type="submit" value="Modifier" class="button" title="Informations système" /></div></form></div>
+<h2 class="sectionedit31" id="securite">Sécurité</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_31'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Sécurité] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="16075-16098" /><input type="submit" value="Modifier" class="button" title="Sécurité" /></div></form></div>
+<h3 class="sectionedit32" id="gerer_les_utilisateurs_et_les_groupes">Gérer les utilisateurs et les groupes</h3>
+<div class="level3">
+<div class="table sectionedit33"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Créer un nouveau compte d&#039;utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#adduser" class="wikilink1" title="tutoriel:console_commandes_de_base">adduser </a> </td><td class="col2"> → <a href="/adduser" class="wikilink1" title="adduser">adduser</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/adduser.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/adduser.8.html"  rel="nofollow">man adduser</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Ajouter un nouvel utilisateur </td><td class="col1"> useradd </td><td class="col2"> → <a href="/useradd" class="wikilink1" title="useradd">useradd</a> <br/>
+→ <a href="http://wiki.debian-facile.org/commande:useradd" class="urlextern" title="http://wiki.debian-facile.org/commande:useradd"  rel="nofollow">[debian-facile] useradd</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/useradd.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/useradd.8.html"  rel="nofollow">man useradd</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Créer un nouveau groupe d&#039;utilisateurs </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#addgroup" class="wikilink1" title="tutoriel:console_commandes_de_base">addgroup</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/addgroup.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/addgroup.8.html"  rel="nofollow">man addgroup</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Supprimer un compte d&#039;utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#deluser" class="wikilink1" title="tutoriel:console_commandes_de_base">deluser</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/deluser.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/deluser.8.html"  rel="nofollow">man deluser</a> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> Supprimer un utilisateur du système </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#userdel" class="wikilink1" title="tutoriel:console_commandes_de_base">userdel</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:userdel" class="urlextern" title="http://wiki.debian-facile.org/commande:userdel"  rel="nofollow">[debian-facile] userdel</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/userdel.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/userdel.8.html"  rel="nofollow">man userdel</a> </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"> Supprimer un groupe d&#039;utilisateurs </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#delgroup" class="wikilink1" title="tutoriel:console_commandes_de_base">delgroup</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/delgroup.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/delgroup.8.html"  rel="nofollow">man delgroup</a> </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0"> Exécuter des commandes en tant qu&#039;un autre utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#sudo" class="wikilink1" title="tutoriel:console_commandes_de_base">sudo</a> </td><td class="col2"> → <a href="/sudo" class="wikilink1" title="sudo">sudo</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/en/man8/sudo.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/en/man8/sudo.8.html"  rel="nofollow">man sudo</a> </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0"> Afficher les groupes auxquels appartient un utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#groups" class="wikilink1" title="tutoriel:console_commandes_de_base">groups</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/groups.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/groups.1.html"  rel="nofollow">man groups</a> </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0"> Modifier le groupe d&#039;appartenance d&#039;un utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#usermod" class="wikilink1" title="tutoriel:console_commandes_de_base">usermod</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:usermod" class="urlextern" title="http://wiki.debian-facile.org/commande:usermod"  rel="nofollow">[debian-facile] usermod</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/usermod.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/usermod.8.html"  rel="nofollow">man usermod</a> </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0"> Modifier le mot de passe d&#039;un utilisateur </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#passwd" class="wikilink1" title="tutoriel:console_commandes_de_base">passwd</a> </td><td class="col2"> → <a href="http://wiki.debian-facile.org/commande:passwd" class="urlextern" title="http://wiki.debian-facile.org/commande:passwd"  rel="nofollow">[debian-facile] passwd</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/passwd.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/passwd.1.html"  rel="nofollow">man passwd</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_32'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Gérer les utilisateurs et les groupes] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="16099-18459" /><input type="submit" value="Modifier" class="button" title="Gérer les utilisateurs et les groupes" /></div></form></div>
+<h2 class="sectionedit34" id="installer_des_logiciels">Installer des logiciels</h2>
+<div class="level2">
+<div class="table sectionedit35"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Description </th><th class="col1"> Commande <br/>
+&amp; lien vers synopsis </th><th class="col2"> Pages relatives </th><th class="col3"> Manuel d&#039;utilisation </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> Installer et désinstaller des paquets </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#apt-get" class="wikilink1" title="tutoriel:console_commandes_de_base">apt-get</a> </td><td class="col2"> → <a href="/apt-get" class="wikilink1" title="apt-get">apt-get</a> <br/>
+→ <a href="http://wiki.debian-facile.org/manuel:apt#apt-get" class="urlextern" title="http://wiki.debian-facile.org/manuel:apt#apt-get"  rel="nofollow">[debian-facile] apt-get</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-get.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-get.8.html"  rel="nofollow">man apt-get</a> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Installer et désinstaller des paquets </td><td class="col1"> aptitude </td><td class="col2"> → <a href="/aptitude" class="wikilink1" title="aptitude">aptitude</a> <br/>
+→ <a href="http://wiki.debian-facile.org/manuel:commande_aptitude" class="urlextern" title="http://wiki.debian-facile.org/manuel:commande_aptitude"  rel="nofollow">[debian-facile] aptitude</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/aptitude.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/aptitude.8.html"  rel="nofollow">man aptitude</a> </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> Faire des recherches dans le cache d&#039;APT et afficher des informations sur les paquets </td><td class="col1"> <a href="/tutoriel/console_commandes_de_base#apt-cache" class="wikilink1" title="tutoriel:console_commandes_de_base">apt-cache</a> </td><td class="col2 leftalign">  </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-cache.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-cache.8.html"  rel="nofollow">man apt-cache</a> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> Gestion de paquet de niveau avancé </td><td class="col1"> dpkg </td><td class="col2"> → <a href="/dpkg" class="wikilink1" title="dpkg">dpkg</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man1/dpkg.1.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man1/dpkg.1.html"  rel="nofollow">man dpkg</a> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> Gérer les clés de sécurité des dépôts de paquets </td><td class="col1"> apt-key </td><td class="col2"> → <a href="/apt-key" class="wikilink1" title="apt-key">apt-key</a> </td><td class="col3"> <a href="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-key.8.html" class="urlextern" title="http://manpages.ubuntu.com/manpages/precise/fr/man8/apt-key.8.html"  rel="nofollow">man apt-key</a> </td>
+	</tr>
+</table></div>
+
+</div>
+<div class='secedit editbutton_section editbutton_34'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Installer des logiciels] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="18460-19695" /><input type="submit" value="Modifier" class="button" title="Installer des logiciels" /></div></form></div>
+<h2 class="sectionedit36" id="voir_aussi">Voir aussi</h2>
+<div class="level2">
+
+</div>
+
+<h4 id="pages_en_rapport_avec_le_sujet">Pages en rapport avec le sujet</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> <a href="/tutoriel/console_commandes_de_base" class="wikilink1" title="tutoriel:console_commandes_de_base">Les commandes de base en console</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/console" class="wikilink1" title="console">Introduction à la Console</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/terminal" class="wikilink1" title="terminal">Le terminal GNU/Linux</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tutoriel/learn_unix_in_10_minutes" class="wikilink1" title="tutoriel:learn_unix_in_10_minutes">Apprenez les bases de Unix en 10 minutes</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/diagnostic_outil" class="wikilink1" title="diagnostic_outil">Commandes de diagnostic</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/commandes_dangereuses" class="wikilink1" title="commandes_dangereuses">Les commandes dangereuses</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://launchpad.net/clicompanion" class="urlextern" title="https://launchpad.net/clicompanion"  rel="nofollow">CLIcompanion</a> est un terminal qui vous permet de stocker des commandes et de créer un « dictionnaire de commandes ».</div>
+</li>
+<li class="level1"><div class="li"> N&#039;oubliez pas la commande <a href="/man" class="wikilink1" title="man">man</a> pour afficher le manuel des autres commandes.</div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="autres_ressources">Autres ressources</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> <a href="http://jp.barralis.com/linux-man/" class="urlextern" title="http://jp.barralis.com/linux-man/"  rel="nofollow">Les pages de manuel en français sur le site de Jean-Philippe BARRALIS</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://manpagesfr.free.fr/" class="urlextern" title="http://manpagesfr.free.fr/"  rel="nofollow">Les pages de manuel en français sur manpagesfr.free.fr</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://manpages.ubuntu.com/manpages/" class="urlextern" title="http://manpages.ubuntu.com/manpages/"  rel="nofollow">Les pages de manuel sur ubuntu.com</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://wiki.debian-facile.org/manuel:les_commandes_gnu_linux" class="urlextern" title="http://wiki.debian-facile.org/manuel:les_commandes_gnu_linux"  rel="nofollow">Les Commandes - GNU/LINUX</a> sur <a href="http://wiki.debian-facile.org/" class="urlextern" title="http://wiki.debian-facile.org/"  rel="nofollow">le Wiki de Debian-Facile</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.epons.org/commandes-base-linux.php" class="urlextern" title="http://www.epons.org/commandes-base-linux.php"  rel="nofollow">Aide-mémoire des commandes Linux</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://hautrive.free.fr/linux/page-commandes-linux.html" class="urlextern" title="http://hautrive.free.fr/linux/page-commandes-linux.html"  rel="nofollow">Les commandes de LINUX classées sur le site de Patrick Hautrive</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.commandlinefu.com/commands/browse" class="urlextern" title="http://www.commandlinefu.com/commands/browse"  rel="nofollow">L&#039;encyclopédie des lignes de commande Unix (en)</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ss64.com/bash/" class="urlextern" title="http://ss64.com/bash/"  rel="nofollow">&quot;An A-Z Index of the Bash command line for Linux&quot; (en)</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://commands.tips-linux.net" class="urlextern" title="http://commands.tips-linux.net"  rel="nofollow">&quot;Most used linux commands&quot; (en)</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.siteduzero.com/tutoriel-3-12827-reprenez-le-controle-avec-linux.html#part_12828" class="urlextern" title="http://www.siteduzero.com/tutoriel-3-12827-reprenez-le-controle-avec-linux.html#part_12828"  rel="nofollow">Tutoriel très complet des commandes Linux sur Le SiteDuZero</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://rmyzen.nuxit.net/dkwk/doku.php?id=magazine:08:linecommand" class="urlextern" title="http://rmyzen.nuxit.net/dkwk/doku.php?id=magazine:08:linecommand"  rel="nofollow">&quot;Ligne de Commande&quot; dans les articles de Full Circle Magazine</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.commandlinefu.com/commands/browse/sort-by-votes" class="urlextern" title="http://www.commandlinefu.com/commands/browse/sort-by-votes"  rel="nofollow">All commands sorted by votes</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.techieblogger.com/2009/10/linux-unix-ubuntu-solaris-cheat-sheets.html" class="urlextern" title="http://www.techieblogger.com/2009/10/linux-unix-ubuntu-solaris-cheat-sheets.html"  rel="nofollow">25+ Useful Linux and Unix Cheat Sheets</a></div>
+</li>
+</ul>
+
+</div>
+<div class='secedit editbutton_section editbutton_36'><form class="button btn_secedit" method="post" action="/commande_shell"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1409381840" /><input type="hidden" name="summary" value="[Voir aussi] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="19696-" /><input type="submit" value="Modifier" class="button" title="Voir aussi" /></div></form></div><div class="footnotes">
+<div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
+Le manuel d&#039;utilisation d&#039;une commande précise peut être affiché en ligne, en cliquant sur le lien donné dans le tableau, ou localement, en exécutant la commande <code>man <em>commande</em></code> dans un terminal.</div>
+</div>
+
+<!-- cachefile /srv/www/doc.ubuntu-fr.org/htdocs/data/cache/8/8a19d98acd488b324b4efc8512526f6a.xhtml used -->
+
+        <br style="clear:both;" />
+        <div id="pageinfo">
+            <!--  |  | -->
+            <!-- ?tpl_pageinfo()? -->
+            <br />
+            Le contenu de ce wiki est sous licence : <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" target="_blank">CC BY-SA v3.0</a>
+        </div> 
+      </div>
+
+      
+      <div id="navigation">
+
+        <ul>
+          <li class="menu"><a href="http://www.ubuntu-fr.org" class="title" id="menu-accueil"><span>Accueil</span></a></li>
+          <li class="menu" id="active">
+            <a href="/"  class="title" id="menu-doc"><span>Documentation</span></a>
+            <ul>
+              <li id="navWiki" class="cat">
+                <h2>Actions</h2>
+                <ul>
+                  <li><a href="/commande_shell?do=index"  class="action index" accesskey="x" rel="nofollow" title="Plan du site [X]">Plan du site</a></li>
+                  <li><a href="/commande_shell?do=edit&amp;rev=0"  class="action edit" accesskey="e" rel="nofollow" title="Modifier cette page [E]">Modifier cette page</a></li>
+                  <li><a href="/commande_shell?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Anciennes révisions [O]">Anciennes révisions</a></li>
+                  <li></li>
+                  <li><a href="/commande_shell?do=recent"  class="action recent" accesskey="r" rel="nofollow" title="Derniers changements [R]">Derniers changements</a></li>
+                  <li><a href="/commande_shell?do=backlink"  class="action backlink" rel="nofollow" title="Liens vers cette page">Liens vers cette page</a></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <li id="navDivers" class="cat">
+                <h2>Divers</h2>
+                <ul>
+                  <li><bdi><a href="/wiki/participer_wiki" class="wikilink1" title="wiki:participer_wiki">Participer à la documentation</a></bdi></li>
+                  <li><bdi><a href="/documentation_hors_ligne" class="wikilink1" title="documentation_hors_ligne">Documentation hors ligne</a></bdi></li>
+                  <li><a href="http://www.ubuntu-fr.org/telechargement" title="T&eacute;l&eacute;charger Ubuntu">T&eacute;l&eacute;charger Ubuntu</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu"><a href="http://forum.ubuntu-fr.org"  class="title" id="menu-forum"><span>Forum</span></a></li>
+          <li class="menu"><a href="http://planet.ubuntu-fr.org"  class="title" id="menu-planet"><span>Planet</span></a></li>
+        </ul>
+
+      </div>
+      <div id="references-ufr">
+        <ul id="legal-ufr">
+          <li><a href="http://www.ubuntu-fr.org/contacts">Contact</a></li>
+        </ul>
+
+        <ul id="sponsors-ufr">
+          <li><a href="http://www.dokuwiki.org/dokuwiki" id="dokuwiki">Propulsé par Dokuwiki</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- $Id$ -->
+
+    <!-- Piwik Image Tracker -->
+    <!-- img src="http://piwik.infra.ubuntu-fr.org/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" /-->
+    <!-- End Piwik -->
+
+  </body>
+</html>

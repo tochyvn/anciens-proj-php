@@ -1,0 +1,367 @@
+.bleu{color:#1c5290;}
+.orange{color:#fe7503;}
+.gris-clair{color:#f2f2f2;}
+.gris-moyen{color:#d9d9d9;}
+.gris-moyen-moins{color:#bfbfbf;}
+.gris-fonce{color:#777777;}
+.jaune{color:#fde480;}
+.blanc{color:#ffffff;}
+
+*{font-family:Arial, Helvetica, sans-serif; }
+body{font-size:90%; padding:0; margin:0; color:#777777;}
+a{color:#777777;}
+a img{border:none;}
+hr{border:none; background-color:#777777; height:1px; width:150px;}
+hr.orange{background-color:#fe7503;}
+
+.gauche{float:left;}
+.droite{float:right;}
+.clear{clear:both;}
+.no-bg-image{background-image:none;}
+.trans-border{border-color:transparent;}
+.relative{position:relative;}
+.center{text-align:center;}
+
+/*STYLE I*/
+.style1{width:880px; margin:auto; padding:40px 40px 10px 40px; background-color:#f2f2f2; border:1px solid #777777;}
+
+.style1 .header{margin-bottom:40px;}
+.style1 .header img{float:left; margin-right:70px; margin-top:-17px;}
+.style1 .header p{white-space:pre-line; color:#1c5290;}
+.style1 .header h1{color:#fe7503; font-size:inherit; font-size:1.1em; font-weight:normal;}
+.style1 .header h1 strong{color:#fe7503; font-size:inherit;}
+.style1 .header h1 em{color:#fe7503; font-size:inherit;}
+
+.style1 .section{margin-bottom:40px;}
+.style1 .section h2{display:block; min-height:50px; font-size:1.4em;}
+.style1 .section>.gauche{width:399px; padding-right:40px; border-right:1px solid #777777;}
+.style1 .section>.droite{width:400px; padding-left:40px;}
+.style1 .section>.droite h2{background-image:url(http://static.localerte.fr/adherent/img/homme-gris-fonce.png); background-repeat:no-repeat; background-position:left 5px; padding-left:50px; font-style:italic;}
+
+.style1 .footer{text-align:center;}
+.style1 .footer small{font-size:0.9em;}
+.style1 .footer ul{list-style:none;}
+.style1 .footer li{display:inline-block;}
+.style1 .footer ul a{text-decoration:none;}
+.style1 .footer ul a:before{content:"[ ";}
+.style1 .footer ul a:after{content:" ]";}
+
+/*STYLE II*/
+.style2{width:920px; margin:auto; padding:10px; background-image:url(http://static.localerte.fr/adherent/img/orange.png);}
+
+.style2>.gauche{width:270px; float:left;}
+.style2>.gauche>div{min-height:100px; padding:10px; background-color:#f2f2f2; border-radius:10px; box-shadow:0px -3px 10px 0px #000000;}
+.style2>.gauche .pub{}
+.style2>.gauche .info h3{font-size:1em; margin:0;}
+.style2>.gauche .info p{font-size:0.9em; text-align:justify; margin:20px;}
+.style2>.gauche .logo {margin-bottom:20px; text-align:center; padding:10px 8px;}
+.style2>.gauche .logo h1{margin:0; padding:0;}
+.style2>.gauche .logo ul{float:left; padding-left:40px; list-style:none; background-image:url(http://static.localerte.fr/adherent/img/homme-bleu.png); background-repeat:no-repeat; background-position: left top; background-size:auto 100%;}
+.style2>.gauche .logo li{border-left:2px solid #d2d2d2; padding:0 0 0 10px; line-height:14px;}
+.style2>.gauche .logo a{text-decoration:none;}
+.style2>.gauche .logo p {margin-left:10px; float:left; padding:1px 0 0 10px; line-height:14px; border-left:2px solid #d2d2d2;}
+.style2>.gauche .logo p small{color:#fe7503; text-align:center;}
+.style2>.gauche .logo p .reabonnement{background-color:#fe7503; color:#ffffff; padding:0 6px; border-radius:3px;}
+.style2>.gauche .logo p strong{color:inherit; display:block;}
+
+.style2 .section{width:600px; float:right; padding:20px 20px 0 20px; background-color:#f2f2f2; border-radius:10px; box-shadow:0px -3px 10px 0px #000000;}
+
+.style2 .footer{text-align:center; padding-bottom:10px; padding-top:40px;}
+.style2 .footer ul{list-style:none; margin-left:100px; margin-right:100px; padding:0;}
+.style2 .footer li{display:inline-block;}
+.style2 .footer ul a{text-decoration:none;}
+.style2 .footer ul a:before{content:"[ ";}
+.style2 .footer ul a:after{content:" ]";}
+.style2 .footer .mobi{}
+.style2 .footer .mobi a{text-decoration:none; background-image:url(http://static.localerte.fr/adherent/img/multi-ecran.png); background-repeat:no-repeat; background-position: left top; background-size:auto 66%; padding:10px 0px 10px 33px;}
+
+/*STYLE III*/
+.style3{padding:14px 30px; background-color:#f2f2f2;}
+.style3 .header{margin-bottom:26px;}
+.style3 h1{color:#1c5290; text-align:center; font-size:1.4em;}
+.style3 .orange{color:#fe7503;}
+.style3 form{width:320px; margin:auto;}
+.style3 form p{text-align:center;}
+.style3 form .action{position:absolute; bottom:6px; width:320px;}
+.style3 .bouton{background-color:#fe7503; border:#fe7503;}
+
+.bouton{border-radius:6px; border:1px solid #1c5290; background:#1c5290; color:#FFFFFF; font-weight:bold; line-height:26px; padding:0px 20px; cursor:pointer; text-decoration:none; text-align:center; font-size:0.94em;}
+
+form p{display:block;}
+form .champ{padding:6px; border:1px solid #777777; background-color:#FFFFFF;}
+form .champ input, form .champ select, form .champ textarea{display:block; width:100%; border:0px solid #FFFFFF; background-color:inherit; outline:none; margin:0; padding:0; font-size:1em;}
+form .champ textarea{resize:none; height:100px;}
+form .lien{float:left; margin-top:0px; line-height:26px; font-size:0.9em;}
+form .action{text-align:right;}
+form ul.erreur{padding-left:13px;}
+form ul.erreur *{color:#fe7503;}
+form p.succes{color:#fe7503;}
+form hr{width:100px;}
+
+label.placeholder{color:#999999;}
+label.placeholder.focus{color:#cccccc;}
+label.inputreset{width:18px; height:18px; background-image:url(http://static.localerte.fr/adherent/img/croix.png); background-repeat:no-repeat; background-position:center center;}
+select.selectdefault{color:#777777;}
+option.selectdefault{color:#777777;}
+option.selectdefault.cancel{background-image:url(http://static.localerte.fr/adherent/img/croix.png); background-repeat:no-repeat; background-position:2px 2px; background-size:auto 80%; padding-left:20px;}
+
+.msgbox{background-image:url(http://static.localerte.fr/adherent/img/orange.png); border-bottom:1px solid #777777; z-index:10000;}
+.msgbox>div{width:400px; background-color:#f2f2f2; margin:auto; border:1px solid #777777; margin-top:40px; position:relative; z-index:10000;}
+.msgbox iframe{width:400px; height:300px; overflow:hidden; border:none;}
+.msgbox .fermeture{padding:0; margin:0; width:20px; height:20px; background-color:inherit; border:inherit; border-radius:20px; text-align:center; color:#1c5290; font-weight:bold; line-height:20px; position:absolute; right:-13px; top:-13px; z-index:10000;}
+
+.msgbox-qsn>div{width:700px;}
+.msgbox-qsn iframe{width:700px; height:610px; overflow:hidden;}
+.style3-qsn h1{font-size:1.2em; color:#fe7503; display:block; border-bottom:1px solid #fe7503; padding-bottom:20px;}
+.style3-qsn p{text-align:justify;}
+.style3-qsn dt{float:left; font-weight:bold; margin-right:10px;}
+.style3-qsn a{text-decoration:none;}
+
+.msgbox-cgv>div{width:700px;}
+.msgbox-cgv iframe{width:700px; height:500px; overflow:auto;}
+.style3-cgv h1{font-size:1.2em; color:#fe7503; display:block; border-bottom:1px solid #fe7503; padding-bottom:20px;}
+.style3-cgv h2{font-size:1.2em; color:#fe7503;}
+.style3-cgv h3{font-size:1em; color:#fe7503;}
+.style3-cgv p{text-align:justify;}
+
+.msgbox-esp>div{width:700px;}
+.msgbox-esp iframe{width:700px; height:500px; overflow:auto;}
+.style3-esp p{text-align:justify;}
+
+.msgbox-mot-de-passe iframe{height:230px;}
+.style3-mot-de-passe h1{background-image:url(http://static.localerte.fr/adherent/img/picto-mot-de-passe.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-desabonnement iframe{height:300px;}
+.style3-desabonnement h1{background-image:url(http://static.localerte.fr/adherent/img/picto-desabonnement.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-nous-contacter iframe{height:530px;}
+.style3-nous-contacter h1{background-image:url(http://static.localerte.fr/adherent/img/picto-nous-contacter.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+.style3-nous-contacter form .action>span{display:block; margin-top:20px; padding-top:10px; border-top:1px solid #777777;}
+
+.msgbox-signaler-une-erreur iframe{height:440px;}
+.style3-signaler-une-erreur h1{background-image:url(http://static.localerte.fr/adherent/img/picto-signaler-une-erreur.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-mon-alerte iframe{height:550px;}
+.style3-mon-alerte h1{background-image:url(http://static.localerte.fr/adherent/img/picto-mon-alerte.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-mon-compte iframe{height:460px;}
+.style3-mon-compte h1{background-image:url(http://static.localerte.fr/adherent/img/picto-mon-compte.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-suppression-alerte iframe{height:300px;}
+.style3-suppression-alerte h1{background-image:url(http://static.localerte.fr/adherent/img/picto-suppression-alerte.png); background-repeat:no-repeat; background-position:top center; padding-top:36px;}
+
+.msgbox-code-1 iframe{height:230px;}
+.style3-code-1 h1{background-image:url(http://static.localerte.fr/adherent/img/picto-nous-contacter.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+
+.msgbox-code-2 iframe{height:300px;}
+.style3-code-2 h1{background-image:url(http://static.localerte.fr/adherent/img/picto-nous-contacter.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+.style3-code-2 .section span{display:block; padding-top:20px; text-align:center; font-weight:bold; color:#fe7503; font-size:1.2em;}
+
+.msgbox-message>div{width:300px; padding:20px;}
+.msgbox-message h1{color:#1c5290; text-align:center; font-size:1.4em; padding-top:0; padding-bottom:30px;}
+.msgbox-message h1{background-image:url(http://static.localerte.fr/adherent/img/picto-nous-contacter.png); background-repeat:no-repeat; background-position:top center; padding-top:26px;}
+.msgbox-message *{color:#1c5290;}
+
+.alerte{padding:0; margin:0 0 10px 0; opacity:0.8;}
+.alerte *{padding:0; margin:0;}
+.alerte h2{border:1px solid #fe7503; background-color:#ffffff; text-align:center; font-size:1em; border-radius:6px; color:#fe7503; font-weight:normal; margin:2px 30px; padding:4px; height:18px; line-height:18px; position:relative;}
+.alerte h2 a{color:inherit; text-decoration:none;}
+.alerte h2 img{display:none;}
+.alerte>div{margin:8px 4px 4px 4px; padding:6px; overflow:hidden; white-space:nowrap;}
+.alerte table{width:100%;}
+.alerte td{text-align:center; border:1px solid #777777; border-radius:4px; white-space:nowrap; padding:0 2px;}
+.alerte .trans-border{border-color:transparent;}
+.alerte tr td{font-size:0.8em; height:20px;}
+.alerte tr:first-child td{height:42px; font-size:1em; white-space:normal; vertical-align:top;}
+.alerte tr:first-child td img{display:inline; margin-top:-5px;}
+.alerte tr:last-child td{height:24px; font-weight:bold;}
+.alerte ul{list-style:none; padding-top:6px;}
+.alerte li{float:left; width:50%; text-align:center;}
+.alerte li a{font-size:0.7em; color:#777777;}
+.alerte li:first-child a{background-image:url(http://static.localerte.fr/adherent/img/action-modifier.png); background-repeat:no-repeat; background-position:left; background-size:auto 100%; padding-left:16px;}
+.alerte li:last-child a{background-image:url(http://static.localerte.fr/adherent/img/action-supprimer.png); background-repeat:no-repeat; background-position:left; background-size:auto 100%; padding-left:16px;}
+.alerte span{display:block; width:1px; height:1px; margin:auto; background-color:#777777; border:3px solid #777777; border-radius:10px;}
+
+.alerte.vide h2{border-color:transparent; background-color:transparent;}
+.alerte.vide ul{}
+.alerte.vide li{float:none; width:80%; color:#ffffff; border:1px solid #777777; background-color:#777777; border-radius:6px; padding:4px; margin:auto;}
+.alerte.vide li a{background-image:none; color:inherit; text-decoration:none; font-size:1em;}
+
+.alerte.selected{position:relative; opacity:1;}
+.alerte.selected>div{background-color:#f2f2f2; border-radius:10px 10px 0 0; box-shadow:0px -6px 6px -6px #333;}
+.alerte.selected h2{margin:0 28px; background-color:#fe7503; color:#ffffff; line-height:20px; height:20px; background-image:url(http://static.localerte.fr/adherent/img/action-selectionner.png); background-repeat:no-repeat; background-position:6px 9px; background-size:auto 10px; padding-left:18px;}
+.alerte.selected h2 img{display:block; position:absolute; right:10px;}
+.alerte.selected td{color:#1c5290;}
+.alerte.selected .trans-border{border-color:transparent;}
+.alerte.selected span{background-color:#1c5290; border-color:#1c5290;}
+.alerte.selected tr:first-child td{background-color:#1c5290; color:#ffffff;}
+.alerte.selected tr:first-child td img{visibility:hidden; width:0;}
+.alerte.selected td{border:1px solid #1c5290;}
+
+.json-localisation-popup{background-color:#fff; border:1px solid #595959; max-height:200px; overflow:auto; z-index:1000;}
+.json-localisation-popup ul{list-style:none; padding:0; margin:0;}
+.json-localisation-popup li{margin:0; padding:1px; text-align:left; font-size:1em; cursor:default;}
+.json-localisation-popup .selected{background:#3399ff; color:#fff;}
+.json-localisation-popup .selected strong{color:#fff;}
+
+.ma-premiere-alerte{width:650px; margin:auto; margin-bottom:140px;}
+.style1 .section .ma-premiere-alerte h2{color:#1c5290; height:auto; padding:0; margin:0; font-size:1.1em; padding:40px 0 10px 20px; min-height:0;}
+.ma-premiere-alerte>div{background-color:#d9d9d9; border-radius:10px; padding:10px 20px;}
+.ma-premiere-alerte>div p{float:left;}
+.ma-premiere-alerte>div p.champ{margin-right:10px; width:229px;}
+.ma-premiere-alerte .bouton{padding:0px 20px;}
+
+.ma-liste h2{font-weight:normal; color:#777777; font-size:1.3em; text-align:center; font-style:italic; margin-top:0; margin-bottom:30px; white-space:pre-line;}
+.ma-liste h2 em{font-weight:bold; font-style:normal; color:inherit;}
+.ma-liste .action{background-color:#fde480; padding:4px;}
+.ma-liste .action span{margin-right:10px; font-size:1.1em;}
+.ma-liste .action .bouton{background-color:#ffffff; border:1px solid #777777; color:#777777; font-size:1em; height:auto; font-weight:normal;}
+.ma-liste .tout{padding-left:4px; margin-top:-44px; margin-bottom:44px;}
+.ma-liste .tout label{font-size:1em; cursor:pointer;}
+.ma-liste .tout label span{float:left; width:13px; height:13px; background-color:#ffffff; border:1px solid #1c5290; border-radius:2px; padding:0; position:relative; margin-right:6px; margin-top:1px;}
+.ma-liste .tout label input{position:absolute; top:0; left:0; padding:0; margin:0;}
+.ma-liste .tout .checked{background-image:url(http://static.localerte.fr/adherent/img/selected.png); background-repeat:no-repeat; background-position:center center; cursor:pointer;}
+.ma-liste .tout .unchecked{cursor:pointer;}
+
+.nom-colonne{border-left:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; border-top:1px solid #d9d9d9; background-color:#d9d9d9; overflow:hidden;}
+.nom-colonne *{margin:0; padding:0;}
+.nom-colonne>div{float:left; border-right:1px solid #d9d9d9; white-space:nowrap; overflow:hidden; padding:4px; line-height:20px;}
+.nom-colonne>.clear{display:none;}
+.nom-colonne .colonne1{width:30px; text-align:center;}
+.nom-colonne .colonne2{width:203px;}
+.nom-colonne .colonne3{width:103px;}
+.nom-colonne .colonne4{width:50px; text-align:right;}
+.nom-colonne .colonne5{width:60px; text-align:center;}
+.nom-colonne .colonne6{width:60px; text-align:center;}
+.nom-colonne .colonne7{width:30px; text-align:center;}
+.nom-colonne a{text-decoration:none;}
+
+.pre-annonce{border-left:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; overflow:hidden; color:#1c5290;}
+.pre-annonce *{margin:0; padding:0;}
+.pre-annonce>div{float:left; border-right:1px solid #d9d9d9; white-space:nowrap; overflow:hidden; padding:4px; line-height:20px;}
+.pre-annonce>.clear{display:none;}
+.pre-annonce .colonne1{width:30px; text-align:center;}
+.pre-annonce .colonne2{width:203px;}
+.pre-annonce .colonne3{width:103px;}
+.pre-annonce .colonne4{width:50px; text-align:right;}
+.pre-annonce .colonne5{width:60px; text-align:center;}
+.pre-annonce .colonne6{width:60px; text-align:center;}
+.pre-annonce .colonne7{width:30px; text-align:center;}
+.pre-annonce.checked{background-color:#fde480;}
+
+.annonce{border:1px solid #bfbfbf; padding:8px 0; margin-bottom:8px; overflow:hidden; font-size:0.9em;}
+.annonce>div{float:left;}
+.annonce p{margin:0; padding:0 0 3px 0;}
+.annonce .colonne1{width:130px; height:120px; text-align:center; position:relative;}
+.annonce .colonne2{width:160px;}
+.annonce .colonne3{width:276px; padding-left:10px;}
+.annonce .parution{font-weight:bold; color:#fe7503;}
+.annonce .type-ville{color:#fe7503;}
+.annonce .statut{font-weight:bold;}
+.annonce .fraicheur{margin-top:20px;}
+.annonce .case{position:absolute; left:5px; bottom:0; border-top:1px solid #bfbfbf; width:120px; padding-top:10px;}
+.annonce .case span{color:inherit;}
+.annonce .case .checked{color:#1c5290; background-color:#ffffff;}
+.annonce .lien{position:absolute; left:5px; bottom:0; border-top:1px solid #bfbfbf; width:120px; padding-top:10px;}
+.annonce .lien .bouton{display:block;}
+.annonce .vu{margin-top:16px;}
+.annonce.deja-lu{color:#bfbfbf;}
+.annonce.deja-lu *{color:inherit;}
+.annonce .descriptif{font-style:italic;}
+.annonce .signal{float:right; margin-top:0px;}
+.annonce .bouton{display:block; padding:0; font-weight:normal;}
+.annonce .bouton input{}
+
+.resultat{background-color:#777777; color:#ffffff; padding:10px; width:300px; display:block; margin:20px auto 30px auto; text-decoration:none; border-radius:10px; text-align:center;}
+
+.bandeau{background-color:#bfbfbf; margin-top:-6px; margin-bottom:8px; font-size:0.9em; height:56px; position:relative; margin-left:24px;}
+.bandeau p{padding:0; margin:0;}
+.bandeau .bandeau-01{padding:10px 0 0 10px;}
+.bandeau .bandeau-02{padding:0 0 10px 10px;}
+.bandeau .bandeau-03{position:absolute; right:10px; top:10px;}
+.bandeau .bouton{background-color:#fe7503; border-color:#fe7503; padding-left:5px; padding-right:5px;}
+.bandeau label{background-color:#ffffff; color:#fe7503; border:1px solid #fe7503; padding:6px 5px; margin-right:4px; float:left;}
+.bandeau img{position:absolute; top:-14px; left:4px;}
+
+.aucun{margin:50px auto; width:400px; text-align:center; padding:20px;}
+
+.adsearch{margin:20px;}
+
+.adsense{margin:0 auto 20px auto; text-align:center; height:92px;}
+.adsense iframe{border:none;}
+
+
+/*MES PAIEMENTS*/
+.mes-paiements h2{color:#fe7503; font-size:1.3em; text-align:center; padding:0; margin-top:0; margin-bottom:20px;}
+.mes-paiements h3{color:#1c5290; font-weight:normal; margin-bottom:10px;}
+.mes-paiements h3 strong{display:block;}
+.mes-paiements hr{margin-bottom:20px; margin-top:20px; width:auto;}
+.mes-paiements .tarif{text-align:center; white-space:pre-line; margin:0;}
+.mes-paiements form{margin-bottom:20px;}
+.mes-paiements form .bouton{background-color:#fe7503; border-color:#fe7503;}
+.mes-paiements form .erreur{font-size:0.9em; margin-bottom:10px;}
+.mes-paiements .image{text-align:center;}
+
+.code {position:relative; overflow:hidden;}
+.code *{margin:0; padding:0;}
+.code .image{text-align:center; background-color:#d9d9d9; border-radius:10px; padding:10px 0; margin:0;}
+.code img{vertical-align:middle; margin:auto 10px}
+.code .ddd{background-color:#d9d9d9; border-radius:10px; padding:10px 110px;}
+.code .label{width:174px; margin:auto; float:left; text-align:right; margin-right:6px; line-height:30px;}
+.code .champ{width:80px; margin:auto; float:left;}
+.code .action{margin:0;}
+.code .bouton{width:100px;}
+
+.internetplus .image{text-align:center; background-color:#d9d9d9; border-radius:10px; padding:10px 0; display:block;}
+.internetplus .image img{border:1px solid #ffffff; border-radius:10px; display:none;}
+
+.abonnement .montant{background-color:#d9d9d9; border-radius:10px; padding:10px 0; margin:0; float:left; width:350px; height:150px;}
+.abonnement .montant *{padding:0; margin:0;}
+.abonnement .montant label{float:left; width:135px; padding:10px 10px 10px 30px; cursor:pointer; position:relative;}
+.abonnement .montant strong{display:block; background-color:#4f81bd; color:#ffffff; border-radius:6px; padding:6px 0 30px 0; text-align:center;}
+.abonnement .montant em{display:block; background-color:#ffffff; color:#4f81bd; border-radius:6px; padding:6px; text-align:center; margin:-24px 6px 0 6px; box-shadow:0px -1px 6px 0px #000000; font-weight:bold; font-style:normal;}
+.abonnement .montant input{position:absolute; top:17px; left:10px;}
+.mes-ventes-flash .abonnement .montant strong{background-color:#fe7503;}
+.mes-ventes-flash .abonnement .montant em{color:#fe7503;}
+.mes-ventes-flash .abonnement .montant del{color:#1c5290; font-weight:normal;}
+.mes-offres-reservees .abonnement .montant strong{background-color:#fe7503;}
+.mes-offres-reservees .abonnement .montant em{color:#fe7503;}
+.mes-offres-reservees .abonnement .montant del{color:#1c5290; font-weight:normal;}
+
+.abonnement .mode{background-color:#d9d9d9; border-radius:10px; padding:10px 0; margin:0; float:right; width:250px; height:150px;}
+.abonnement .mode *{padding:0; margin:0;}
+.abonnement .mode label{display:block; cursor:pointer; padding:5px 10px 5px 10px;}
+.abonnement .mode input{float:left; margin-right:10px; margin-top:3px; margin-bottom:9px;}
+
+.abonnement .action{width:250px; height:20px; text-align:center; margin-right:0; margin-left:auto; clear:both; position:relative;}
+.abonnement .bouton{position:absolute; top:-46px; left:75px; width:100px; padding-left:0; padding-right:0;}
+
+.gratuit .ddd{background-color:#d9d9d9; border-radius:10px; padding:10px 110px;}
+.gratuit .champ{width:250px; margin:auto; float:left;}
+.gratuit .action{margin:0}
+.gratuit .bouton{width:100px;}
+
+.regis-02 .retour{padding-top:30px; padding-bottom:30px;}
+
+.retour{ width:200px; margin-right:0; margin-left:auto;}
+.retour .bouton{display:block; background-color:#fff; border-color:#fe7503; color:#fe7503; height:20px; line-height:20px; font-weight:normal;}
+
+.vente-flash-01{border:3px solid #fe7503; text-align:center; margin-bottom:20px; background-color:#ffffff;}
+.vente-flash-01 p:first-child{font-weight:bold; background-color:#fe7503; display:block; margin:auto 80px; color:#ffffff; font-size:1.2em; padding:10px;}
+.vente-flash-01 p:last-child{color:#fe7503;}
+
+.offre-reservee-01{border:3px solid #fe7503; text-align:center; margin-bottom:20px; background-color:#ffffff;}
+.offre-reservee-01 p:first-child{background-color:#fe7503; display:block; margin:auto 80px; color:#ffffff; font-size:1.2em; padding:10px;}
+.offre-reservee-01 p:last-child{color:#fe7503;}
+.offre-reservee-01 span{color:#ffffff; padding:4px 8px; background-color:#777777;}
+
+.offre-reservee-02{border:3px solid #fe7503; margin-bottom:20px; padding:6px; font-size:0.9em; background-color:#ffffff; text-align:center;}
+.offre-reservee-02 p{margin:0; padding:0; line-height:20px;}
+.offre-reservee-02 p:first-child{}
+.offre-reservee-02 p:last-child{color:#fe7503; font-size:1.1em;}
+.offre-reservee-02 em{font-style:normal; line-height:24px; font-size:0.9em;}
+.offre-reservee-02 span{color:#ffffff; padding:4px 8px; background-color:#777777;}
+
+@media screen and (min-width: 1080px){
+	body{background-image:url(http://static.localerte.fr/adherent/img/fond-orange-003.jpg); background-repeat:no-repeat; background-position:top center; background-attachment:fixed;}
+}

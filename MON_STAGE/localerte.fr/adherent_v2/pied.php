@@ -1,0 +1,1 @@
+<p id="copyright">Copyright &copy; 2005 - AICOM - Tous droits r&eacute;serv&eacute;s - <a href="<?php print(URL_ADHERENT_V2.'condition.php');?>" target="_blank">Conditions g&eacute;n&eacute;rales</a></p>

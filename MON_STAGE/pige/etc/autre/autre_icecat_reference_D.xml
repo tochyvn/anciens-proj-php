@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="autre_icecat_reference_D">
+  <initialisation>
+    <url>http://icecat.biz/fr/menu/vendors/index.htm</url>
+  </initialisation>
+  <navigation>
+    <profondeur>10000</profondeur>
+    <pause>5000000</pause>
+    <timeout>60</timeout>
+    <thread>1</thread>
+    <cookie>0</cookie>
+    <utf8>1</utf8>
+    <user_agent>Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)</user_agent>
+    <rang>
+      <a_suivre>
+        <expression>&lt;b&gt;&lt;a href=&quot;\/(index\.cgi\?vendor=[Dd].+;language=fr;only=vendor)&quot;&gt;</expression>
+        <remplacement>http://icecat.biz/$1;sort=price|d</remplacement>
+        <limite>10000</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+	</rang>
+    <rang>
+      <a_suivre>
+        <expression>&lt;a[^&gt;]*href=&quot;([^&quot;]+)&quot;[^&gt;]*&gt;&gt;&gt;&lt;</expression>
+        <remplacement>http://icecat.biz/$1</remplacement>
+        <limite>10</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+      <a_capturer>
+        <expression>(.+)$</expression>
+        <remplacement>$1</remplacement>
+        <limite>1</limite>
+        <option>s</option>
+      </a_capturer>
+      <continuer_sur>return preg_match(&quot;/td[^&gt;]+&gt;&lt;\/b&gt;&lt;/&quot;, $document_html);</continuer_sur>
+      <!-- $document_html -->
+    </rang>
+  </navigation>
+  <capture>
+    <destination>autre_icecat_reference.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>0</enlever_balise>
+    <enlever_entite>0</enlever_entite>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="expression" nom="marque">
+        <expression>(vendor|lookup\_text)=([^;]+);</expression>
+        <remplacement>$2</remplacement>
+        <remplacement>urldecode('$2')</remplacement>
+        <recherche>LOCATION</recherche>
+        <option>e</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="code_produit">
+        <expression>&gt;([^&lt;]+)&lt;\/a&gt;[^&lt;]+&lt;font class=mainbold align=left</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>50</limite>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

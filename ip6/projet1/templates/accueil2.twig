@@ -1,0 +1,19 @@
+
+{% extends "base.twig" %}
+{% block title %}page d'accueil{% endblock %}
+{% block content %}
+   {{ msg }}
+            {% for produit in artlist %}
+            {% for enchere in encheri %}
+                <form action="" method="post">
+                    <h2>{{produit.prix}}€</h2>
+                 <a href="propo?&idenchere={{enchere.idenchere}}"><img src="image/{{produit.image}}" alt="Image" height="200" width="150" /></a>
+                </form>
+                {% endfor %}
+            {% endfor %}
+            
+{% endblock %}
+
+
+
+

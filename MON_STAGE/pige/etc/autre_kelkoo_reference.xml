@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="kelkoo_marques">
+  <initialisation>
+    <url>:parametre1:</url>
+    <parametres>
+      <parametre>
+        <!-- Electroménager -->
+        <valeur>http://www.kelkoo.fr/c-144801-climatiseur-et-ventilateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-145001-cuisiniere.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146301-four.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100283023-hotte-aspirante.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146201-microondes.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146001-table-de-cuisson.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100014413-cave-a-vin.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-145801-combine-refrigerateur-congelateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-145701-congelateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146401-refrigerateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146501-aspirateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-147801-centrale-vapeur-et-fer-a-repasser.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-146601-lavelinge.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-145101-lavevaisselle.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-145401-sechelinge.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-147101-cafetiere-et-expresso.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-147701-robot-menager.html</valeur>
+        <!-- Hifi, Photo & Vidéo -->
+        <valeur>http://www.kelkoo.fr/c-121601-amplificateur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-173101-autoradio-et-video-embarquee.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-120901-casque-audio-micro.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-123201-chaine-hifi.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-122301-enceintes-home-cinema-et-hifi.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-122701-lecteur-mp3-multimedia.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-121301-platine-cd.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-124901-appareil-photo-numerique.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100444023-cadre-photo-numerique.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-123501-camescope.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100298023-combi-tv.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100008013-decodeur-tnt-et-satellite.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-126701-home-cinema.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-127701-lecteur-dvd-et-blu-ray.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100304323-lecteur-enregistreur-dvd.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100311823-tv-lcd.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-127101-tv-plasma.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-127201-videoprojecteur.html</valeur>
+        <!-- Informatique -->
+        <valeur>http://www.kelkoo.fr/c-100066813-carte-controleur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-111601-carte-graphique.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-111101-carte-mere.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-111501-carte-son.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-110901-processeur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-110801-ventilateur-pc.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100278823-gps.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100282123-tablette-multimedia.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-124901-appareil-photo-numerique.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-120901-casque-audio-micro.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-113201-clavier.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-114401-ecran-moniteur.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-110601-enceintes-pc-et-multimedia.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-114901-imprimante.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-100052213-imprimante-multifonctions.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-115401-scanner.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-113301-souris.html</valeur>
+        <valeur>http://www.kelkoo.fr/c-116901-webcam.html</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+    <profondeur>1000</profondeur>
+    <pause>0</pause>
+    <timeout>60</timeout>
+    <thread>5</thread>
+    <rang>
+      <a_suivre>
+        <expression>&lt;a href=&quot;([^&quot;]+)&quot;&gt;Suivant&lt;\/a&gt;</expression>
+        <remplacement>$1</remplacement>
+        <limite>1</limite>
+        <suivant>0</suivant>
+      </a_suivre>
+      <a_capturer>
+        <expression>&lt;a href=&quot;[^&quot;]+&quot; class=&quot;fn summary&quot;&gt;([^&lt;]+)&lt;\/a&gt;</expression>
+        <remplacement>$1</remplacement>
+        <option>s</option>
+        <limite>1000</limite>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>autre_kelkoo_reference.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="expression" nom="marque">
+        <expression>(.+)  (.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="reference">
+        <expression>(.+)  (.+)</expression>
+        <remplacement>$2</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="location">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

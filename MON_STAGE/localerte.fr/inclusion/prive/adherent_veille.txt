@@ -1,0 +1,13 @@
+Madame, Monsieur,
+
+Toute l'équipe vous remercie de l'intérêt que vous portez à %HTTP_HOST%
+
+Nous nous sommes rendus compte que vous ne consultiez plus nos mails et ceci malgré nos relances.
+
+Nous avons donc procédé à votre désabonnement sur notre site.
+
+Toutefois, si vous souhaitiez poursuivre votre abonnement à notre service, veuillez vous réinscrire en suivant le lien:
+%HTTP_ADHERENT%
+
+Cordialement,
+L'équipe %HTTP_HOST%

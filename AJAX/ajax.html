@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <p>
+        Veuillez choisir quel est le fichier dont vous souhaitez voir le
+        contenu :
+    </p>
+
+    <p>
+        <input type="button" value="file1.txt" />
+        <input type="button" value="file2.txt" />
+    </p>
+    
+    <p id="fileContent">
+        <span>Aucun fichier charg&eacute</span>
+    </p>
+    
+    <script>
+        function loadFile(file) {
+            
+            var xhr = new XMLHttpRequest();
+            //On souhaite juste recuperer le contenu du fichier, la methode GET suffit amplement
+            xhr.open('GET', file);
+            
+            xhr.onreadystatechange = function() { //ON gère ici une requete asynchrone
+                
+                if (xhr.readyState = 4 && xhr.status ==200) { //si le fichier est chargé sans erreur
+                    
+                    document.getElementById('fileContent').innerHTML =
+                    '<span>' + xhr.responseText +'</span>'; //Et on affiche!
+                }
+                
+            };
+            xhr.send(null); // La requete est prete, on envoie tout !
+        }
+        
+        (function() { // Comme d'habitude, une fonction anonyme pour éviter les variables globales
+            var inputs = document.getElementsByTagName('input'),
+                inputsLen = inputs.length;
+            
+            for (var i = 0 ; i < inputsLen ; i++) {
+                inputs[i].onclick = function() {
+                loadFile(this.value); // A chaque clic, un fichier sera chargeé dans la page
+                };
+            }
+            
+        })();
+        
+    </script>
+
+</body>
+</html>

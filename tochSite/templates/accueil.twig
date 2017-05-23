@@ -1,0 +1,15 @@
+{% extends "base.twig" %}
+{% block title %}page d'accueil{% endblock %}
+{% block content %}
+    {{ msg }}
+            {% for article in artlist %}
+                <form action="" method="post">
+                    <input type="hidden" name="id" value="{{article.idArt}}"/>
+                    <h2>{{article.nomArt}}</h2> <h2>{{article.prix}}€</h2>
+                    <img src="{{article.path}}" alt="{{article.nomArt}}" height="200" width="200"/>
+                    <input type="text" value="" name="prix"/>
+                    <input type="submit" value="encherir"/>
+                </form>
+            {% endfor %}
+            
+{% endblock %}

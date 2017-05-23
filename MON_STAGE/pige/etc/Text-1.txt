@@ -1,0 +1,26 @@
+
+
+
+<script>
+
+var NS = 'http://www.w3.org/2000/svg';
+
+function generateCercle() {
+      
+      var cercle = document.createElementNS(NS,"circle");
+      var abs = nbreAleatoire(0,450);
+      var ord = nbreAleatoire(0,350);
+      var couleur1 = choixCouleur(), couleur2 = choixCouleur();
+
+          cercle.setAttribute('cx', abs);
+          cercle.setAttribute('cy', ord);
+          cercle.setAttribute('r', nbreAleatoire(10,100));
+          cercle.setAttribute('stroke', couleur2);
+          cercle.style.fill = couleur1;
+          cercle.style.strokeWidth = nbreAleatoire(0,5);
+          
+          return cercle;
+          
+}
+
+</script>

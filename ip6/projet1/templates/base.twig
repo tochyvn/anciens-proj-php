@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset = "utf-8">
+        {% block head %}
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="xmlForm/xmlObject2.css" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>{% block title %}{% endblock %}</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h2>Site de vente aux enchère inversé </h2>
+                {% if user is defined %}
+                    Bienvenu {{ user.nom}}. Votre niveau est {{ user.role }} <a href="deconnexion">se déconnecter</a>
+                {% endif %}
+            </div>
+            
+            <div id="menu">
+                <ul>
+                    <li><a href="accueil">accueil</a></li>
+                        {% if user is defined %}
+                        <li><a href="deconnexion">se déconnecter</a></li>
+                        {% else %}
+                        <li><a href="connexion">se connecter</a></li>
+                        {% endif %}
+                    <li><a href="contact">Nous contacter</a></li>
+                     <li><a href="achatJeton">Achat Jeton</a></li>
+                    <li><a href="formulaire">Inscription</a></li>
+                    {% if user.role==1 %}
+                        <li><a href="ajouterProduit">Ajouter produit</a></li>
+                        <li><a href="programmer">Programmer</a></li>
+                        <li><a href="ajouterJeton">Ajouter Jeton</a></li>
+                        <li><a href="ajouterEnchere">Ajouter Enchere</a></li>
+                       
+                    {% endif %}
+                </ul>
+            </div>
+            <div id="content">{% block content %}{% endblock %}
+                <h2>{{ msg }}</h2>
+            </div>
+            <div id="footer">
+                {% block footer %}
+                    &copy; Copyright 2016 by <a href="http://domain.invalid/">smakemed : l'enfant heureux de la bonne famile .</a>.
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

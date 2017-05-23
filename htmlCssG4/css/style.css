@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+}
+
+div.page {
+    border: 2px aqua solid;
+    min-height: 45em;
+    margin: auto;
+    padding: 0.5em;
+    padding-top: 0;
+    background-color: #d1d1d1;
+}
+
+header {
+    position: relative;
+    margin-top: 0.1em;
+    min-height: 5em;
+    margin-bottom: 5px;
+}
+
+header, footer, section.content1, nav, section.content2 {
+    -moz-box-shadow: 0.3em 0.3em 1em #333;
+    -webkit-box-shadow: 0.3em 0.3em 1em #333;
+    box-shadow: 0.3em 0.3em 1em #333;
+}
+
+footer {
+    min-height: 7em;
+    margin: 0.5em auto;
+    position: relative;
+}
+
+section.content1 {
+    min-height: 490px;
+    width: 75%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+h3 {
+    text-align: center;
+}
+
+section.content2 {
+    display: inline-block;
+    width: 22%;
+    min-height: 500px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #d1d1d1;
+}
+
+article.art1 p {
+    padding: 0.5em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-top: 0;
+    padding: 0px 0.5em;
+}
+
+nav {
+    width: 14%;
+    min-height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+video {
+    width: 100%;
+}
+
+section article {
+    min-height: 200px;
+    background-color:#FAFAFA;
+}
+
+section article.art1 {
+    margin-bottom: 0.3em;
+}
+
+section article:last-child {
+    padding: 0.2em;
+}
+
+div#monForm {
+    display: inline-block;
+    width: 45.5%;
+    padding-left: 0.7em;
+    vertical-align: top;
+    padding-bottom: 0.5em;
+}
+
+div.tuto {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px;
+}
+
+div.w3c {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+
+input.radius {
+    width: 70%;
+    height: 2em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 15px;
+    border: #4e50cc solid thin;
+    -moz-box-shadow:0 0 2px 1px #4e50cc;
+    -webkit-box-shadow: 0 0 2px 1px #4e50cc;
+    box-shadow: 0 0 2px 1px #4e50cc;
+    margin-top: 2px;
+}
+
+input:invalid {
+    border: #4e50cc solid thin;
+    -moz-box-shadow:0 0 2px 1px red;
+    -webkit-box-shadow: 0 0 2px 1px red;
+    box-shadow: 0 0 2px 1px red;
+}
+
+select {
+    height: 2.5em;
+    width: 70%;
+    font-size: 15px;
+    border: thin solid #4E50CC;
+    box-shadow: 0 0 2px 1px #4e50cc;
+    -moz-box-shadow: 0 0 2px 1px #4e50cc;
+    -webkit-box-shadow: 0 0 2px 1px #4e50cc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:0 0 2px 1px #4e50cc;
+    -webkit-box-shadow: 0 0 2px 1px #4e50cc;
+}
+
+input[type=submit] {
+ -moz-box-shadow:1px 1px 1px #D83F3D;
+ -webkit-box-shadow: 1px 1px 1px #D83F3D;
+ box-shadow: 1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+ 
+ form {
+     background-color:#d1d1d1;
+     padding:10px;
+ }
+ 
+input:focus, textarea:focus {
+    background-color:white;
+ }
+ 
+ 
+input[type=submit]:focus {
+    background-color:#FFF3F3;
+}
+
+input[type=submit]:hover {
+    background-color:#FCDEDE;
+ }
+input[type=submit]:active {
+    background-color:#FCDEDE;
+    box-shadow:1px 1px 1px #D83F3D inset;
+}
+
+@media (min-width: 480px) {
+    footer {
+        background-color: #9292b8;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        background-color: #b7bbce;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    footer {
+        background-color: #999999;  
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        background: #40424f;    }
+}
+
+#actu {
+    width: 93%;
+    max-height: 500px;
+    border: #40424f solid 1px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+#actu .item {
+    width: 85%;
+    height: 150px;
+    border: activeborder thin solid;
+    margin: 3px auto;
+    background-color:#FAFAFA;
+}
+
+@media (max-width: 1231px) {
+    section.content2 {
+        display: block;
+        margin-left: 10px;
+        min-width: 51px;
+        width: 98%;
+    }
+    
+    section.content1 {
+        width: 98%;
+    }
+    
+    #actu .item {
+        width: 30%;
+        display: inline-block;
+        margin-left: 2px;
+    }
+    
+}
+
+@media (max-width: 960px) {
+    div#monForm {
+        display: block;
+        width: 97%;
+        position: relative;
+        margin: auto;
+    }
+    
+    div.tuto {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+}
+
+section.principal {
+    border: 2px double red;
+    display: inline-block;
+    margin-top: 10px;
+    width: 84.1%;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    background-color: #aeaecc;
+}
+
+@media (max-width: 900px) {
+    
+    nav {
+        display: none;
+    }
+    
+    section.principal {
+        width: 98.5%;
+    }
+    
+    
+}

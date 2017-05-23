@@ -1,0 +1,1 @@
+[08-nov-2009 13:23:33] PHP Warning:  file_get_contents(http://payment.allopass.com/api/infocode.apu?code=M7738X64&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 188

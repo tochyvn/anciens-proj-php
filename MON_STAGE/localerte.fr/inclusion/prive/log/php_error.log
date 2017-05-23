@@ -1,0 +1,478 @@
+[14-Nov-2014 07:05:59 UTC] PHP Parse error:  syntax error, unexpected ''/d_' (T_ENCAPSED_AND_WHITESPACE) in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1002
+[14-Nov-2014 21:38:51 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[14-Nov-2014 21:38:51 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/UCCijN' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[15-Nov-2014 08:38:28 UTC] PHP Parse error:  syntax error, unexpected ''<td style="bord' (T_ENCAPSED_AND_WHITESPACE) in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2109
+[15-Nov-2014 08:43:08 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where /*email='laurent.davenne@aicom.fr'
+			or	email='aicom20140929@gmail.com'
+			or  email='aicom20140929@outlook.fr'
+			or  email='aicom20140929@yahoo.fr'*/
+			or  */email='aicom20140920@orange.fr'/*
+			or  */email='aicom20140318@free.fr'
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or  */email='aicom20140920@orange.fr'/*
+			or  */email='aicom20140318@free.fr'' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 08:43:08 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[15-Nov-2014 08:43:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2409
+[15-Nov-2014 08:44:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1141
+[15-Nov-2014 08:51:01 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where
+			/*email='laurent.davenne@aicom.fr'
+			or	email='aicom20140929@gmail.com'
+			or  email='aicom20140929@outlook.fr'*/
+			or */ email='aicom20140929@yahoo.fr'
+			/*or  email='aicom20140920@orange.fr'
+			or  email='aicom20140318@free.fr'*/
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or */ email='aicom20140929@yahoo.fr'
+			/*or  email='aicom20140920@orange.fr'
+' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 08:51:01 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[15-Nov-2014 08:51:02 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where
+			/*email='laurent.davenne@aicom.fr'
+			or	email='aicom20140929@gmail.com'
+			or  email='aicom20140929@outlook.fr'*/
+			or */ email='aicom20140929@yahoo.fr'
+			/*or  email='aicom20140920@orange.fr'
+			or  email='aicom20140318@free.fr'*/
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or */ email='aicom20140929@yahoo.fr'
+			/*or  email='aicom20140920@orange.fr'
+' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 08:51:02 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[15-Nov-2014 09:03:25 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where
+			/*email='laurent.davenne@aicom.fr'
+			or  email='aicom20141115@laposte.net'
+			or  email='aicom20140929@gmail.com'*/
+			or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'
+			or  email='aicom20140920@orange.fr'
+			or  email='aicom20140318@free.fr'*/
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 09:03:25 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[15-Nov-2014 09:03:39 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where
+			/*email='laurent.davenne@aicom.fr'
+			or  email='aicom20141115@laposte.net'
+			or  email='aicom20140929@gmail.com'*/
+			or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'
+			or  email='aicom20140920@orange.fr'
+			or  email='aicom20140318@free.fr'*/
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 09:03:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[15-Nov-2014 09:03:47 UTC] PHP Warning:  <pre>
+			select identifiant
+			from adherent
+			where
+			/*email='laurent.davenne@aicom.fr'
+			or  email='aicom20141115@laposte.net'
+			or  email='aicom20140929@gmail.com'*/
+			or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'
+			or  email='aicom20140920@orange.fr'
+			or  email='aicom20140318@free.fr'*/
+		</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or */ email='aicom20140929@outlook.fr'
+			/*or  email='aicom20140929@yahoo.fr'' at line 7 ---- /inclusion/adherent.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[15-Nov-2014 09:03:47 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[16-Nov-2014 19:47:11 UTC] PHP Warning:  DOMDocument::load(): Entity 'ccedil' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/OF142DAK4Z, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[17-Nov-2014 07:03:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 515
+[17-Nov-2014 07:03:45 UTC] PHP Parse error:  syntax error, unexpected ''LOCA' (T_ENCAPSED_AND_WHITESPACE) in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2262
+[17-Nov-2014 13:08:58 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[17-Nov-2014 13:08:58 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/yPT50r' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[18-Nov-2014 06:51:14 UTC] PHP Parse error:  syntax error, unexpected ''<td><font face="Arial, Helvet' (T_ENCAPSED_AND_WHITESPACE) in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 916
+[19-Nov-2014 10:31:35 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/SKM527ZLKX, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[19-Nov-2014 12:12:19 UTC] PHP Warning:  DOMDocument::load(): Entity 'ecirc' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/RZJ7083Q92, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[19-Nov-2014 21:33:15 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[19-Nov-2014 21:33:15 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/Xi8eau' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[22-Nov-2014 07:25:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2527
+[28-Nov-2014 10:02:02 UTC] PHP Warning:  <pre>
+						 		select sql_calc_found_rows
+						 			liste.identifiant as identifiant,
+						 			loyer,
+						 			ville_nom as ville,
+						 			ville_identifiant,
+						 			liste.code_postal as code_postal,
+						 			type_designation as type,
+						 			statut,
+						 			if(datediff(enregistrement,modification)=0,unix_timestamp(enregistrement),unix_timestamp(parution)) as parution,
+						 			unix_timestamp(enregistrement) as enregistrement,
+						 			(adherent_annonce.adherent is not null) as adherent_annonce,
+						 			if(loyer is null,1,0) as loyer_not_null,
+						 			image,
+						 			ifnull(round((6366*acos(cos(radians(46.5587804815411))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(0.508303225260518))+sin(radians(46.5587804815411))*sin(radians(ville.latitude)))),2),0) as distance,
+						 			descriptif,
+						 			url
+						 		from
+						 			liste
+						 			inner join ville on liste.ville_identifiant=ville.identifiant
+						 			left join adherent_annonce on adherent_annonce.adherent=537356909 and liste.identifiant=adherent_annonce.annonce and adherent_annonce.lu>now() - interval (select annonce_affiche_lu from preference limit 1) day
+						 		where 1
+						 			and ifnull(round((6366*acos(cos(radians(46.5587804815411))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(0.508303225260518))+sin(radians(46.5587804815411))*sin(radians(ville.latitude)))),0),0)<20
+						 			and type_identifiant in ()
+						 		order by distance
+								limit 10
+						 	</pre> ----- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+						 		order by distance
+								limit 10' at line 23 ---- /inclusion/adherent_distant.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[28-Nov-2014 10:02:02 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[29-Nov-2014 07:43:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 75
+[29-Nov-2014 20:37:20 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[29-Nov-2014 20:37:20 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/4hbOlI' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[01-Dec-2014 09:13:13 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /var/www/vhost/aicom/localerte.fr/adherent/inc/prepend.php on line 34
+[01-Dec-2014 09:13:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhost/aicom/localerte.fr/adherent/inc/prepend.php on line 35
+[04-Dec-2014 12:33:46 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/TN7QWOQ3IH, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[04-Dec-2014 12:33:46 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/TN7QWOQ3IH, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[07-Dec-2014 09:29:36 UTC] PHP Parse error:  syntax error, unexpected ''update statistiques_adherent ' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2580
+[07-Dec-2014 09:32:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 875
+[07-Dec-2014 09:33:19 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1686
+[07-Dec-2014 09:50:55 UTC] PHP Notice:  Undefined index: ville_nom in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1580
+[07-Dec-2014 09:50:55 UTC] PHP Notice:  Undefined index: type_designation in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1580
+[07-Dec-2014 09:50:55 UTC] PHP Notice:  Undefined index: ville_nom in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1585
+[07-Dec-2014 09:50:55 UTC] PHP Notice:  Undefined index: type_designation in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1585
+[07-Dec-2014 09:53:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2004
+[07-Dec-2014 09:55:58 UTC] PHP Parse error:  syntax error, unexpected ''<td colspan="5" align="center' (T_ENCAPSED_AND_WHITESPACE) in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2216
+[07-Dec-2014 09:59:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1403
+[07-Dec-2014 10:01:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 2339
+[07-Dec-2014 18:25:06 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[07-Dec-2014 18:25:06 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/TsXURn' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[08-Dec-2014 00:36:46 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/2L09AM1WCU, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[10-Dec-2014 18:33:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/vhost/aicom/localerte.fr/inclusion/adherent.php on line 1565
+[19-Dec-2014 05:52:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /var/www/vhost/aicom/localerte.fr/adherent/inc/prepend.php on line 34
+[19-Dec-2014 05:52:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhost/aicom/localerte.fr/adherent/inc/prepend.php on line 35
+[20-Dec-2014 17:30:42 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[20-Dec-2014 17:30:42 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/TJNVsi' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[21-Dec-2014 08:14:25 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[21-Dec-2014 08:14:25 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/xVdZBP' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[27-Dec-2014 07:27:13 UTC] PHP Warning:  DOMDocument::load(): Entity 'agrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/H89NX802RT, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[30-Dec-2014 07:07:52 UTC] PHP Warning:  <pre>
+		select sql_calc_found_rows
+			liste.identifiant as identifiant,
+			loyer,
+			ville_nom as ville,
+			liste.code_postal as code_postal,
+			type_designation as type,
+			statut,
+			if(datediff(enregistrement,modification)=0,unix_timestamp(enregistrement),unix_timestamp(parution)) as parution,
+			unix_timestamp(enregistrement) as enregistrement,
+			(adherent_annonce.adherent is not null) as adherent_annonce,
+			if(loyer is null,1,0) as loyer_not_null,
+			image,
+			ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),2),0) as distance,
+			descriptif,
+			url
+		from
+			liste
+			inner join ville on liste.ville_identifiant=ville.identifiant
+			left join adherent_annonce on adherent_annonce.adherent=242720480 and liste.identifiant=adherent_annonce.annonce and adherent_annonce.lu>now() - interval (select annonce_affiche_lu from preference limit 1) day
+		where 1
+			
+			and ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),0),0)<35
+			and type_identifiant in (5, 25, 6, 26, 9, 38, 39, 40, 41, 42)
+			
+			and ville_identifiant in (ar)
+		order by `distance` asc/*, parution DESC*/
+		limit 0, 120
+	</pre> ----- Unknown column 'ar' in 'where clause' ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[30-Dec-2014 07:07:52 UTC] PHP Warning:  <pre>
+		select
+			liste.statut as statut,
+			count(liste.identifiant) as nombre
+		from liste
+			inner join ville on liste.ville_identifiant=ville.identifiant
+		where 1
+			
+			and type_identifiant in (5, 25, 6, 26, 9, 38, 39, 40, 41, 42)
+			and ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),0),0)<35
+			and ville_identifiant in (ar)
+		group by statut
+	</pre> ----- Unknown column 'ar' in 'where clause' ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[30-Dec-2014 07:07:52 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[30-Dec-2014 07:08:02 UTC] PHP Warning:  <pre>
+		select sql_calc_found_rows
+			liste.identifiant as identifiant,
+			loyer,
+			ville_nom as ville,
+			liste.code_postal as code_postal,
+			type_designation as type,
+			statut,
+			if(datediff(enregistrement,modification)=0,unix_timestamp(enregistrement),unix_timestamp(parution)) as parution,
+			unix_timestamp(enregistrement) as enregistrement,
+			(adherent_annonce.adherent is not null) as adherent_annonce,
+			if(loyer is null,1,0) as loyer_not_null,
+			image,
+			ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),2),0) as distance,
+			descriptif,
+			url
+		from
+			liste
+			inner join ville on liste.ville_identifiant=ville.identifiant
+			left join adherent_annonce on adherent_annonce.adherent=242720480 and liste.identifiant=adherent_annonce.annonce and adherent_annonce.lu>now() - interval (select annonce_affiche_lu from preference limit 1) day
+		where 1
+			
+			and ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),0),0)<35
+			and type_identifiant in (5, 25, 6, 26, 9, 38, 39, 40, 41, 42)
+			
+			and ville_identifiant in (ar)
+		order by `distance` asc/*, parution DESC*/
+		limit 120, 120
+	</pre> ----- Unknown column 'ar' in 'where clause' ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[30-Dec-2014 07:08:02 UTC] PHP Warning:  <pre>
+		select
+			liste.statut as statut,
+			count(liste.identifiant) as nombre
+		from liste
+			inner join ville on liste.ville_identifiant=ville.identifiant
+		where 1
+			
+			and type_identifiant in (5, 25, 6, 26, 9, 38, 39, 40, 41, 42)
+			and ifnull(round((6366*acos(cos(radians(43.1389673761099))*cos(radians(ville.latitude))*cos(radians(ville.longitude)-radians(6.37131481427946))+sin(radians(43.1389673761099))*sin(radians(ville.latitude)))),0),0)<35
+			and ville_identifiant in (ar)
+		group by statut
+	</pre> ----- Unknown column 'ar' in 'where clause' ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[30-Dec-2014 07:08:02 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[02-Jan-2015 12:53:14 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/C2RJZWGB65, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[02-Jan-2015 17:05:37 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[02-Jan-2015 17:05:37 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/geeE2S' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[03-Jan-2015 12:07:33 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/T769OUG90S, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[05-Jan-2015 12:53:39 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/94AWSF0AAO, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[16-Jan-2015 17:19:33 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[16-Jan-2015 17:19:33 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/B7o7gp' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[23-Jan-2015 17:02:46 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[23-Jan-2015 17:02:46 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/lhlKvg' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[23-Jan-2015 17:02:46 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[23-Jan-2015 17:02:46 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/fwo8aC' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[25-Jan-2015 18:14:43 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[25-Jan-2015 18:14:43 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/Oe1t9j' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:09:47 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:09:48 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:48 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:09:48 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:09:48 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:21:30 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:21:31 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 26
+[28-Jan-2015 23:21:31 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:21:31 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:24:39 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:24:39 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:24:39 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:24:39 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[28-Jan-2015 23:24:41 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 38
+[28-Jan-2015 23:24:41 UTC] PHP Notice:  Undefined index: alerte_identifiant in /var/www/vhost/aicom/localerte.fr/adherent/suppression-alerte.php on line 86
+[31-Jan-2015 08:10:14 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/WJWTO4J9ON, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[02-Feb-2015 12:31:27 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/22CLJWON6N, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[09-Feb-2015 14:51:49 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 910
+[09-Feb-2015 14:51:49 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 923
+[09-Feb-2015 14:51:49 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 1165
+[09-Feb-2015 14:51:49 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 1203
+[12-Feb-2015 17:05:54 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[12-Feb-2015 17:05:54 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/1BlGNF' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[12-Feb-2015 22:26:03 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/ZU6L4UGQUW, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[13-Feb-2015 18:49:06 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/YXCIAY70EU, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[01-Mar-2015 20:57:51 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[01-Mar-2015 20:57:51 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/prt3aL' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[04-Mar-2015 22:26:45 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/KLJRS96M0S, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[12-Mar-2015 17:13:24 UTC] PHP Warning:  DOMDocument::load(): Entity 'ccedil' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/CC1XMYNF6E, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[14-Mar-2015 20:58:11 UTC] PHP Warning:  DOMDocument::load(): Entity 'iuml' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/J1V27KIPCV, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[16-Mar-2015 22:54:30 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/O5RJFYEHQM, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[17-Mar-2015 17:00:22 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[17-Mar-2015 17:00:22 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/5Qc67d' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[17-Mar-2015 20:09:16 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[17-Mar-2015 20:09:16 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/qMIz5k' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[18-Mar-2015 11:00:06 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[18-Mar-2015 11:00:29 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[18-Mar-2015 11:01:46 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[18-Mar-2015 11:06:54 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[18-Mar-2015 11:06:57 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[18-Mar-2015 11:07:55 UTC] PHP Fatal error:  Call to a member function log() on a non-object in /var/www/vhost/aicom/localerte.fr/maintenance/application/controllers/bash/exportEmail.php on line 25
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_connect(): Too many connections in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 42
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 59
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  <pre>
+				select
+					spool_mail_pause,
+					spool_boucle_pause,
+					spool_boucle_mail,
+					spool_flush_mail,
+					spool_message_interval,
+					acces_bloque,
+					hardbounce_limite,
+					softbounce_limite,
+					plainte_limite,
+					aide_limite,
+					wha_prix,
+					expediteur_email,
+					retour_email,
+					retour_pop_utilisateur,
+					retour_pop_passe,
+					retour_pop_serveur,
+					retour_pop_port,
+					retour_nettoyage_mail_par_boucle,
+					retour_nettoyage_pause,
+					reponse_email,
+					desabonnement_email,
+					desabonnement_pop_utilisateur,
+					desabonnement_pop_passe,
+					desabonnement_pop_serveur,
+					desabonnement_pop_port,
+					desabonnement_nettoyage_mail_par_boucle,
+					desabonnement_nettoyage_pause,
+					spool_rappel_interval,
+					spool_inactivite_jour,
+					spool_veille_jour,
+					annonce_chemin_dossier,
+					annonce_affiche_dernier_jour,
+					annonce_affiche_lu,
+					comptabilite_email,
+					ip_paiement,
+					http_exclusion,
+					plainte_email,
+					plainte_pop_utilisateur,
+					plainte_pop_passe,
+					plainte_pop_serveur,
+					plainte_pop_port,
+					plainte_nettoyage_mail_par_boucle,
+					plainte_nettoyage_pause,
+					cookie_duree_vie,
+					annonce_vue_jour,
+					spool_aide_jour,
+					spool_vieux_jour
+				from preference
+				limit 1
+			</pre> -----  ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  Lecture de la table des pr&eacute;f&eacute;rences impossible ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 357
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_connect(): Too many connections in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 42
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 59
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  <pre>
+				select
+					spool_mail_pause,
+					spool_boucle_pause,
+					spool_boucle_mail,
+					spool_flush_mail,
+					spool_message_interval,
+					acces_bloque,
+					hardbounce_limite,
+					softbounce_limite,
+					plainte_limite,
+					aide_limite,
+					wha_prix,
+					expediteur_email,
+					retour_email,
+					retour_pop_utilisateur,
+					retour_pop_passe,
+					retour_pop_serveur,
+					retour_pop_port,
+					retour_nettoyage_mail_par_boucle,
+					retour_nettoyage_pause,
+					reponse_email,
+					desabonnement_email,
+					desabonnement_pop_utilisateur,
+					desabonnement_pop_passe,
+					desabonnement_pop_serveur,
+					desabonnement_pop_port,
+					desabonnement_nettoyage_mail_par_boucle,
+					desabonnement_nettoyage_pause,
+					spool_rappel_interval,
+					spool_inactivite_jour,
+					spool_veille_jour,
+					annonce_chemin_dossier,
+					annonce_affiche_dernier_jour,
+					annonce_affiche_lu,
+					comptabilite_email,
+					ip_paiement,
+					http_exclusion,
+					plainte_email,
+					plainte_pop_utilisateur,
+					plainte_pop_passe,
+					plainte_pop_serveur,
+					plainte_pop_port,
+					plainte_nettoyage_mail_par_boucle,
+					plainte_nettoyage_pause,
+					cookie_duree_vie,
+					annonce_vue_jour,
+					spool_aide_jour,
+					spool_vieux_jour
+				from preference
+				limit 1
+			</pre> -----  ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 88
+[21-Mar-2015 01:58:30 UTC] PHP Warning:  Lecture de la table des pr&eacute;f&eacute;rences impossible ---- /adherent/ma-liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 357
+[21-Mar-2015 07:08:38 UTC] PHP Warning:  DOMDocument::load(): Entity 'agrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/GZ352EMOHU, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[07-Apr-2015 09:37:17 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 910
+[07-Apr-2015 09:37:17 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 923
+[07-Apr-2015 09:37:17 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 1165
+[07-Apr-2015 09:37:17 UTC] PHP Deprecated:  Function set_magic_quotes_runtime() is deprecated in /var/www/vhost/aicom/localerte.fr/inclusion/fpdf/fpdf.php on line 1203
+[08-Apr-2015 07:47:48 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[08-Apr-2015 07:47:48 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/8NzIne' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[11-Apr-2015 09:14:45 UTC] PHP Warning:  fsockopen(): unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[11-Apr-2015 09:15:36 UTC] PHP Warning:  fsockopen(): unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[11-Apr-2015 09:16:13 UTC] PHP Warning:  fsockopen(): unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[28-Apr-2015 08:34:50 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[28-Apr-2015 08:34:50 UTC] PHP Warning:  imagecreatefromjpeg(): '/var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/Vfdjdp' is not a valid JPEG file in /var/www/vhost/aicom/localerte.fr/adherent/api/gd.php on line 101
+[10-May-2015 10:05:33 UTC] PHP Warning:  DOMDocument::load(): Entity 'euml' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/JDQ0KR7BOH, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[10-May-2015 17:39:47 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[10-May-2015 17:42:12 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[10-May-2015 17:43:36 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[18-May-2015 14:27:59 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/9Q2EM1N543, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[19-May-2015 15:43:12 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[27-May-2015 12:11:36 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[27-May-2015 17:16:33 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[30-May-2015 13:31:02 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/I8YNUYO7YJ, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[02-Jun-2015 06:11:03 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[02-Jun-2015 06:13:51 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[02-Jun-2015 06:15:47 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[02-Jun-2015 06:16:03 UTC] PHP Notice:  Undefined index: acte in /var/www/vhost/aicom/localerte.fr/adherent/inc/mes-paiements.php on line 294
+[04-Jun-2015 10:57:26 UTC] PHP Warning:  DOMDocument::load(): Entity 'eacute' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/Y90XQH0KV1, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[04-Jun-2015 12:57:46 UTC] PHP Warning:  DOMDocument::load(): Entity 'egrave' not defined in /var/www/vhost/aicom/localerte.fr/inclusion/prive/temp/J3RHBEZNI1, line: 4 in /var/www/vhost/aicom/localerte.fr/inclusion/adherent_distant.php on line 89
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8
+[07-Jun-2015 22:33:39 UTC] PHP Notice:  Undefined offset: 0 in /var/www/vhost/aicom/localerte.fr/adherent/api/image.php on line 8

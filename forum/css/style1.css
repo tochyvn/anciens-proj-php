@@ -1,0 +1,103 @@
+.group {
+    margin-bottom: 10px;
+    min-height: 40px;
+    //padding-left: 10px;
+}
+
+.group label {
+    display: block;
+    text-align: left;
+    width: 95%;
+    font-family: 'PTSansBold',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #8F0DBA;
+    font-weight: bold;
+}
+
+input {
+    width: 97%;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #EFD5F7;
+    display: block;
+    padding: 4px 4px 4px 6px;
+    font-family: 'PTSansBold',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: middle;
+    font-size: medium;
+    font-weight: bold;
+}
+
+input:focus {
+    border: 1px solid #EFD5F7;
+}
+
+input[type=text], 
+input[type=password], 
+input[type=search], 
+input[type=email], 
+input[type=submit], 
+input[type=image], 
+input[type=file], textarea {
+    -webkit-appearance: none;
+    color: #3C044F;
+}
+
+input[type=submit] {
+   background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #8F0DBA 0%, #8F0DBA 50%, #8F0DBA 50%, #8F0DBA 100%) repeat scroll 0 0;
+   text-transform: uppercase;
+   width: 100%;
+   font: 20px/40px "geogrotesquesemibold", Arial, Helvetica, sans-serif;
+   height: 60px;
+}
+
+
+/**--------------------------------------------------------------------------------------------------------------**
+* --------------------------GESTION DE LA POPUP EN CSS3 MT DE PASSE OUBLIE -------------------------------------- *
+*----------------------------------------------------------------------------------------------------------------**
+*----------------------------------------------------------------------------------------------------------------*/
+#masque {
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup_block {
+    background: #fff;
+    padding: 2px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 40%;
+    border: 20px solid #EFD5F7;
+    margin: 10% auto;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+
+.popup_block h2 {
+    border: #8F0DBA solid thin;
+    border-radius: 6px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #8F0DBA;
+}
+
+img.btn_close {
+    float: right;
+    margin: -42px -54px 0 0;
+}
+
+#update_validate {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.class_error {
+    box-shadow: 0px 0px 5px red;
+}
+/**--------------------------------------------------------------------------------------------**
+* --------------------------GESTION DE LA POPUP EN CSS3 -------------------------------------- **
+* ---------------------------------------------------------------------------------------------**
+*----------------------------------------------------------------------------------------------*/

@@ -1,0 +1,20 @@
+Madame, Monsieur,
+
+vous êtes inscrit sur %HTTP_HOST% et vous n'avez pas encore profité pleinement de nos services. Nous vous offrons un code d'accès qui vous permettra de découvrir l'intégralité des fonctionnalité de %HTTP_HOST%.
+
+Votre code d'accès:
+%CODE%
+
+1. Rejoignez le site à l'adresse %CONSULTATION%
+2. Sélectionnez les annonces dans la liste, puis validez
+3. Entrez votre code d'accès dans l'emplacement prévu à cet effet
+
+Vous pouvez modifier vos paramètres de recherche en vous rendant à l'adresse:
+%PARAMETRE%
+
+Pour ne plus recevoir nos emails, rendez-vous à l'adresse:
+%DESABONNEMENT%
+
+Cordialement,
+
+L'équipe %HTTP_HOST%

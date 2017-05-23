@@ -1,0 +1,338 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 mai 2015, 16:45:13
+    Author     : silnti
+*/
+
+
+#content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    background-color: #fff;
+}
+/*
+############### STYLE MENU ###########
+*/
+header{
+    background-color: rgba(0,0,0,1.0);
+}
+.menu{
+    position: relative;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 2.5em;
+}
+
+.menu ul{
+    
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    padding-top: 0.7em;
+    
+}
+.menu ul li{
+    
+    float: left;
+    width: 9.0em;
+    height: 1.1em;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    border-right:solid 0.1em crimson;
+    
+}
+.menu ul li ul{
+    float: left;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: auto 1.4em auto;
+    padding: 0.2em;
+    background-color: rgba(0,0,0,1.0);
+    border-radius: 0 0 0.4em 0;
+    border-bottom:solid 0.2em crimson;
+}
+.menu ul li ul li{
+    
+    width:9.0em;
+    height: auto;
+    margin: auto;
+    padding: 0.1em;
+    padding-left: 0.5em;
+    text-align: left;
+    border: solid 0.1em #000;
+    
+}
+.menu ul li:hover ul{
+    position: relative;
+    z-index: 100;
+    display: block;
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+}
+.menu li:hover{
+    color: coral;
+}
+
+//---- STYLE POUR BARRE D'OUTILS -----'
+.menu div{
+    //
+}
+.menu div span{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    right: 0;
+    height: 2.2em;
+    margin:-1.0em auto;
+    padding: 0.2em;
+    background-color: rgba(0,0,0,0.1);
+    border-bottom: solid 0.1em crimson;
+}
+.menu div span img{
+    float: left;
+    width: 1.8em;
+    height: 1.8em;
+    margin: 0.2em 0.4em;
+    padding: 0;
+    border: 0;
+    border-radius: 0.3em;
+}
+/*############ FIN MENU ##########*/
+
+/*
+############## STYLE COLONNE GAUCHE ########
+*/
+
+aside{
+    position: absolute;
+    width: 20em;
+    height: auto;
+    top:4.9em;
+    left: 0.2em;
+    bottom: 9.0em;
+    margin: auto;
+    padding: 0;
+    padding-bottom: 0.1em;
+    //background-color: rgba(0,0,0,1.0);
+    //border-bottom: solid 0.2em crimson;
+    //box-shadow: 0em 0.2em 0.3em rgba(0,0,0,0.6);
+}
+aside .comp figure{
+    float: left;
+    width: 4em;
+    height: 4em;
+    margin: 0.3em;
+    margin-top: 0.7em;
+}
+aside .comp figure img{
+    width: 2.8em;
+    height: 2.6em;
+    margin: auto;
+}
+
+aside hgroup{
+    float: left;
+    width: 95%;
+    margin:auto;
+    margin-top: 0.3em;
+    padding: 0.3em;
+    background-color: rgba(0,0,0,1.0);
+    //border-top: solid 1.7em #000;
+}
+
+aside hgroup div{
+    float: left;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: 0.2em;
+    background-color: rgba(255,255,255,0.8);
+    
+}
+aside hgroup h3{
+    width: 100%;
+    height: 1.4em;
+    color: #fff;
+    margin: auto;
+    font-weight: lighter;
+    text-align: right;
+}
+aside hgroup div p{
+    position: relative;
+    width: 100%;
+    height: 1.3em;
+    margin: auto;
+    padding: 0;
+    //border-bottom: dashed 0.1em rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    text-shadow: 0.2em 0.1em 0.1em rgba(0,0,0,0.3);
+}
+aside hgroup div span{
+    float: left;
+    width: 96%;
+    height: 1.0em;
+    margin: auto;
+    padding: 0.2em;
+    padding-left: 0.4em;
+    text-align: left;
+    border: solid 0.1em rgba(0,0,0,0.1);
+}
+aside .group figure{
+    float: left;
+    width: 4.0em;
+    height: 6.42em;
+    margin: 0.2em;
+    padding: 0.1em;
+    text-align: center;
+}
+aside .group figure img{
+    width: 100%;
+    height: 4.8em;
+    margin: auto;
+    padding: 0.1em;
+    //border: solid 0.1em;
+}
+//---- Style pour la zone de conception ---
+section{
+    //background-color: rgba(0,0,0,1.0);
+}
+section hgroup{
+    position: absolute;
+    top:5.3em;
+    right: 0.3em;
+    left: 20.4em;
+    height: auto;;
+    margin: auto;
+    padding: 0.2em;
+    background-color: rgba(0,0,0,1.0);
+    
+}
+
+section hgroup H3{
+    position: relative;
+    width: 99%;
+    height: 1.3em;
+    margin: 0.1em auto;
+    text-align: right;
+    color: #fff;
+    font-weight: lighter;
+}
+section hgroup > div{
+    position: absolute;
+    width: 99.26%;
+    //right: 0.3em;
+    height: 34.0em;
+    margin: auto;
+    margin-left: -0.2em;
+    padding: 0.1em;
+    background-color: rgba(255,255,255,1.0);
+    background-image: url(img/back.png);
+    border: solid #000 0.3em;
+    //border-top: solid 1.7em;
+}
+section hgroup img{
+    float: left;
+    width: 4.2em;
+    height: 4.2em;
+    border:solid 0.1em;
+}
+section span{
+    position: absolute;
+    top: 42.2em;
+    right: 0.3em;
+    left: 20.4em;
+    bottom: 4.8em;
+    height: auto;
+    margin: 0;
+    padding: 0.2em;
+    background-color: rgba(0,0,0,1.0);
+    border-top: solid #000 1.7em;
+}
+section span p{
+   float: left;
+   width: 50%;
+   height: 1.0em;
+   margin: -1.5em auto;
+   padding: 0.1em;
+   color: #fff;
+   text-align: left;
+   //border: solid 0.1em red;
+}
+section span p label{
+    position: relative;
+    right: 0;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    border-right: solid 0.1em;
+}
+section span h3{
+   float: right;
+   width: 50%;
+   height: 1.0em;
+   margin: -1.5em auto;
+   padding: 0.1em;
+   color: #fff;
+   font-weight: lighter;
+   text-align: right;
+   //border: solid 0.1em red;
+}
+section span textarea{
+    float: left;
+    width: 99.3%;
+    height: 91%;
+    bottom: 0.1em;
+    margin: auto;
+    padding: 0.2em;
+    color: crimson;
+}
+//------ Code pour le footer --------
+footer {
+    //
+}
+footer hgroup{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5.0em;
+    margin: 0;
+    padding: 0.2em;
+    color: #fff;
+    font-size: 0.8em;
+    background-color: rgba(0,0,0,1.0);
+}
+footer hgroup div{
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+footer hgroup a{
+    color: coral;
+    text-decoration: none;
+}

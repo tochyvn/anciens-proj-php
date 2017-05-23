@@ -1,0 +1,17 @@
+Madame, Monsieur,
+
+Toute l'équipe vous remercie de l'intérêt que vous portez à %HTTP_HOST%
+
+Ceci dit, nous nous sommes rendus compte que vous ne consultiez plus nos mails.
+
+Si vous souhaitez tout simplement continuer à recevoir nos mails, suivez le lien:
+%POURSUITE%
+
+Sachez que vous pouvez très rapidement élargir vos critères de recherches en suivant le lien:
+%PARAMETRE%
+
+Vous pouvez aussi vous désabonner en suivant le lien:
+%DESABONNEMENT%
+
+Cordialement,
+L'équipe %HTTP_HOST%

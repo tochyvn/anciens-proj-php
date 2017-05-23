@@ -1,0 +1,18 @@
+AddDefaultCharset windows-1252
+FileETag none
+Header set Last-modified "Mon, 03 Jan 2011 13:02:54 GMT"
+
+php_value auto_append_file "/var/www/vhost/aicom/localerte.fr/adherent/inc/append.php"
+php_value auto_prepend_file "/var/www/vhost/aicom/localerte.fr/adherent/inc/prepend.php"
+php_value default_charset "windows-1252"
+
+RewriteEngine On
+RewriteRule ^photo\/ api/image.php
+RewriteRule ^api\/gd\/([0-9]+).png$ api/image.php?identifiant=$1
+RewriteRule ^wha_[^\.]+$ api/wha.php
+
+Redirect 301 /adherent/index.php /adherent/bienvenue.php
+
+<Files "jquery.js">
+  AddOutputFilter INCLUDES .js
+</Files>

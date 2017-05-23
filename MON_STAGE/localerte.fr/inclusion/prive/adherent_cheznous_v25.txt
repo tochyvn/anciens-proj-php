@@ -1,0 +1,32 @@
+Bonjour,
+
+Vous venez de vous inscrire à LOCALERTE .fr depuis CHEZNOUS.fr et nous vous en remercions.
+
+LOCALERTE est le Moteur de recherche de locations immobilières à l'année, partout en France. 
+
+Chaque jour vous découvrirez près de 50.000 annonces de moins de 4 jours vues sur le WEB et dans la PRESSE.
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

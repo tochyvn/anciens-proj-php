@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TP-CV</title>
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <meta HTTP-EQUIV="Content-Type" content="charset=utf-8">
+        
+    <!-- pour le bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .container > .row{
+        position: relative;
+        width: 90%;
+        border: dashed 0.1em;
+        border-radius: 0 0.9em 0 0.9em;
+        margin: auto;
+    }
+    div.row > div{
+        display: inline-block;
+        border: dashed 0.1em;
+        height: auto;
+    }
+    div.row > div > p{
+         height: 100px;
+    }
+    
+    div.row div.row div.row > div{
+        display: inline-block;
+        border: dashed 0.1em;
+        margin: 0.3em auto;
+        height: 250px;
+    }
+</style>   
+</head>
+
+<body>
+    
+    <div class="container">   
+    <div class="row">
+        
+        <!-- Premiere colonne pour entete -->
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Deuxieme colonne pour corps -->
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-lg-9">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Le contenu de votre cv -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Le contenu de votre cv -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Le contenu de votre cv -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Le contenu de votre cv -->
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-4 col-lg-3">
+                     <div class="corp"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Troisieme colonne pour pied -->
+        <div class="col-xs-12">
+            troisieme div
+        </div>
+    </div>
+    </div> 
+<!-- jQuerry (necessaire pour le bootstrap en javascript) -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

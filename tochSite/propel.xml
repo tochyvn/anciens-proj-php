@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<config>
+    <propel>
+        <database>
+            <connections>
+                <connection id="SITE_ENCHERES">
+                    <adapter>mysql</adapter>
+                    <classname>Propel\Runtime\Connection\ConnectionWrapper</classname>
+                    <dsn>mysql:host=localhost;dbname=SITE_ENCHERES</dsn>
+                    <user>root</user>
+                    <password>root</password>
+                </connection>
+            </connections>
+        </database>
+        <runtime>
+            <defaultConnection>SITE_ENCHERES</defaultConnection>
+            <connection>SITE_ENCHERES</connection>
+        </runtime>
+        <generator>
+            <defaultConnection>SITE_ENCHERES</defaultConnection>
+            <connection>SITE_ENCHERES</connection>
+        </generator>
+    </propel>
+</config>

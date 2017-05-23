@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>  
+<urls>
+  <url>
+    <source>http://aicom_pige:6A8fiY6p@www.cheznous.fr/inclusion/brule.php?genre=TELEPHONE,EMAIL,CHAINE&amp;raison=VENDEUR_LISTE,PAS_CAPTURE,ERRONE,AUTRE</source>
+    <destination>exclusion.csv</destination>
+  </url>
+  <url>
+    <source>http://aicom_pige:6A8fiY6p@www.cheznous.fr/inclusion/brule.php?genre=TELEPHONE,EMAIL,CHAINE</source>
+    <destination>exclusionTA.csv</destination>
+  </url>
+</urls>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<config>
+    <propel>
+        <database>
+            <connections>
+                <connection id="bookstore">
+                    <adapter>pgsql</adapter>
+                    <classname>Propel\Runtime\Connection\ConnectionWrapper</classname>
+                    <dsn>pgsql:host=localhost;dbname=my_db_name</dsn>
+                    <user>my_db_user</user>
+                    <password>s3cr3t</password>
+                </connection>
+            </connections>
+        </database>
+        <runtime>
+            <defaultConnection>bookstore</defaultConnection>
+            <connection>bookstore</connection>
+        </runtime>
+        <generator>
+            <defaultConnection>bookstore</defaultConnection>
+            <connection>bookstore</connection>
+        </generator>
+    </propel>
+</config>
+

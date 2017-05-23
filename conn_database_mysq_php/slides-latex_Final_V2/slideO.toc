@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.26pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Overview}{5}{0}{2}
+\beamer@sectionintoc {3}{Accomplished work}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Architecture proposals}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Methods of calculation}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Integration of Java Software}{34}{0}{3}
+\beamer@sectionintoc {4}{Project Management Tools }{39}{0}{4}
+\beamer@subsectionintoc {4}{1}{Wiki Space}{40}{0}{4}
+\beamer@subsectionintoc {4}{2}{Gantt Chart}{41}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{43}{0}{5}

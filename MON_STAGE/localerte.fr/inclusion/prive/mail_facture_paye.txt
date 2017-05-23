@@ -1,0 +1,14 @@
+Madame, Monsieur,
+
+La facture %REFERENCE% a bien été notée comme payée par nos services.
+
+Vous pouvez dès maintenant utiliser votre abonnement ou vos codes en suivant le lien:
+%CONSULTATION%
+
+Pour consulter le détail de cette facture, merci de suivre le lien:
+%FACTURE%
+
+Vous remerciant de l'intérêt que vous portez à %HTTP_HOST% .
+
+Cordialement,
+L'équipe %HTTP_HOST%

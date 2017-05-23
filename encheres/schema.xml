@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="siteEncheres" defaultIdMethod="native">
+    
+  <table name="USER" phpName="User">
+    <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+    <column name="passwd" type="varchar" size="25" required="true" />
+    <column name="nom" type="varchar" size="25" required="true"/>
+    <column name="prenom" type="varchar" size="25" required="true"/>
+    <column name="date_naiss" type="date" required="true" />
+    <column name="pays" type="varchar" size="25" required="true"/>
+    <column name="adresse" type="varchar" size="100" required="true"/>
+    <column name="telephone" type="char" size="10"required="true"/>
+    <column name="email" type="varchar" size="50"required="true"/>
+    <column name="role" type="integer" required="true"/>
+  </table>
+  
+  <table name="ARTICLE" phpName="Article">
+   <column name="id_art" type="integer" primaryKey="true" autoIncrement="true" />
+   <column name="nom_art" type="varchar" size="25" required="true" />
+   <column name="prix" type="decimal(15,2)" required="true" />
+  </table>
+  
+  <table name="ENCHERE" phpName="Enchere">
+   <column name="id_ench" type="integer" primaryKey="true" autoIncrement="true" />
+   <column name="date_debut" type="timestamp" required="true" />
+   <column name="date_fin" type="date" required="true" />
+   <column name="id_art" type="integer" required="true" />
+    <foreign-key foreignTable="ARTICLE"  onDelete="CASCADE" onUpdate="CASCADE" phpName="Article" refPhpName="Enchere">
+      <reference local="id_art" foreign="id_art"/>
+    </foreign-key>
+  </table>
+  
+ <table name="MISE" phpName="Mise">
+   <column name="prix" type="decimal(15,2)" required="true" primaryKey="true"/>
+   <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+   <column name="id_ench" type="integer" required="true" primaryKey="true"/>
+    <foreign-key foreignTable="USER" onDelete="CASCADE" onUpdate="CASCADE" phpName="User" refPhpName="Mise">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="ENCHERE" onDelete="CASCADE" onUpdate="CASCADE" phpName="Enchere" refPhpName="Mise">
+      <reference local="id_ench" foreign="id_ench"/>
+    </foreign-key>
+  </table> 
+  
+  <table name="PACK_JETON" phpName="Pack_Jeton">
+   <column name="id_pack" type="integer" primaryKey="true" autoIncrement="true"/>
+   <column name="jetons" type="integer" required="true"/>
+ </table>
+ 
+ <table name="ACHAT" phpName="Achat">
+   <column name="date_achat" type="timestamp" required="true" primaryKey="true"/>
+   <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+   <column name="id_pack" type="integer" required="true" primaryKey="true"/>
+    <foreign-key foreignTable="USER"  onDelete="CASCADE" onUpdate="CASCADE" phpName="User" refPhpName="Achat">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="PACKJETON" onDelete="CASCADE" onUpdate="CASCADE" phpName="PackJeton" refPhpName="Achat">
+      <reference local="id_pack" foreign="id_pack"/>
+    </foreign-key>
+ </table>
+ 
+</database>

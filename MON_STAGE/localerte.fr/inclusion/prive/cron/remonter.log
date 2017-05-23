@@ -1,0 +1,11 @@
+--2015-06-07 23:50:02--  http://www.localerte.fr/inclusion/adherent.php?mode=remonter
+Resolving www.localerte.fr... 188.165.211.144
+Connecting to www.localerte.fr|188.165.211.144|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/html]
+Saving to: `/dev/null'
+
+     0K                                                        0.00 =0s
+
+2015-06-07 23:50:11 (0.00 B/s) - `/dev/null' saved [0/0]
+

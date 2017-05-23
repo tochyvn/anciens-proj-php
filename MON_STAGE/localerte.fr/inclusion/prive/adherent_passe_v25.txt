@@ -1,0 +1,16 @@
+Bonjour,
+
+A votre demande, nous vous rappelons vos identifiants de connexion pour accéder à notre service :
+Identifiant de connexion: %EMAIL%
+Mot de passe: %PASSE%
+
+Pour une connexion automatique, suivez:
+%CONSULTATION%
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

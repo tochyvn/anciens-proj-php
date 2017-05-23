@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="auto_marque_modele">
+  <initialisation>
+    <url>http://occasion.321auto.com</url>
+  </initialisation>
+  <navigation>
+    <profondeur>10</profondeur>
+    <pause>0</pause>
+    <timeout>60</timeout>
+    <thread>5</thread>
+    <rang>
+      <a_suivre>
+        <expression>&lt;li[^&gt;]*&gt;&lt;a href='([^']+)' rel='[^']+' title=&quot;&quot;&gt;[^&lt;]+&lt;\/a&gt;</expression>
+        <remplacement>http://occasion.321auto.com$1</remplacement>
+        <limite>200</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+        <expression>&lt;ul class='mxdFilterModele' id='auto_models'&gt;(.+)&lt;\/ul&gt;&lt;\/div&gt;&lt;div id='filterKeywords'</expression>
+        <remplacement>$1</remplacement>
+        <limite>1</limite>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>auto_marque_modele.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="expression" nom="Marque">
+        <expression>http:\/\/occasion.321auto.com\/(.+)\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Modele">
+        <expression>&lt;li&gt;&lt;a href='\/[^\/]+\/([^\/]+)\/' rel='[^']+' title=&quot;&quot;&gt;[^&lt;]+&lt;\/a&gt;&lt;\/li&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>50</limite>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

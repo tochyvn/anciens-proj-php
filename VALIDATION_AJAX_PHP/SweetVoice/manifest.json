@@ -1,0 +1,49 @@
+{
+
+  "manifest_version": 2,
+  "name": "SweetVoice",
+  "version": "1.0",
+  "description": "SweetVoice : the holy vision",
+  "background": {
+    "page": "chromevox/background/background.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs",
+	"experimental",
+    "tts",
+    "<all_urls>"
+  ],
+   "commands": {
+	"start-shortcut": {
+		"suggested_key": {
+			"default": "Ctrl+F",
+			"mac": "Command+E",
+			"linux": "Ctrl+F"
+		},
+		"description": "Start the searchtool."
+	}
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "all_frames": true,
+      "js": [
+        "chromeVoxChromePageScript.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "chromevox/SweetVoice-16.png",
+    "19": "chromevox/SweetVoice-19.png",
+    "48": "chromevox/SweetVoice-48.png",
+    "128": "chromevox/SweetVoice-128.png"
+  },
+  "web_accessible_resources": [
+    "chromevox/injected/api_util.js",
+    "chromevox/injected/api.js"
+  ],
+  "options_page": "chromevox/background/options.html",
+
+  "default_locale": "fr"
+}

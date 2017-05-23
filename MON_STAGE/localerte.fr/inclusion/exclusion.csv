@@ -1,0 +1,26 @@
+<?php
+	require_once(PWD_INCLUSION.'sql.php');
+	require_once(PWD_INCLUSION.'string.php');
+	
+	$sql=new ld_sql();
+	$sql->ouvrir();
+	$sql->executer
+	('
+		select
+			expression,
+			casse,
+			negatif
+		from exclusion
+	');
+	
+	$contenu='';
+	while($sql->donner_suivant($occurrence))
+		$contenu.=$occurrence['expression'].';'.$occurrence['casse'].';'.$occurrence['negatif'].CRLF;
+	
+	$sql->fermer();
+	
+	header('content-type: text/csv; charset=iso-8859-1');
+	header('content-length: '.strlen($contenu));
+	
+	print($contenu);
+?>

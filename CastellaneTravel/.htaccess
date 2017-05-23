@@ -1,0 +1,37 @@
+Options -Indexes
+RewriteEngine on
+
+ErrorDocument 404 /CastellaneTravel/error_404.php
+
+#RewriteCond $1 !^(index\.php|assets/|robots\.txt|favicon\.ico|sitemap\.xml)
+
+RewriteRule ^([a-z]+)$ /CastellaneTravel/index.php?use_case=$1 [L]
+RewriteRule ^([a-z]+)/([a-z]+)$ /CastellaneTravel/index.php?use_case=$1&action=$2 [L]
+
+
+
+
+
+
+
+
+#RewriteRule ^([a-z]+)/([a-z]+)/([a-z]+)$ /CastellaneTravel/index.php?use_case=$1&action=$2&term=$3 [L]
+
+#RewriteRule ^use_case/([a-z]+)\.html$ /CastellaneTravel/index.php?use_case=$1 [L]
+
+#RewriteCond $1 !^(index\.php|assets/|robots\.txt|favicon\.ico|sitemap\.xml)
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+# On suit les liens symboliques 
+#Options +FollowSymlinks 
+# Activation du mod rewrite d'Apache 
+#RewriteEngine On
+
+
+# On suit les liens symboliques 
+#Options +FollowSymlinks 
+# Activation du mod rewrite d'Apache 
+#RewriteEngine On 
+# Réécriture de index.html vers index.php 
+#RewriteRule ^index\.html$ /index.php 
+# Réécriture des URL des articles 

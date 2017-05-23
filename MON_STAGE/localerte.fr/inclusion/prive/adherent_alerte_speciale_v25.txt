@@ -1,0 +1,21 @@
+Cher(e) abonné(e),
+
+
+En Septembre, LOCALERTE .fr change sa présentation ! 
+
+Vous venez d'être sélectionné(e) pour découvrir EN EXCLUSIVITE la NOUVELLE VERSION de LOCALERTE .fr
+
+Pour découvrir votre ALERTE NOUVELLE VERSION, merci de suivre le lien suivant,
+%CONSULTATION%
+
+A très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

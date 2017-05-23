@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="encheres" defaultIdMethod="native" defaultPhpNamingMethod="underscore">
+  <table name="achats" idMethod="native" phpName="Achats">
+    <column name="date_achat" phpName="DateAchat" type="DATE" primaryKey="true" required="true" defaultValue="0000-00-00"/>
+    <column name="id_user" phpName="IdUser" type="INTEGER" primaryKey="true" required="true"/>
+    <column name="id_jeton" phpName="IdJeton" type="INTEGER" primaryKey="true" required="true"/>
+    <index name="FK_Achats_id_jeton">
+      <index-column name="id_jeton"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="enchere" idMethod="native" phpName="Enchere">
+    <column name="id_enchere" phpName="IdEnchere" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="date_debut" phpName="DateDebut" type="DATE"/>
+    <column name="date_fin" phpName="DateFin" type="DATE"/>
+    <column name="ref_produit" phpName="RefProduit" type="INTEGER"/>
+    <index name="FK_Enchere_ref_produit">
+      <index-column name="ref_produit"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="jeton" idMethod="native" phpName="Jeton">
+    <column name="id_jeton" phpName="IdJeton" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="nom_produit" phpName="NomProduit" type="VARCHAR" size="25"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="mise" idMethod="native" phpName="Mise">
+    <column name="date_mise" phpName="DateMise" type="TIMESTAMP"/>
+    <column name="prix_mise" phpName="PrixMise" type="DECIMAL" size="10" scale="2" primaryKey="true" required="true" defaultValue="0.00"/>
+    <column name="id_enchere" phpName="IdEnchere" type="INTEGER" primaryKey="true" required="true"/>
+    <column name="id_user" phpName="IdUser" type="INTEGER" primaryKey="true" required="true"/>
+    <index name="FK_Mise_id_user">
+      <index-column name="id_user"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="produit" idMethod="native" phpName="Produit">
+    <column name="ref_produit" phpName="RefProduit" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="produit" phpName="Produit" type="VARCHAR" size="25"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user" idMethod="native" phpName="User">
+    <column name="id_user" phpName="IdUser" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="login" phpName="Login" type="VARCHAR" size="50"/>
+    <column name="nom" phpName="Nom" type="VARCHAR" size="35"/>
+    <column name="prenom" phpName="Prenom" type="VARCHAR" size="35"/>
+    <column name="ville" phpName="Ville" type="VARCHAR" size="25"/>
+    <column name="role" phpName="Role" type="INTEGER" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+</database>

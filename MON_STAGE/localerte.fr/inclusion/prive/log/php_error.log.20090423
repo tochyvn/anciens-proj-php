@@ -1,0 +1,893 @@
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:47] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:21:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:22:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:23:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:27] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:24:46] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:20] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:25:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:26:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:27:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:27:23] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:27:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:28:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:29:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:30:51] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:03] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:31:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:01] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:32:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:33:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:33:19] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:47] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:34:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:35:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:36:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:38:34] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:38:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:38:55] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[22-avr-2009 10:38:55] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[22-avr-2009 10:39:06] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:06] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:08] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:10] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:34] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:58] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:39:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:16] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:48] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:52] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:40:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:41:10] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:41:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:41:37] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:41:37] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:42:30] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 301
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 10:42:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 306
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:16:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:17:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:17:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:18:03] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:18:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:18:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:19:00] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:19:19] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:19:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:19] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=M234629D&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:38] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:20:52] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:45] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:57] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:21:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:00] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:30] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:22:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:23:24] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:26] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:40] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 265
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:41] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:24:50] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:34] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 265
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:34] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:25:44] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:26:14] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 265
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:26:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:35:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 303
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:35:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 308
+[22-avr-2009 11:52:06] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:52:10] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:52:20] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:53:29] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:53:47] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:20] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:40] PHP Notice:  Undefined index:  preference_annonce_affiche_lu in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 37
+[22-avr-2009 11:54:40] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:40] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:40] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:43] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:43] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:43] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:47] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:47] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:47] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:50] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:50] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:50] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:52] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:52] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:52] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:55] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:55] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:55] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:54:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:54:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:54:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:03] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:03] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:03] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:15] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:15] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:15] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:31] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:31] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:31] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:37] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:37] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:37] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:45] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:45] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:45] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:55:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:55:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:55:59] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 11:58:32] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/inclusion/preference.php on line 480
+[22-avr-2009 11:58:32] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 93
+[22-avr-2009 11:58:32] PHP Notice:  Use of undefined constant PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR - assumed 'PREFERENCE_ANNONCE_AFFICHE_LU_ERREUR_VALEUR' in /var/www/vhost/aicom/localerte.fr/administration/preference.php on line 208
+[22-avr-2009 14:44:44] PHP Parse error:  syntax error, unexpected T_PRINT in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1882
+[22-avr-2009 14:44:47] PHP Parse error:  syntax error, unexpected T_PRINT in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1882
+[22-avr-2009 14:58:33] PHP Warning:  <pre>
+					replace `pPhDxKEPP9UVNQ8GAKUtOKedZxXMGfhI`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:33] PHP Warning:  <pre>
+					replace `7x1aNSsuUl2GYCJBs3Ygh3Ttl9eZZ2hh`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						and loyer is null
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:35] PHP Warning:  <pre>
+					replace `2yEIU6pJq2qPCAj6TwMWP8nTZRNefkoH`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:35] PHP Warning:  <pre>
+					replace `P8wwlPHsxMRsdsa3SNlWETZfyXKE9iWR`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						and statut is null
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:37] PHP Warning:  <pre>
+					replace `ZHmgLhk5nwguqkSO2egjNRrP6ugTVI7E`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:37] PHP Warning:  <pre>
+					replace `cTy7KC6XPyxmfH1baHmEnuHo9il81KlW`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%k')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-22 00:00:00'
+						and enregistrement<'2009-04-23 00:00:00'
+						
+							and identifiant not in (select annonce from annonce_telephone)
+							and identifiant not in (select annonce from annonce_email)
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:46] PHP Warning:  <pre>
+					replace `xh70zZg9wVBXc84B4KVF3LWAmAGat8ev`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%e')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-01 00:00:00'
+						and enregistrement<'2009-05-01 00:00:00'
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 14:58:46] PHP Warning:  <pre>
+					replace `3yVXHpBek7DwN2Pg81jn9eKXwn7p0PUD`
+					(
+						nombre,
+						periode
+					)
+					select
+						count(distinct identifiant) as nombre,
+						(((date_format(enregistrement,'%e')))) as periode
+					from liste
+					where provenance='5'
+						and enregistrement>='2009-04-01 00:00:00'
+						and enregistrement<'2009-05-01 00:00:00'
+						
+							and identifiant not in (select annonce from annonce_telephone)
+							and identifiant not in (select annonce from annonce_email)
+						
+					group by periode;
+				</pre> ----- Unknown column 'enregistrement' in 'field list' ---- /administration/statistiques_croisees.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[22-avr-2009 17:25:25] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:25] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:25] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:25] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:28] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:28] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:28] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:28] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:29] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:29] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:29] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:29] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:32] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:32] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:32] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:25:32] PHP Notice:  Undefined variable: occurrence in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1618
+[22-avr-2009 17:57:54] PHP Parse error:  syntax error, unexpected $end in /var/www/vhost/aicom/localerte.fr/inclusion/annonce.php on line 1849

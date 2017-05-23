@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="autre_seorang_meuble">
+  <initialisation>
+    <url>http://meubles-seorang.eu/index.php?o=:parametre1::parametre2:</url>
+    <parametres>
+      <parametre>
+        <valeur>0</valeur>
+        <valeur>1</valeur>
+        <valeur>2</valeur>
+        <valeur>3</valeur>
+        <valeur>4</valeur>
+        <valeur>5</valeur>
+        <valeur>6</valeur>
+        <valeur>7</valeur>
+        <valeur>8</valeur>
+        <valeur>9</valeur>
+      </parametre>
+      <parametre>
+        <valeur>000</valeur>
+        <valeur>100</valeur>
+        <valeur>200</valeur>
+        <valeur>300</valeur>
+        <valeur>400</valeur>
+        <valeur>500</valeur>
+        <valeur>600</valeur>
+        <valeur>700</valeur>
+        <valeur>800</valeur>
+        <valeur>900</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+     <profondeur>100</profondeur>
+     <pause>0</pause>
+     <timeout>60</timeout>
+     <thread>5</thread>
+     <utf8>0</utf8>
+    <rang>
+      <a_suivre>
+         <expression>&lt;a href=&quot;(index.php\?mode=domain&amp;domain=[^&quot;]+)&quot;</expression>
+         <remplacement>http://meubles-seorang.eu/$1</remplacement>
+         <limite>100</limite>
+         <suivant>1</suivant>
+       </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+         <expression>(.+)</expression>
+         <remplacement>$1</remplacement>
+         <option>s</option>
+         <limite>1</limite>
+
+       </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+     <destination>autre_seorang_meuble.csv</destination>
+     <echappement>\</echappement>
+     <separateur>;</separateur>
+     <encapsulateur>"</encapsulateur>
+     <ligne>CRLF</ligne>
+     <enlever_balise>1</enlever_balise>
+     <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+
+	   <option>s</option>
+     </parent>
+    <enfant>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <limite>1</limite>
+	   <option>s</option>
+     </enfant>
+    <colonnes>
+      <colonne mode="expression" nom="motcle">
+        <expression>1&lt;\/td&gt;&lt;td&gt;&lt;a href=&quot;index.php\?mode=key&amp;key=[^&quot;]+&quot;&gt;([^&lt;]+)&lt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>        <limite>100</limite>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

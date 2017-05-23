@@ -1,0 +1,34 @@
+Bonjour,
+
+Vous vous êtes inscrits sur LOCALERTE .fr mais vous semblez ne plus consulter les alertes que nous vous envoyons.
+
+De manière à ne pas encombrer votre boite email inutilement, merci de CONFIRMER VOTRE ABONNEMENT en suivant le lien suivant,
+
+%POURSUITE%
+
+Sans nouvelles de votre part, votre inscription sera prochainement suspendue automatiquement.
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

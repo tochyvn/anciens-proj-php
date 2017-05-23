@@ -1,0 +1,20 @@
+<FilesMatch "^(bd_distant|bd_distant_inv|bd_local|bd_local_inv|bd_local_ftp|adherent_action|adherent_distant)\.php$">
+	Require user aicom
+</FilesMatch>
+
+<Files "cheznous.php">
+	Require user aicom aicom_cn
+</Files>
+
+<Files "exclusion.csv">
+	AddType application/x-httpd-php .csv
+	Require user aicom aicom_lam
+</Files>
+
+<Files "spool_rappel_cron.php">
+	Require user aicom
+</Files>
+<Files "spool_matin_cron.php">
+	Require user aicom
+</Files>
+

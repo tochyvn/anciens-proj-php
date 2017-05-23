@@ -1,0 +1,1 @@
+RedirectMatch ^(.*\/)$ $1index.php

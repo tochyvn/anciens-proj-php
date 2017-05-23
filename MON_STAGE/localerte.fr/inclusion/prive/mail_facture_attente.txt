@@ -1,0 +1,16 @@
+Madame, Monsieur,
+
+Veuillez trouver ci-après le lien vers la facture correspondant à votre abonnement ou à vos codes sur %HTTP_HOST%:
+%FACTURE%
+
+Vous pouvez régler le montant de la facture par chèque à l'ordre de SARL AICOM. Le chèque devra nous être envoyé à l'adresse:
+AICOM - %HTTP_HOST%
+117, rue de la République
+83210 La Farlède
+
+N'oubliez pas d'indiquer derrière le chèque la référence: %ADHERENT%_%REFERENCE% .
+
+Vous remerciant de l'intérêt que vous portez à %HTTP_HOST% .
+
+Cordialement,
+L'équipe %HTTP_HOST%

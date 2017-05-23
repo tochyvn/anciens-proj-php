@@ -1,0 +1,572 @@
+2015-04-14 13:00:56 : erreur couldn't connect to host : 7
+2015-04-14 13:02:02 : erreur couldn't connect to host : 7
+2015-04-14 13:02:12 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:02:12 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:02:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:02:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:02:16 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:02:36 : erreur couldn't connect to host : 7
+2015-04-14 13:02:36 : erreur couldn't connect to host : 7
+2015-04-14 13:02:36 : erreur couldn't connect to host : 7
+2015-04-14 13:02:37 : erreur couldn't connect to host : 7
+2015-04-14 13:02:56 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:08 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:08 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:09 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:25 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:45 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:46 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:52 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:04:55 : erreur couldn't connect to host : 7
+2015-04-14 13:04:56 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:05:13 : erreur couldn't connect to host : 7
+2015-04-14 13:05:16 : erreur couldn't connect to host : 7
+2015-04-14 13:06:08 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:06:08 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:06:14 : erreur couldn't connect to host : 7
+2015-04-14 13:06:18 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:06:32 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:06:53 : erreur couldn't connect to host : 7
+2015-04-14 13:06:58 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:07:14 : erreur couldn't connect to host : 7
+2015-04-14 13:07:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:07:35 : erreur couldn't connect to host : 7
+2015-04-14 13:07:43 : erreur couldn't connect to host : 7
+2015-04-14 13:07:56 : erreur couldn't connect to host : 7
+2015-04-14 13:08:13 : erreur couldn't connect to host : 7
+2015-04-14 13:08:13 : erreur couldn't connect to host : 7
+2015-04-14 13:08:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:08:15 : erreur couldn't connect to host : 7
+2015-04-14 13:08:15 : erreur couldn't connect to host : 7
+2015-04-14 13:08:16 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:08:34 : erreur couldn't connect to host : 7
+2015-04-14 13:08:36 : erreur couldn't connect to host : 7
+2015-04-14 13:08:36 : erreur couldn't connect to host : 7
+2015-04-14 13:08:36 : erreur couldn't connect to host : 7
+2015-04-14 13:08:36 : erreur couldn't connect to host : 7
+2015-04-14 13:08:55 : erreur couldn't connect to host : 7
+2015-04-14 13:08:56 : erreur couldn't connect to host : 7
+2015-04-14 13:08:56 : erreur couldn't connect to host : 7
+2015-04-14 13:10:09 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:10:14 : erreur couldn't connect to host : 7
+2015-04-14 13:10:34 : erreur couldn't connect to host : 7
+2015-04-14 13:10:35 : erreur couldn't connect to host : 7
+2015-04-14 13:10:40 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:10:45 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:11:02 : erreur couldn't connect to host : 7
+2015-04-14 13:11:03 : erreur couldn't connect to host : 7
+2015-04-14 13:11:22 : erreur couldn't connect to host : 7
+2015-04-14 13:11:23 : erreur couldn't connect to host : 7
+2015-04-14 13:11:23 : erreur couldn't connect to host : 7
+2015-04-14 13:11:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:11:30 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:11:43 : erreur couldn't connect to host : 7
+2015-04-14 13:11:44 : erreur couldn't connect to host : 7
+2015-04-14 13:11:44 : erreur couldn't connect to host : 7
+2015-04-14 13:11:45 : erreur couldn't connect to host : 7
+2015-04-14 13:11:54 : erreur couldn't connect to host : 7
+2015-04-14 13:12:15 : erreur couldn't connect to host : 7
+2015-04-14 13:12:15 : erreur couldn't connect to host : 7
+2015-04-14 13:12:17 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:12:36 : erreur couldn't connect to host : 7
+2015-04-14 13:12:36 : erreur couldn't connect to host : 7
+2015-04-14 13:12:45 : erreur couldn't connect to host : 7
+2015-04-14 13:13:14 : erreur couldn't connect to host : 7
+2015-04-14 13:13:15 : erreur couldn't connect to host : 7
+2015-04-14 13:13:37 : erreur couldn't connect to host : 7
+2015-04-14 13:13:37 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:13:40 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:13:48 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:14:03 : erreur couldn't connect to host : 7
+2015-04-14 13:14:03 : erreur couldn't connect to host : 7
+2015-04-14 13:14:03 : erreur couldn't connect to host : 7
+2015-04-14 13:14:04 : erreur couldn't connect to host : 7
+2015-04-14 13:14:13 : erreur couldn't connect to host : 7
+2015-04-14 13:14:13 : erreur couldn't connect to host : 7
+2015-04-14 13:14:14 : erreur couldn't connect to host : 7
+2015-04-14 13:14:26 : erreur couldn't connect to host : 7
+2015-04-14 13:14:36 : erreur couldn't connect to host : 7
+2015-04-14 13:14:36 : erreur couldn't connect to host : 7
+2015-04-14 13:14:37 : erreur couldn't connect to host : 7
+2015-04-14 13:14:55 : erreur couldn't connect to host : 7
+2015-04-14 13:15:02 : erreur couldn't connect to host : 7
+2015-04-14 13:15:02 : erreur couldn't connect to host : 7
+2015-04-14 13:15:17 : erreur couldn't connect to host : 7
+2015-04-14 13:15:25 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:15:36 : erreur couldn't connect to host : 7
+2015-04-14 13:15:51 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:15:53 : erreur couldn't connect to host : 7
+2015-04-14 13:16:04 : erreur couldn't connect to host : 7
+2015-04-14 13:16:14 : erreur couldn't connect to host : 7
+2015-04-14 13:16:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:16:42 : erreur couldn't connect to host : 7
+2015-04-14 13:16:42 : erreur couldn't connect to host : 7
+2015-04-14 13:16:59 : erreur couldn't connect to host : 7
+2015-04-14 13:17:11 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:17:20 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:17:52 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:17:52 : erreur couldn't connect to host : 7
+2015-04-14 13:18:13 : erreur couldn't connect to host : 7
+2015-04-14 13:18:13 : erreur couldn't connect to host : 7
+2015-04-14 13:18:14 : erreur couldn't connect to host : 7
+2015-04-14 13:18:14 : erreur couldn't connect to host : 7
+2015-04-14 13:18:14 : erreur couldn't connect to host : 7
+2015-04-14 13:18:45 : erreur couldn't connect to host : 7
+2015-04-14 13:18:46 : erreur couldn't connect to host : 7
+2015-04-14 13:18:46 : erreur couldn't connect to host : 7
+2015-04-14 13:19:25 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:19:27 : erreur couldn't connect to host : 7
+2015-04-14 13:19:39 : erreur couldn't connect to host : 7
+2015-04-14 13:19:44 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:19:48 : erreur couldn't connect to host : 7
+2015-04-14 13:20:01 : erreur couldn't connect to host : 7
+2015-04-14 13:20:09 : erreur couldn't connect to host : 7
+2015-04-14 13:20:20 : erreur couldn't connect to host : 7
+2015-04-14 13:20:22 : erreur couldn't connect to host : 7
+2015-04-14 13:20:22 : erreur couldn't connect to host : 7
+2015-04-14 13:20:42 : erreur couldn't connect to host : 7
+2015-04-14 13:20:48 : erreur couldn't connect to host : 7
+2015-04-14 13:20:48 : erreur couldn't connect to host : 7
+2015-04-14 13:20:58 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:22:02 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:22:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:22:20 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:22:25 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:23:59 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:24:12 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:24:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:24:29 : erreur couldn't connect to host : 7
+2015-04-14 13:24:29 : erreur couldn't connect to host : 7
+2015-04-14 13:25:06 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:25:22 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:03 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:15 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:22 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:26 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:26 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:26:33 : erreur couldn't connect to host : 7
+2015-04-14 13:26:54 : erreur couldn't connect to host : 7
+2015-04-14 13:28:26 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:28:26 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:28:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:28:43 : erreur couldn't connect to host : 7
+2015-04-14 13:28:47 : erreur couldn't connect to host : 7
+2015-04-14 13:29:22 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:29:49 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:30:08 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:30:28 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:30:30 : erreur couldn't connect to host : 7
+2015-04-14 13:30:31 : erreur couldn't connect to host : 7
+2015-04-14 13:30:31 : erreur couldn't connect to host : 7
+2015-04-14 13:30:36 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:30:56 : erreur couldn't connect to host : 7
+2015-04-14 13:31:06 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:31:31 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:31:31 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:32:11 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:32:29 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:32:30 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:33:17 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:33:18 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:33:31 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:33:44 : erreur couldn't connect to host : 7
+2015-04-14 13:34:07 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:34:22 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:34:34 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:35:23 : erreur couldn't connect to host : 7
+2015-04-14 13:35:26 : erreur couldn't connect to host : 7
+2015-04-14 13:35:26 : erreur couldn't connect to host : 7
+2015-04-14 13:36:07 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:36:11 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:36:48 : erreur couldn't connect to host : 7
+2015-04-14 13:36:59 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:37:03 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:37:09 : erreur couldn't connect to host : 7
+2015-04-14 13:37:20 : erreur couldn't connect to host : 7
+2015-04-14 13:37:21 : erreur couldn't connect to host : 7
+2015-04-14 13:37:22 : erreur couldn't connect to host : 7
+2015-04-14 13:37:30 : erreur couldn't connect to host : 7
+2015-04-14 13:37:30 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:37:38 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:38:24 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:38:36 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:38:39 : erreur couldn't connect to host : 7
+2015-04-14 13:38:41 : erreur couldn't connect to host : 7
+2015-04-14 13:38:58 : erreur couldn't connect to host : 7
+2015-04-14 13:39:00 : erreur couldn't connect to host : 7
+2015-04-14 13:39:32 : erreur couldn't connect to host : 7
+2015-04-14 13:39:44 : erreur couldn't connect to host : 7
+2015-04-14 13:39:52 : erreur couldn't connect to host : 7
+2015-04-14 13:39:53 : erreur couldn't connect to host : 7
+2015-04-14 13:40:19 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:40:33 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:41:03 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:41:05 : erreur couldn't connect to host : 7
+2015-04-14 13:41:06 : erreur couldn't connect to host : 7
+2015-04-14 13:41:24 : erreur couldn't connect to host : 7
+2015-04-14 13:41:24 : erreur couldn't connect to host : 7
+2015-04-14 13:41:25 : erreur couldn't connect to host : 7
+2015-04-14 13:41:26 : erreur couldn't connect to host : 7
+2015-04-14 13:41:27 : erreur couldn't connect to host : 7
+2015-04-14 13:41:45 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:42:42 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:43:04 : erreur couldn't connect to host : 7
+2015-04-14 13:43:25 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:43:25 : erreur couldn't connect to host : 7
+2015-04-14 13:43:44 : erreur couldn't connect to host : 7
+2015-04-14 13:43:45 : erreur couldn't connect to host : 7
+2015-04-14 13:43:45 : erreur couldn't connect to host : 7
+2015-04-14 13:44:19 : erreur couldn't connect to host : 7
+2015-04-14 13:44:19 : erreur couldn't connect to host : 7
+2015-04-14 13:45:12 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:47:06 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:47:06 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:47:06 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:49:19 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:49:37 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:49:44 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:49:45 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:49:58 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:50:14 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:50:48 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-14 13:51:56 : erreur Operation timed out after 120000 milliseconds with 0 bytes received : 28
+2015-04-15 06:13:46 : erreur couldn't connect to host : 7
+2015-04-15 06:13:54 : erreur couldn't connect to host : 7
+2015-04-15 06:13:55 : erreur couldn't connect to host : 7
+2015-04-15 06:14:01 : erreur couldn't connect to host : 7
+2015-04-15 06:14:02 : erreur couldn't connect to host : 7
+2015-04-15 06:14:24 : erreur couldn't connect to host : 7
+2015-04-15 06:14:24 : erreur couldn't connect to host : 7
+2015-04-15 06:14:26 : erreur couldn't connect to host : 7
+2015-04-15 06:14:26 : erreur couldn't connect to host : 7
+2015-04-15 06:14:31 : erreur couldn't connect to host : 7
+2015-04-15 06:14:47 : erreur couldn't connect to host : 7
+2015-04-15 06:14:54 : erreur couldn't connect to host : 7
+2015-04-15 06:14:54 : erreur couldn't connect to host : 7
+2015-04-15 06:14:55 : erreur couldn't connect to host : 7
+2015-04-15 06:14:57 : erreur couldn't connect to host : 7
+2015-04-15 07:50:03 : erreur Failure when receiving data from the peer : 56
+2015-04-15 07:50:03 : erreur Failure when receiving data from the peer : 56
+2015-04-15 07:50:03 : erreur Failure when receiving data from the peer : 56
+2015-04-15 07:50:03 : erreur Failure when receiving data from the peer : 56
+2015-04-15 07:51:55 : erreur couldn't connect to host : 7
+2015-04-15 07:51:55 : erreur couldn't connect to host : 7
+2015-04-15 07:51:55 : erreur couldn't connect to host : 7
+2015-04-15 07:51:56 : erreur couldn't connect to host : 7
+2015-04-15 07:51:56 : erreur couldn't connect to host : 7
+2015-04-15 07:52:16 : erreur couldn't connect to host : 7
+2015-04-15 07:52:16 : erreur couldn't connect to host : 7
+2015-04-15 07:52:16 : erreur couldn't connect to host : 7
+2015-04-15 07:52:17 : erreur couldn't connect to host : 7
+2015-04-15 07:52:17 : erreur couldn't connect to host : 7
+2015-04-15 07:52:37 : erreur couldn't connect to host : 7
+2015-04-15 07:52:38 : erreur couldn't connect to host : 7
+2015-04-15 07:52:38 : erreur couldn't connect to host : 7
+2015-04-15 07:52:38 : erreur couldn't connect to host : 7
+2015-04-15 07:52:38 : erreur couldn't connect to host : 7
+2015-04-15 07:52:58 : erreur couldn't connect to host : 7
+2015-04-15 07:52:59 : erreur couldn't connect to host : 7
+2015-04-15 07:52:59 : erreur couldn't connect to host : 7
+2015-04-15 07:52:59 : erreur couldn't connect to host : 7
+2015-04-15 07:52:59 : erreur couldn't connect to host : 7
+2015-04-15 07:53:20 : erreur couldn't connect to host : 7
+2015-04-15 07:53:20 : erreur couldn't connect to host : 7
+2015-04-15 07:53:20 : erreur couldn't connect to host : 7
+2015-04-15 07:53:20 : erreur couldn't connect to host : 7
+2015-04-15 07:53:20 : erreur couldn't connect to host : 7
+2015-04-15 07:53:41 : erreur couldn't connect to host : 7
+2015-04-15 07:53:41 : erreur couldn't connect to host : 7
+2015-04-15 07:53:41 : erreur couldn't connect to host : 7
+2015-04-15 07:53:41 : erreur couldn't connect to host : 7
+2015-04-15 07:53:42 : erreur couldn't connect to host : 7
+2015-04-15 07:54:02 : erreur couldn't connect to host : 7
+2015-04-15 07:54:03 : erreur couldn't connect to host : 7
+2015-04-15 07:54:03 : erreur couldn't connect to host : 7
+2015-04-15 07:54:03 : erreur couldn't connect to host : 7
+2015-04-15 07:54:03 : erreur couldn't connect to host : 7
+2015-04-15 07:54:23 : erreur couldn't connect to host : 7
+2015-04-15 07:54:24 : erreur couldn't connect to host : 7
+2015-04-15 07:54:24 : erreur couldn't connect to host : 7
+2015-04-15 07:54:24 : erreur couldn't connect to host : 7
+2015-04-15 07:54:24 : erreur couldn't connect to host : 7
+2015-04-15 07:54:44 : erreur couldn't connect to host : 7
+2015-04-15 07:54:45 : erreur couldn't connect to host : 7
+2015-04-15 07:54:45 : erreur couldn't connect to host : 7
+2015-04-15 07:54:45 : erreur couldn't connect to host : 7
+2015-04-15 07:54:45 : erreur couldn't connect to host : 7
+2015-04-15 07:55:05 : erreur couldn't connect to host : 7
+2015-04-15 07:55:06 : erreur couldn't connect to host : 7
+2015-04-15 07:55:06 : erreur couldn't connect to host : 7
+2015-04-15 07:55:07 : erreur couldn't connect to host : 7
+2015-04-15 07:55:07 : erreur couldn't connect to host : 7
+2015-04-15 07:55:26 : erreur couldn't connect to host : 7
+2015-04-15 07:55:27 : erreur couldn't connect to host : 7
+2015-04-15 07:55:28 : erreur couldn't connect to host : 7
+2015-04-15 07:55:28 : erreur couldn't connect to host : 7
+2015-04-15 07:55:28 : erreur couldn't connect to host : 7
+2015-04-15 07:55:48 : erreur couldn't connect to host : 7
+2015-04-15 07:55:48 : erreur couldn't connect to host : 7
+2015-04-15 07:55:49 : erreur couldn't connect to host : 7
+2015-04-15 07:55:49 : erreur couldn't connect to host : 7
+2015-04-15 07:55:49 : erreur couldn't connect to host : 7
+2015-04-15 07:56:09 : erreur couldn't connect to host : 7
+2015-04-15 07:56:09 : erreur couldn't connect to host : 7
+2015-04-15 07:56:10 : erreur couldn't connect to host : 7
+2015-04-15 07:56:10 : erreur couldn't connect to host : 7
+2015-04-15 07:56:10 : erreur couldn't connect to host : 7
+2015-04-15 07:56:30 : erreur couldn't connect to host : 7
+2015-04-15 07:56:30 : erreur couldn't connect to host : 7
+2015-04-15 07:56:32 : erreur couldn't connect to host : 7
+2015-04-15 07:56:32 : erreur couldn't connect to host : 7
+2015-04-15 07:56:32 : erreur couldn't connect to host : 7
+2015-04-15 07:58:10 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 07:58:11 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 07:58:12 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 07:58:12 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 07:58:12 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 07:58:31 : erreur couldn't connect to host : 7
+2015-04-15 07:58:32 : erreur couldn't connect to host : 7
+2015-04-15 07:58:33 : erreur couldn't connect to host : 7
+2015-04-15 07:58:33 : erreur couldn't connect to host : 7
+2015-04-15 07:58:33 : erreur couldn't connect to host : 7
+2015-04-15 07:58:52 : erreur couldn't connect to host : 7
+2015-04-15 07:58:53 : erreur couldn't connect to host : 7
+2015-04-15 07:58:54 : erreur couldn't connect to host : 7
+2015-04-15 07:58:54 : erreur couldn't connect to host : 7
+2015-04-15 07:58:54 : erreur couldn't connect to host : 7
+2015-04-15 07:59:13 : erreur couldn't connect to host : 7
+2015-04-15 07:59:14 : erreur couldn't connect to host : 7
+2015-04-15 07:59:15 : erreur couldn't connect to host : 7
+2015-04-15 07:59:16 : erreur couldn't connect to host : 7
+2015-04-15 07:59:16 : erreur couldn't connect to host : 7
+2015-04-15 07:59:34 : erreur couldn't connect to host : 7
+2015-04-15 07:59:35 : erreur couldn't connect to host : 7
+2015-04-15 07:59:37 : erreur couldn't connect to host : 7
+2015-04-15 07:59:37 : erreur couldn't connect to host : 7
+2015-04-15 07:59:37 : erreur couldn't connect to host : 7
+2015-04-15 07:59:55 : erreur couldn't connect to host : 7
+2015-04-15 07:59:56 : erreur couldn't connect to host : 7
+2015-04-15 07:59:58 : erreur couldn't connect to host : 7
+2015-04-15 07:59:58 : erreur couldn't connect to host : 7
+2015-04-15 07:59:58 : erreur couldn't connect to host : 7
+2015-04-15 08:00:17 : erreur couldn't connect to host : 7
+2015-04-15 08:00:17 : erreur couldn't connect to host : 7
+2015-04-15 08:00:19 : erreur couldn't connect to host : 7
+2015-04-15 08:00:19 : erreur couldn't connect to host : 7
+2015-04-15 08:00:19 : erreur couldn't connect to host : 7
+2015-04-15 08:00:38 : erreur couldn't connect to host : 7
+2015-04-15 08:00:38 : erreur couldn't connect to host : 7
+2015-04-15 08:00:40 : erreur couldn't connect to host : 7
+2015-04-15 08:00:40 : erreur couldn't connect to host : 7
+2015-04-15 08:00:40 : erreur couldn't connect to host : 7
+2015-04-15 08:00:59 : erreur couldn't connect to host : 7
+2015-04-15 08:00:59 : erreur couldn't connect to host : 7
+2015-04-15 08:01:01 : erreur couldn't connect to host : 7
+2015-04-15 08:01:02 : erreur couldn't connect to host : 7
+2015-04-15 08:01:02 : erreur couldn't connect to host : 7
+2015-04-15 08:01:20 : erreur couldn't connect to host : 7
+2015-04-15 08:01:20 : erreur couldn't connect to host : 7
+2015-04-15 08:01:23 : erreur couldn't connect to host : 7
+2015-04-15 08:01:23 : erreur couldn't connect to host : 7
+2015-04-15 08:01:23 : erreur couldn't connect to host : 7
+2015-04-15 08:01:41 : erreur couldn't connect to host : 7
+2015-04-15 08:01:41 : erreur couldn't connect to host : 7
+2015-04-15 08:01:44 : erreur couldn't connect to host : 7
+2015-04-15 08:01:44 : erreur couldn't connect to host : 7
+2015-04-15 08:01:44 : erreur couldn't connect to host : 7
+2015-04-15 08:02:02 : erreur couldn't connect to host : 7
+2015-04-15 08:02:03 : erreur couldn't connect to host : 7
+2015-04-15 08:02:05 : erreur couldn't connect to host : 7
+2015-04-15 08:02:05 : erreur couldn't connect to host : 7
+2015-04-15 08:02:05 : erreur couldn't connect to host : 7
+2015-04-15 08:02:23 : erreur couldn't connect to host : 7
+2015-04-15 08:02:24 : erreur couldn't connect to host : 7
+2015-04-15 08:02:26 : erreur couldn't connect to host : 7
+2015-04-15 08:02:26 : erreur couldn't connect to host : 7
+2015-04-15 08:02:26 : erreur couldn't connect to host : 7
+2015-04-15 08:02:44 : erreur couldn't connect to host : 7
+2015-04-15 08:02:45 : erreur couldn't connect to host : 7
+2015-04-15 08:02:47 : erreur couldn't connect to host : 7
+2015-04-15 08:02:47 : erreur couldn't connect to host : 7
+2015-04-15 08:02:48 : erreur couldn't connect to host : 7
+2015-04-15 08:03:05 : erreur couldn't connect to host : 7
+2015-04-15 08:03:06 : erreur couldn't connect to host : 7
+2015-04-15 08:03:08 : erreur couldn't connect to host : 7
+2015-04-15 08:03:09 : erreur couldn't connect to host : 7
+2015-04-15 08:03:09 : erreur couldn't connect to host : 7
+2015-04-15 08:03:27 : erreur couldn't connect to host : 7
+2015-04-15 08:03:27 : erreur couldn't connect to host : 7
+2015-04-15 08:03:29 : erreur couldn't connect to host : 7
+2015-04-15 08:03:30 : erreur couldn't connect to host : 7
+2015-04-15 08:03:30 : erreur couldn't connect to host : 7
+2015-04-15 08:03:48 : erreur couldn't connect to host : 7
+2015-04-15 08:03:48 : erreur couldn't connect to host : 7
+2015-04-15 08:03:51 : erreur couldn't connect to host : 7
+2015-04-15 08:03:51 : erreur couldn't connect to host : 7
+2015-04-15 08:03:51 : erreur couldn't connect to host : 7
+2015-04-15 08:04:09 : erreur couldn't connect to host : 7
+2015-04-15 08:04:09 : erreur couldn't connect to host : 7
+2015-04-15 08:04:12 : erreur couldn't connect to host : 7
+2015-04-15 08:04:12 : erreur couldn't connect to host : 7
+2015-04-15 08:04:12 : erreur couldn't connect to host : 7
+2015-04-15 08:04:30 : erreur couldn't connect to host : 7
+2015-04-15 08:04:30 : erreur couldn't connect to host : 7
+2015-04-15 08:04:33 : erreur couldn't connect to host : 7
+2015-04-15 08:04:33 : erreur couldn't connect to host : 7
+2015-04-15 08:04:33 : erreur couldn't connect to host : 7
+2015-04-15 08:04:51 : erreur couldn't connect to host : 7
+2015-04-15 08:04:52 : erreur couldn't connect to host : 7
+2015-04-15 08:04:54 : erreur couldn't connect to host : 7
+2015-04-15 08:04:54 : erreur couldn't connect to host : 7
+2015-04-15 08:04:54 : erreur couldn't connect to host : 7
+2015-04-15 08:05:12 : erreur couldn't connect to host : 7
+2015-04-15 08:05:13 : erreur couldn't connect to host : 7
+2015-04-15 08:05:15 : erreur couldn't connect to host : 7
+2015-04-15 08:05:15 : erreur couldn't connect to host : 7
+2015-04-15 08:05:15 : erreur couldn't connect to host : 7
+2015-04-15 08:05:33 : erreur couldn't connect to host : 7
+2015-04-15 08:05:34 : erreur couldn't connect to host : 7
+2015-04-15 08:05:36 : erreur couldn't connect to host : 7
+2015-04-15 08:05:36 : erreur couldn't connect to host : 7
+2015-04-15 08:05:36 : erreur couldn't connect to host : 7
+2015-04-15 08:05:54 : erreur couldn't connect to host : 7
+2015-04-15 08:05:55 : erreur couldn't connect to host : 7
+2015-04-15 08:05:57 : erreur couldn't connect to host : 7
+2015-04-15 08:05:57 : erreur couldn't connect to host : 7
+2015-04-15 08:05:58 : erreur couldn't connect to host : 7
+2015-04-15 08:06:16 : erreur couldn't connect to host : 7
+2015-04-15 08:06:16 : erreur couldn't connect to host : 7
+2015-04-15 08:06:18 : erreur couldn't connect to host : 7
+2015-04-15 08:06:18 : erreur couldn't connect to host : 7
+2015-04-15 08:06:19 : erreur couldn't connect to host : 7
+2015-04-15 08:06:37 : erreur couldn't connect to host : 7
+2015-04-15 08:06:37 : erreur couldn't connect to host : 7
+2015-04-15 08:06:39 : erreur couldn't connect to host : 7
+2015-04-15 08:06:39 : erreur couldn't connect to host : 7
+2015-04-15 08:06:40 : erreur couldn't connect to host : 7
+2015-04-15 08:08:17 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 08:08:20 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 08:08:20 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-15 08:08:20 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-17 11:18:30 : erreur couldn't connect to host : 7
+2015-04-17 11:18:36 : erreur couldn't connect to host : 7
+2015-04-17 11:18:43 : erreur couldn't connect to host : 7
+2015-04-17 11:18:45 : erreur couldn't connect to host : 7
+2015-04-17 11:18:47 : erreur couldn't connect to host : 7
+2015-04-17 11:18:53 : erreur couldn't connect to host : 7
+2015-04-17 11:19:11 : erreur couldn't connect to host : 7
+2015-04-17 11:19:15 : erreur couldn't connect to host : 7
+2015-04-17 11:19:15 : erreur couldn't connect to host : 7
+2015-04-17 11:19:15 : erreur couldn't connect to host : 7
+2015-04-17 11:19:16 : erreur couldn't connect to host : 7
+2015-04-17 11:19:32 : erreur couldn't connect to host : 7
+2015-04-17 11:19:36 : erreur couldn't connect to host : 7
+2015-04-17 11:19:38 : erreur couldn't connect to host : 7
+2015-04-17 11:19:41 : erreur couldn't connect to host : 7
+2015-04-17 11:19:42 : erreur couldn't connect to host : 7
+2015-04-17 11:24:44 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:24:48 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:24:51 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:25:07 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:25:28 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:25:44 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:25:52 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 11:25:53 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 12:00:35 : erreur Failure when receiving data from the peer : 56
+2015-04-17 12:00:35 : erreur Failure when receiving data from the peer : 56
+2015-04-17 12:00:35 : erreur Failure when receiving data from the peer : 56
+2015-04-17 12:00:35 : erreur Failure when receiving data from the peer : 56
+2015-04-17 12:00:35 : erreur Failure when receiving data from the peer : 56
+2015-04-17 12:01:36 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 12:01:36 : erreur Operation timed out after 60000 milliseconds with 0 bytes received : 28
+2015-04-17 12:04:11 : erreur couldn't connect to host : 7
+2015-04-17 12:04:14 : erreur couldn't connect to host : 7
+2015-04-17 12:31:23 : erreur Operation timed out after 100000 milliseconds with 0 bytes received : 28
+2015-04-17 13:02:04 : erreur Failure when receiving data from the peer : 56
+2015-04-17 13:43:28 : erreur couldn't connect to host : 7
+2015-04-17 13:43:28 : erreur couldn't connect to host : 7
+2015-04-17 13:43:28 : erreur couldn't connect to host : 7
+2015-04-17 13:43:29 : erreur couldn't connect to host : 7
+2015-04-17 13:43:29 : erreur couldn't connect to host : 7
+2015-04-17 13:43:49 : erreur couldn't connect to host : 7
+2015-04-17 13:43:49 : erreur couldn't connect to host : 7
+2015-04-17 13:43:49 : erreur couldn't connect to host : 7
+2015-04-17 13:43:50 : erreur couldn't connect to host : 7
+2015-04-17 13:43:50 : erreur couldn't connect to host : 7
+2015-04-17 13:44:10 : erreur couldn't connect to host : 7
+2015-04-17 13:44:10 : erreur couldn't connect to host : 7
+2015-04-17 13:44:11 : erreur couldn't connect to host : 7
+2015-04-17 13:44:11 : erreur couldn't connect to host : 7
+2015-04-17 13:44:11 : erreur couldn't connect to host : 7
+2015-04-17 13:44:31 : erreur couldn't connect to host : 7
+2015-04-17 13:44:31 : erreur couldn't connect to host : 7
+2015-04-17 13:44:32 : erreur couldn't connect to host : 7
+2015-04-17 13:44:32 : erreur couldn't connect to host : 7
+2015-04-17 13:44:32 : erreur couldn't connect to host : 7
+2015-04-17 13:44:52 : erreur couldn't connect to host : 7
+2015-04-17 13:44:52 : erreur couldn't connect to host : 7
+2015-04-17 13:44:53 : erreur couldn't connect to host : 7
+2015-04-17 13:44:53 : erreur couldn't connect to host : 7
+2015-04-17 13:44:54 : erreur couldn't connect to host : 7
+2015-04-17 13:45:13 : erreur couldn't connect to host : 7
+2015-04-17 13:45:13 : erreur couldn't connect to host : 7
+2015-04-17 13:45:14 : erreur couldn't connect to host : 7
+2015-04-17 13:45:14 : erreur couldn't connect to host : 7
+2015-04-17 13:45:15 : erreur couldn't connect to host : 7
+2015-04-17 13:45:39 : erreur couldn't connect to host : 7
+2015-04-17 13:45:39 : erreur couldn't connect to host : 7
+2015-04-17 13:45:39 : erreur couldn't connect to host : 7
+2015-04-17 13:45:40 : erreur couldn't connect to host : 7
+2015-04-17 13:45:41 : erreur couldn't connect to host : 7
+2015-04-17 13:46:00 : erreur couldn't connect to host : 7
+2015-04-17 13:46:00 : erreur couldn't connect to host : 7
+2015-04-17 13:46:00 : erreur couldn't connect to host : 7
+2015-04-17 13:46:01 : erreur couldn't connect to host : 7
+2015-04-17 13:46:02 : erreur couldn't connect to host : 7
+2015-04-17 13:46:21 : erreur couldn't connect to host : 7
+2015-04-17 13:46:21 : erreur couldn't connect to host : 7
+2015-04-17 13:46:21 : erreur couldn't connect to host : 7
+2015-04-17 13:46:22 : erreur couldn't connect to host : 7
+2015-04-17 13:46:23 : erreur couldn't connect to host : 7
+2015-04-17 18:58:29 : erreur couldn't connect to host : 7
+2015-04-17 18:58:31 : erreur couldn't connect to host : 7
+2015-04-17 18:58:31 : erreur couldn't connect to host : 7
+2015-04-17 18:58:32 : erreur couldn't connect to host : 7
+2015-04-17 18:58:32 : erreur couldn't connect to host : 7
+2015-04-17 18:58:50 : erreur couldn't connect to host : 7
+2015-04-17 18:58:52 : erreur couldn't connect to host : 7
+2015-04-17 18:58:52 : erreur couldn't connect to host : 7
+2015-04-17 18:58:54 : erreur couldn't connect to host : 7
+2015-04-17 18:58:54 : erreur couldn't connect to host : 7
+2015-04-17 18:59:11 : erreur couldn't connect to host : 7
+2015-04-17 18:59:13 : erreur couldn't connect to host : 7
+2015-04-17 18:59:13 : erreur couldn't connect to host : 7
+2015-04-17 18:59:15 : erreur couldn't connect to host : 7
+2015-04-17 18:59:15 : erreur couldn't connect to host : 7
+2015-04-17 18:59:32 : erreur couldn't connect to host : 7
+2015-04-17 18:59:34 : erreur couldn't connect to host : 7
+2015-04-17 18:59:34 : erreur couldn't connect to host : 7
+2015-04-17 18:59:36 : erreur couldn't connect to host : 7
+2015-04-17 18:59:36 : erreur couldn't connect to host : 7
+2015-04-17 18:59:53 : erreur couldn't connect to host : 7
+2015-04-17 18:59:55 : erreur couldn't connect to host : 7
+2015-04-17 18:59:55 : erreur couldn't connect to host : 7
+2015-04-17 18:59:57 : erreur couldn't connect to host : 7
+2015-04-17 18:59:57 : erreur couldn't connect to host : 7
+2015-04-17 19:00:15 : erreur couldn't connect to host : 7
+2015-04-17 19:00:16 : erreur couldn't connect to host : 7
+2015-04-17 19:00:16 : erreur couldn't connect to host : 7
+2015-04-17 19:00:18 : erreur couldn't connect to host : 7
+2015-04-17 19:00:18 : erreur couldn't connect to host : 7
+2015-04-17 19:00:36 : erreur couldn't connect to host : 7
+2015-04-17 19:00:37 : erreur couldn't connect to host : 7
+2015-04-17 19:00:37 : erreur couldn't connect to host : 7
+2015-04-17 19:00:39 : erreur couldn't connect to host : 7
+2015-04-17 19:00:39 : erreur couldn't connect to host : 7
+2015-04-17 19:00:57 : erreur couldn't connect to host : 7
+2015-04-17 19:00:58 : erreur couldn't connect to host : 7
+2015-04-17 19:00:58 : erreur couldn't connect to host : 7
+2015-04-17 19:01:00 : erreur couldn't connect to host : 7
+2015-04-17 19:01:00 : erreur couldn't connect to host : 7

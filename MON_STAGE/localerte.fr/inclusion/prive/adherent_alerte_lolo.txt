@@ -1,0 +1,13 @@
+Bonjour,
+
+Je vous informe de la mise à jour
+de nos listes de %TYPES% à %VILLE% et alentours.
+
+Vous pouvez dès maintenant consulter nos annonces:
+%CONSULTATION%
+
+Si la liste est vide, je vous invite à changer vos critères
+en cliquant sur "Modifier" dans la colonne de gauche.
+
+Cordialement,
+Laurent - Webmaster

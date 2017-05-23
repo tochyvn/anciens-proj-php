@@ -1,0 +1,28 @@
+Bonjour,
+
+Vous avez de nouvelles annonces correspondant à votre (vos) alerte(s) :
+
+Pour CONSULTER vos nouvelles annonces, merci de suivre le lien suivant,
+%CONSULTATION%
+
+------------------------------------------------------------------------
+
+Vous pouvez également :
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

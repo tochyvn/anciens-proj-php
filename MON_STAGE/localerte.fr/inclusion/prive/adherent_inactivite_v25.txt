@@ -1,0 +1,37 @@
+Bonjour,
+
+Vous vous êtes inscrits sur LOCALERTE .fr mais vous n'avez pas encore profité de notre site.
+
+Nous vous rappelons que LOCALERTE .fr cherche pour vous, des annonces de location immobilière à l'année sur le WEB et dans la PRESSE nationale et régionale !
+
+Pour vous permettre de tester GRATUITEMENT notre service, nous vous offrons un CODE D'ACCES valable 24 heures :
+
+%CODE%
+
+Pour l'utiliser, rendez-vous sur la page Tarifs de notre site et saisissez votre code d'accès :
+%CONSULTATION%
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

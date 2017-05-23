@@ -1,0 +1,11 @@
+Madame, Monsieur,
+
+Pour vous identifier à votre compte %HTTP_HOST%, veuillez suivre les étapes suivantes:
+1. Cliquer sur le lien: %HTTP_ADHERENT% 
+2. Dans la rubrique "Espace client", saisir:
+	- Dans le champ "Adresse email": %EMAIL%
+	- Dans le champ "Mot de passe": %PASSE%
+3. Cliquer sur le bouton "Ok"
+
+Cordialement,
+L'équipe %HTTP_HOST%

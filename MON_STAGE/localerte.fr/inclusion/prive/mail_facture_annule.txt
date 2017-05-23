@@ -1,0 +1,11 @@
+Madame, Monsieur,
+
+La facture %REFERENCE% a bien été notée comme annulée par nos services.
+
+Pour consulter le détail de cette facture, merci de suivre le lien:
+%FACTURE%
+
+Vous remerciant de l'intérêt que vous portez à %HTTP_HOST% .
+
+Cordialement,
+L'équipe %HTTP_HOST%

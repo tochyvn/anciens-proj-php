@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_wannonce">
+  <initialisation>
+    <url>http://www.wannonce.com/:parametre1:/?pa=fr&amp;z1=0&amp;z2=&amp;z3=2&amp;z5=1&amp;zok=1&amp;zbtn=1</url>
+    <parametres>
+      <parametre>
+        <valeur>appartements-62</valeur>
+        <valeur>bureaux-68</valeur>
+        <valeur>fermes-granges-162</valeur>
+        <valeur>garages-parkings-entrepots-70</valeur>
+        <valeur>locaux-commerciaux-69</valeur>
+        <valeur>maisons-63</valeur>
+        <valeur>salles-diverses-167</valeur>
+        <valeur>terrains-164</valeur>
+        <valeur>autres-172</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+     <profondeur>160</profondeur>
+     <pause>2000000</pause>
+     <timeout>60</timeout>
+     <thread>1</thread>
+    <rang>
+      <a_suivre>
+         <expression>&lt;a href=&quot;([^&quot;]+)&quot;&gt;&lt;img[^&gt;]+title=&quot;Page suivante&quot;</expression>
+         <remplacement>http://www.wannonce.com$1</remplacement>
+         <limite>1</limite>
+         <suivant>0</suivant>
+       </a_suivre>
+      <a_suivre>
+         <expression>&lt;a href=&quot;([^&quot;]+)&quot; class=&quot;lien_fiche&quot;&gt;</expression>
+         <remplacement>http://www.wannonce.com$1</remplacement>
+         <limite>30</limite>
+         <suivant>1</suivant>
+       </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+         <expression>(.+)</expression>
+         <remplacement>$1</remplacement>
+         <option>s</option>
+         <limite>1</limite>
+       </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+     <destination>localerte_wannonce.csv</destination>
+     <echappement>\</echappement>
+     <separateur>;</separateur>
+     <encapsulateur>"</encapsulateur>
+     <ligne>CRLF</ligne>
+     <enlever_balise>1</enlever_balise>
+     <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <option>s</option>
+     </parent>
+    <enfant>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <limite>1</limite>
+	   <option>s</option>
+     </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Site">
+        <valeur>Wannonce</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>&gt; le ([0-9]+ [^0-9]+ [0-9]+)[^0-9]+[0-9]+:[0-9]+[^&lt;]+&lt;\/div&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>i</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^([0-9][^0-9])</expression>
+            <remplacement>0$1</remplacement>
+          </filtre>
+          <filtre>
+            <expression>\/([0-9][^0-9])\/</expression>
+            <remplacement>/0$1/</remplacement>
+          </filtre>
+          <filtre>
+            <expression>\/([0-9]{2})$</expression>
+            <remplacement>/20$1</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) janv(ier|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/01/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) f..?v(rier|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/02/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) mars ([0-9]+)$</expression>
+            <remplacement>$1/03/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) avr(il|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/04/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) mai ([0-9]+)$</expression>
+            <remplacement>$1/05/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) jui(n|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/06/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) juil(let|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/07/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) ao..?t ([0-9]+)$</expression>
+            <remplacement>$1/08/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) sept(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/09/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) oct(obre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/10/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) nov(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/11/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) d..?c(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/12/$3</remplacement>
+            <option>i</option>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Réf">
+        <expression>-([0-9]+)\.htm</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;span itemprop=&quot;addressLocality&quot;&gt;([^&lt;]+)&lt;\/span&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="CP">
+        <expression>&lt;span itemprop=&quot;postalCode&quot;&gt;([0-9]{5})&lt;\/span&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>&gt;Location - Maisons&lt;\/a&gt;</expression>
+        <remplacement>MAISON</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;span itemprop=&quot;price&quot; content=&quot;([^&quot;]+)&quot;&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>,</expression>
+            <remplacement />
+          </filtre>
+          <filtre>
+            <expression>[^0-9\.]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Descriptif">
+        <expression>div class=&quot;annonce&quot; style=&quot;clear: left&quot;&gt;&lt;\!\-\- google_ad_section_start \-\-\&gt;(.+)&lt;a href=&quot;#interaction&quot; </expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>&lt;br \/&gt;</expression>
+            <remplacement> </remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;h1&gt;([^&gt;]+)&lt;\/h1&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Part/Pro">
+        <expression>&lt;b&gt;(Professionnel|Particulier)&lt;\/b&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur />
+      </colonne>
+      <!-- colonne mode="expression" nom="Photo">
+        <expression>&lt;img id=&quot;big_img&quot; src=&quot;([^&quot;]+)&quot;</expression>
+        <remplacement>http://www.wannonce.com$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne -->
+      <colonne mode="valeur" nom="Photo">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Email">
+        <valeur />
+      </colonne>
+      <colonne mode="valeur" nom="Tél">
+        <valeur />
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

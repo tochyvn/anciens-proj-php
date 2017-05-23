@@ -1,0 +1,11 @@
+Madame, Monsieur,
+
+vous venez de vous inscrire sur %HTTP_HOST%.
+Vous pouvez déjà consulter de nouvelles annonces de location en suivant le lien:
+%CONSULTATION%
+
+Pour modifier vos critères de recherche:
+%PARAMETRE%
+
+Pour vous désabonner:
+%DESABONNEMENT%

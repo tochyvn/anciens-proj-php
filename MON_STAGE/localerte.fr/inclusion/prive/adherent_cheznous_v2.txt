@@ -1,0 +1,22 @@
+Madame, Monsieur,
+vous recevez cet email suite à votre inscription sur le site cheznous.fr.
+Vous bénéficiez désormais du moteur de recherche d'annonces de %HTTP_HOST%.
+
+Pour être sûr de recevoir tous nos emails, ajoutez l'adresse email webmaster@LOCALERTE .fr à vos contacts ou dans votre liste d'expéditeurs autorisés.
+
+Pour consulter les dernières annonces:
+%CONSULTATION%
+
+Pour modifier vos critères de recherche:
+%PARAMETRE%
+
+Pour vous désabonner:
+%DESABONNEMENT%
+
+Localerte a développé un moteur de recherche spécifique à la location immobilière qui recense chaque jour un maximum d'annonces de location (presse régionale, nationale et internet).
+
+Avec Localerte, vous recevez quotidiennement les nouvelles annonces et ne risquez plus de manquer le bien que vous cherchez.
+
+Vous pouvez à tout moment modifier vos critères de recherche (type de bien, ville ciblée, rayon de recherche).
+
+Vous pouvez trier vos annonces par ville, loyer, type de bien et vous pouvez aussi bien choisir de consulter les annonces des particuliers que celles des professionnels.

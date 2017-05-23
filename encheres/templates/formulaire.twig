@@ -1,0 +1,5 @@
+{% extends "base.twig" %}
+{% block title %}page de connexion{% endblock %}
+{% block content %}
+{{ form|raw }}
+{% endblock %}

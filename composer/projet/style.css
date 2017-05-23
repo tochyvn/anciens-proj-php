@@ -1,0 +1,40 @@
+
+#container {
+    background: none repeat scroll 0 0 #FFFFD5;
+    border-radius: 100px 0 0 100px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    width: 850px;
+}
+#footer {
+    background: none repeat scroll 0 0 #FF6D00;
+    border-radius: 0 100px;
+    bottom: 0;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+#header {
+    background: none repeat scroll 0 0 #7A3DBA;
+    border-radius: 100px 0;
+    height: 100px;
+    width: 100%;
+}
+#menu {
+    background: none repeat scroll 0 0 #A5BA80;
+    border-radius: 178px;
+    left: 12px;
+    padding: 10px 20px;
+    position: fixed;
+    width: 150px;
+    z-index: 1;
+}
+#content {
+    margin-left: 100px;
+    padding: 30px;
+}
+#header > h2 {
+    padding: 16px;
+    text-align: center;
+}

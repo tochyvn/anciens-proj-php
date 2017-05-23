@@ -1,0 +1,35 @@
+Bonjour,
+
+Vous avez récemment visité LOCALERTE .fr et vous n'avez pas encore profité pleinement de notre service.
+
+Afin de vous aider, nous vous précisons qu'une fois votre recherche faite, vous devez COCHER les annonces qui vous intéressent depuis la liste de résultats, puis CLIQUER sur le bouton 'VOIR MA SÉLECTION'.
+
+Choisissez ensuite votre formule de consultation et visulisez librement le détail de toutes les annonces que nous avons trouvées pour vous, sur le WEB et sur la PRESSE nationale et régionale.
+
+Plus d'information sur la page:
+%AIDE%
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

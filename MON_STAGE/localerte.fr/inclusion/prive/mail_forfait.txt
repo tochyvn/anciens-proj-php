@@ -1,0 +1,14 @@
+Madame, Monsieur,
+
+Veuillez noter que vos codes sont:
+%CODE%
+
+Ces codes sont utilisables à votre gré pendant 1 an.
+
+Vous pouvez dès maintenant utiliser vos codes en suivant le lien:
+%CONSULTATION%
+
+Vous remerciant de l'intérêt que vous portez à %HTTP_HOST% .
+
+Cordialement,
+L'équipe %HTTP_HOST%

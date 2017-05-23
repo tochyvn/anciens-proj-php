@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_vivastreet-part">
+  <initialisation>
+    <url>http://search.vivastreet.com/:parametre1::parametre2:?lb=new&amp;search=1&amp;sort=posted&amp;order=d&amp;start_field=1&amp;searchGeoId=0&amp;individual_type=individual&amp;end_field=1&amp;offer_type=offer</url>
+    <parametres>
+      <parametre>
+        <valeur>annonces-location-appartement</valeur>
+        <valeur>annonces-location-appartement-meuble</valeur>
+      </parametre>
+      <parametre>
+        <valeur />
+        <valeur>/t+2</valeur>
+        <valeur>/t+3</valeur>
+        <valeur>/t+4</valeur>
+        <valeur>/t+5</valeur>
+        <valeur>/t+6</valeur>
+        <valeur>/t+7</valeur>
+        <valeur>/t+8</valeur>
+        <valeur>/t+9</valeur>
+        <valeur>/t+10</valeur>
+        <valeur>/t+11</valeur>
+        <valeur>/t+12</valeur>
+        <valeur>/t+13</valeur>
+        <valeur>/t+14</valeur>
+        <valeur>/t+15</valeur>
+        <valeur>/t+16</valeur>
+        <valeur>/t+17</valeur>
+        <valeur>/t+18</valeur>
+        <valeur>/t+19</valeur>
+        <valeur>/t+20</valeur>
+        <valeur>/t+21</valeur>
+        <valeur>/t+22</valeur>
+        <valeur>/t+23</valeur>
+        <valeur>/t+24</valeur>
+        <valeur>/t+25</valeur>
+        <valeur>/t+26</valeur>
+        <valeur>/t+27</valeur>
+        <valeur>/t+28</valeur>
+        <valeur>/t+29</valeur>
+        <valeur>/t+30</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+     <profondeur>20</profondeur>
+     <pause>0</pause>
+     <timeout>60</timeout>
+     <thread>5</thread>
+     <utf8>1</utf8>
+    <rang>
+      <a_suivre>
+         <expression>&lt;a id=&quot;vs-detail-link-[0-9]+&quot;[^&gt;]+href=&quot;([^&quot;]+)&quot;</expression>
+         <remplacement>$1</remplacement>
+         <limite>50</limite>
+         <suivant>1</suivant>
+       </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+         <expression>(.+)</expression>
+         <remplacement>$1</remplacement>
+         <option>s</option>
+         <limite>1</limite>
+       </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+     <destination>localerte_vivastreet-part.csv</destination>
+     <echappement>\</echappement>
+     <separateur>;</separateur>
+     <encapsulateur>"</encapsulateur>
+     <ligne>CRLF</ligne>
+     <enlever_balise>1</enlever_balise>
+     <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <option>s</option>
+     </parent>
+    <enfant>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <limite>1</limite>
+	   <option>s</option>
+     </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Site">
+        <valeur>VivaStreet</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>&quot;updated&quot;:&quot;([0-9]{4})-([0-9]{2})-([0-9]{2})</expression>
+        <remplacement>$3/$2/$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Id">
+        <expression>\/([0-9]+)$</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;br\/&gt;([^&lt;]+) - ([0-9]{5})&lt;\/div&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Code postal">
+        <expression>&lt;br\/&gt;([^&lt;]+) - ([0-9]{5})&lt;\/div&gt;</expression>
+        <remplacement>$2</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>(Type de bien&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;([^&lt;]+)&lt;\/dd&gt;[^&lt;]+&lt;div class=&quot;[^&quot;]+&quot;&gt;&lt;\/div&gt;[^&lt;]+&lt;dt class=&quot;[^&quot;]+&quot;&gt;[^&lt;]+&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;([^&lt;]+)&lt;)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+		<option>s</option>
+        <limite>1</limite>
+        <filtres>
+		  <filtre>
+            <expression>Type de bien&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;(Appartement)&lt;\/dd&gt;[^&lt;]+&lt;div class=&quot;[^&quot;]+&quot;&gt;&lt;\/div&gt;[^&lt;]+&lt;dt class=&quot;[^&quot;]+&quot;&gt;[^&lt;]+&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;([0-9]+)[^&lt;]+&lt;</expression>
+            <remplacement>T$2</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>Type de bien&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;(Appartement)&lt;\/dd&gt;[^&lt;]+&lt;div class=&quot;[^&quot;]+&quot;&gt;&lt;\/div&gt;[^&lt;]+&lt;dt class=&quot;[^&quot;]+&quot;&gt;[^&lt;]+&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;(Studio)&lt;</expression>
+            <remplacement>Studio</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>Type de bien&lt;\/dt&gt;[^&lt;]+&lt;dd class=&quot;[^&quot;]+&quot;&gt;([^&lt;]+)&lt;.+</expression>
+            <remplacement>$1</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>.*Maison.*</expression>
+            <remplacement>Maison</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>.*Garage.*</expression>
+            <remplacement>Garage</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>.*Parking.*</expression>
+            <remplacement>Parking</remplacement>
+			<option>is</option>
+          </filtre>
+		  <filtre>
+            <expression>.*Loft.*</expression>
+            <remplacement>Loft</remplacement>
+			<option>is</option>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;div class=&quot;kiwii-float-right kiwii-orange&quot;&gt;(([0-9]+ )?[0-9]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^([0-9]+) ([0-9]+)$</expression>
+            <remplacement>$1$2</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Description">
+        <expression>&gt;Description&lt;\/div&gt; ([^&lt;]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;([^&lt;]+)&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Part/Pro">
+  	    <valeur>PARTICULIER</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Meuble">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>src=&quot;([^&quot;]+)&quot; rel=&quot;0&quot;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Adresse email">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Tel">
+        <expression>&lt;span id=&quot;phone_number&quot;&gt;([^&lt;]+)&lt;\/span&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+         <filtres>
+          <filtre>
+            <expression>[^0-9]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+     </colonne>
+    </colonnes>
+  </capture>
+</spool>

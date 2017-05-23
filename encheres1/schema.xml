@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="encheres" defaultIdMethod="native" defaultPhpNamingMethod="underscore">
+  <table name="ACHAT" idMethod="native" phpName="Achat">
+    <column name="date_achat" phpName="DateAchat" type="VARCHAR" size="14" primaryKey="true" />
+    <column name="pseudo" phpName="Pseudo" type="VARCHAR" size="25" primaryKey="true" required="true"/>
+    <column name="id_pack" phpName="IdPack" type="INTEGER" primaryKey="true" required="true"/>
+    <foreign-key foreignTable="USER" name="ACHAT_fk_192d6e" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="PACKJETON" name="ACHAT_fk_401713" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="id_pack" foreign="id_pack"/>
+    </foreign-key>
+    <index name="ACHAT_fi_192d6e">
+      <index-column name="pseudo"/>
+    </index>
+    <index name="ACHAT_fi_401713">
+      <index-column name="id_pack"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="ARTICLE" idMethod="native" phpName="Article">
+    <column name="id_art" phpName="IdArt" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="nom_art" phpName="NomArt" type="VARCHAR" size="25" required="true"/>
+    <column name="prix" phpName="Prix" type="DECIMAL" required="true"/>
+    <column name="path" phpName="Path" type="VARCHAR" size="100" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="ENCHERE" idMethod="native" phpName="Enchere">
+    <column name="id_ench" phpName="IdEnch" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="date_debut" phpName="DateDebut" type="TIMESTAMP" required="true"/>
+    <column name="date_fin" phpName="DateFin" type="TIMESTAMP" required="true"/>
+    <column name="id_art" phpName="IdArt" type="INTEGER" required="true"/>
+    <foreign-key foreignTable="ARTICLE" name="ENCHERE_fk_1c25f7" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="id_art" foreign="id_art"/>
+    </foreign-key>
+    <index name="ENCHERE_fi_1c25f7">
+      <index-column name="id_art"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="MISE" idMethod="native" phpName="Mise">
+    <column name="prix" phpName="Prix" type="DECIMAL" primaryKey="true" required="true"/>
+    <column name="pseudo" phpName="Pseudo" type="VARCHAR" size="25" primaryKey="true" required="true"/>
+    <column name="id_ench" phpName="IdEnch" type="INTEGER" primaryKey="true" required="true"/>
+    <foreign-key foreignTable="USER" name="MISE_fk_192d6e" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="ENCHERE" name="MISE_fk_8a8e1d" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="id_ench" foreign="id_ench"/>
+    </foreign-key>
+    <index name="MISE_fi_192d6e">
+      <index-column name="pseudo"/>
+    </index>
+    <index name="MISE_fi_8a8e1d">
+      <index-column name="id_ench"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="PACKJETON" idMethod="native" phpName="Packjeton">
+    <column name="id_pack" phpName="IdPack" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="jetons" phpName="Jetons" type="INTEGER" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="USER" idMethod="native" phpName="User">
+    <column name="pseudo" phpName="Pseudo" type="VARCHAR" size="25" primaryKey="true" required="true"/>
+    <column name="passwd" phpName="Passwd" type="VARCHAR" size="25" required="true"/>
+    <column name="nom" phpName="Nom" type="VARCHAR" size="25" required="true"/>
+    <column name="prenom" phpName="Prenom" type="VARCHAR" size="25" required="true"/>
+    <column name="date_naiss" phpName="DateNaiss" type="DATE" required="true"/>
+    <column name="pays" phpName="Pays" type="VARCHAR" size="25" required="true"/>
+    <column name="adresse" phpName="Adresse" type="VARCHAR" size="100" required="true"/>
+    <column name="telephone" phpName="Telephone" type="CHAR" size="10" required="true"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50" required="true"/>
+    <column name="role" phpName="Role" type="INTEGER" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+</database>

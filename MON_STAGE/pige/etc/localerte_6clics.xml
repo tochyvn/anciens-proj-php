@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_6clics">
+  <initialisation>
+    <url>http://webmasters.clubannonces.com/rss/rss.asp?particulier=:parametre1:&amp;NumSite=250&amp;NumAffilie=6644&amp;count=200&amp;cp_annonce=:parametre2:000|:parametre2:999-:parametre2:&amp;num_categorie=:parametre3:</url>
+    <parametres>
+      <parametre>
+        <valeur>0</valeur>
+        <valeur>1</valeur>
+      </parametre>
+      <parametre>
+        <valeur>01</valeur>
+        <valeur>02</valeur>
+        <valeur>03</valeur>
+        <valeur>04</valeur>
+        <valeur>05</valeur>
+        <valeur>06</valeur>
+        <valeur>07</valeur>
+        <valeur>08</valeur>
+        <valeur>09</valeur>
+        <valeur>10</valeur>
+        <valeur>11</valeur>
+        <valeur>12</valeur>
+        <valeur>13</valeur>
+        <valeur>14</valeur>
+        <valeur>15</valeur>
+        <valeur>16</valeur>
+        <valeur>17</valeur>
+        <valeur>18</valeur>
+        <valeur>19</valeur>
+        <valeur>20</valeur>
+        <valeur>21</valeur>
+        <valeur>22</valeur>
+        <valeur>23</valeur>
+        <valeur>24</valeur>
+        <valeur>25</valeur>
+        <valeur>26</valeur>
+        <valeur>27</valeur>
+        <valeur>28</valeur>
+        <valeur>29</valeur>
+        <valeur>30</valeur>
+        <valeur>31</valeur>
+        <valeur>32</valeur>
+        <valeur>33</valeur>
+        <valeur>34</valeur>
+        <valeur>35</valeur>
+        <valeur>36</valeur>
+        <valeur>37</valeur>
+        <valeur>38</valeur>
+        <valeur>39</valeur>
+        <valeur>40</valeur>
+        <valeur>41</valeur>
+        <valeur>42</valeur>
+        <valeur>43</valeur>
+        <valeur>44</valeur>
+        <valeur>45</valeur>
+        <valeur>46</valeur>
+        <valeur>47</valeur>
+        <valeur>48</valeur>
+        <valeur>49</valeur>
+        <valeur>50</valeur>
+        <valeur>51</valeur>
+        <valeur>52</valeur>
+        <valeur>53</valeur>
+        <valeur>54</valeur>
+        <valeur>55</valeur>
+        <valeur>56</valeur>
+        <valeur>57</valeur>
+        <valeur>58</valeur>
+        <valeur>59</valeur>
+        <valeur>60</valeur>
+        <valeur>61</valeur>
+        <valeur>62</valeur>
+        <valeur>63</valeur>
+        <valeur>64</valeur>
+        <valeur>65</valeur>
+        <valeur>66</valeur>
+        <valeur>67</valeur>
+        <valeur>68</valeur>
+        <valeur>69</valeur>
+        <valeur>70</valeur>
+        <valeur>71</valeur>
+        <valeur>72</valeur>
+        <valeur>73</valeur>
+        <valeur>74</valeur>
+        <valeur>75</valeur>
+        <valeur>76</valeur>
+        <valeur>77</valeur>
+        <valeur>78</valeur>
+        <valeur>79</valeur>
+        <valeur>80</valeur>
+        <valeur>81</valeur>
+        <valeur>82</valeur>
+        <valeur>83</valeur>
+        <valeur>84</valeur>
+        <valeur>85</valeur>
+        <valeur>86</valeur>
+        <valeur>87</valeur>
+        <valeur>88</valeur>
+        <valeur>89</valeur>
+        <valeur>90</valeur>
+        <valeur>91</valeur>
+        <valeur>92</valeur>
+        <valeur>93</valeur>
+        <valeur>94</valeur>
+        <valeur>95</valeur>
+        <valeur>97</valeur>
+        <valeur>98</valeur>
+      </parametre>
+      <parametre>
+        <valeur>1412</valeur>
+        <valeur>1408</valeur>
+        <valeur>1411</valeur>
+        <valeur>1409</valeur>
+        <valeur>1410</valeur>
+        <valeur>1404</valeur>
+        <valeur>1413</valeur>
+        <valeur>1416</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+    <profondeur>1</profondeur>
+    <pause>0</pause>
+    <timeout>120</timeout>
+    <thread>5</thread>
+    <rang>
+      <a_capturer>
+        <expression>(&lt;item&gt;(.+\n){25})</expression>
+        <remplacement>$1</remplacement>
+        <limite>200</limite>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>localerte_6clics.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>0</enlever_balise>
+    <enlever_entite>0</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+      <expression>(&lt;item&gt;.+&lt;\/item&gt;)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="ID">
+        <valeur>6Clics</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>&lt;pubDate&gt;[A-Za-z]{3}, (.+) [0-9]{2}:[0-9]{2}:[0-9]{2} \+[0-9]{4}&lt;\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^([0-9]+) Jan ([0-9]+)$</expression>
+            <remplacement>$1/01/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Feb ([0-9]+)$</expression>
+            <remplacement>$1/02/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Mar ([0-9]+)$</expression>
+            <remplacement>$1/03/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Apr ([0-9]+)$</expression>
+            <remplacement>$1/04/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) May ([0-9]+)$</expression>
+            <remplacement>$1/05/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Jun ([0-9]+)$</expression>
+            <remplacement>$1/06/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Jul ([0-9]+)$</expression>
+            <remplacement>$1/07/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Aug ([0-9]+)$</expression>
+            <remplacement>$1/08/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Sep ([0-9]+)$</expression>
+            <remplacement>$1/09/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Oct ([0-9]+)$</expression>
+            <remplacement>$1/10/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Nov ([0-9]+)$</expression>
+            <remplacement>$1/11/$2</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) Dec ([0-9]+)$</expression>
+            <remplacement>$1/12/$2</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Ref">
+        <expression>detail\.asp\?NUM=([0-9]+)&amp;p</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;mixad:ville&gt;&lt;!\[CDATA\[(.+)\]\]</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="CP">
+        <expression>&lt;mixad:cp&gt;(.+)&lt;\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^0$</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>&lt;mixad:nbPieces&gt;(.+)&lt;\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^0$</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;mixad:prix&gt;([0-9]+)&lt;\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Description">
+        <expression>&lt;description&gt;&lt;!\[CDATA\[(.+)\]\]&gt;&lt;\/description&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;&lt;!\[CDATA\[(.+)\]\]&gt;&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Part/Pro">
+        <expression>(&amp;|\?)(particulier=(0|1))</expression>
+        <remplacement>$2</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>particulier=1</expression>
+            <remplacement>PARTICULIER</remplacement>
+          </filtre>
+          <filtre>
+            <expression>particulier=0</expression>
+            <remplacement>PROFESSIONNEL</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur></valeur>
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>&lt;enclosure url=&quot;([^&quot;]+)&quot;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>&lt;link&gt;&lt;!\[CDATA\[(.+)\]\]&gt;&lt;\/link&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="email">
+        <expression>([a-zA-Z0-9]+([_.-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,4})</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Tél">
+        <expression>[^0-9]((0|33) *[1-679]( *[0-9]){8}|(0|33)\.*[1-679](\.*[0-9]){8}|(0|33)\/*[1-679](\/*[0-9]){8}|(0|33)-*[1-679](-*[0-9]){8})[^0-9]</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>2</limite>
+        <filtres>
+          <filtre>
+            <expression>[^0-9]+</expression>
+            <remplacement></remplacement>
+          </filtre>
+          <filtre>
+            <expression>^33</expression>
+            <remplacement>0</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

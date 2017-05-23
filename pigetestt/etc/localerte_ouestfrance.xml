@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_ouestfrance">
+  <initialisation>
+    <url>http://www.ouestfrance-immo.com/immobilier/location/:parametre2:/:parametre1:/</url>
+    <parametres>
+      <parametre>
+        <valeur>haute-normandie</valeur>
+        <valeur>basse-normandie</valeur>
+        <valeur>bretagne</valeur>
+        <valeur>pays-de-la-loire</valeur>
+        <valeur>poitou-charentes</valeur>
+      </parametre>
+      <parametre>
+        <valeur>appartement</valeur>
+        <valeur>maison</valeur>
+        <valeur>maison-meublee</valeur>
+        <valeur>garage-box-et-parking</valeur>
+        <valeur>divers</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+    <profondeur>50</profondeur>
+    <pause>2000000</pause>
+    <timeout>60</timeout>
+    <thread>1</thread>
+    <rang>
+      <a_suivre>
+        <expression>&lt;a href=&quot;([^&quot;]+)&quot;[^&gt;]+title=&quot;Page suivante&quot;&gt;</expression>
+        <remplacement>http://www.ouestfrance-immo.com$1</remplacement>
+        <limite>1</limite>
+        <suivant>0</suivant>
+      </a_suivre>
+      <a_suivre>
+        <expression>&lt;a href=&quot;([^&quot;]+)&quot; class=&quot;detail lienDetail</expression>
+        <remplacement>http://www.ouestfrance-immo.com$1</remplacement>
+        <limite>60</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <option>s</option>
+        <limite>1</limite>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>localerte_ouestfrance.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Site">
+        <valeur>OuestFrance</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>Annonce immobili..?re du[^0-9]+([0-9]{2}\/[0-9]{2}\/[0-9]{4})    &lt;\/h2&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Id">
+        <expression>([0-9]+)\.htm$</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;title&gt;[^&lt;]+ - Immobilier ([^\(]+) \([^&lt;]+&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Code postal">
+        <expression>&lt;title&gt;[^&lt;]+\(([0-9]{5})\)[^&lt;]+&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>&lt;span&gt;Type de logement : &lt;\/span&gt;&lt;strong&gt;([^&lt;]+)&lt;\/strong&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>s</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>.*terrain.*</expression>
+            <remplacement>terrain</remplacement>
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*divers.*</expression>
+            <remplacement />
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*appartement ([0-9]+).*</expression>
+            <remplacement>T$1</remplacement>
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*maison.*</expression>
+            <remplacement>maison</remplacement>
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*Studio.*</expression>
+            <remplacement>studio</remplacement>
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*appartement (T[0-9]+).*</expression>
+            <remplacement>$1</remplacement>
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>.*garage-box-et-parking.*</expression>
+            <remplacement />
+	        <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^Location.*</expression>
+            <remplacement />
+	        <option>i</option>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;strong[^&gt;]*&gt;(([0-9]+ )?[0-9]+) ..?&lt;\/strong&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Description">
+        <expression>&lt;div class=&quot;txtAnn&quot;&gt;([^&lt;]+)&lt;\/</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;([^&lt;]+)&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Part/Pro">
+        <expression>'location', '(professionnel|particulier|indetermine)',</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>i</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^particulier$</expression>
+            <remplacement>PARTICULIER</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^professionnel$</expression>
+            <remplacement>PROFESSIONNEL</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^indetermine$</expression>
+            <remplacement />
+            <option>i</option>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>&lt;img[^&gt;]+class=&quot;slideimg_0&quot;[^&gt;]+src=&quot;([^&quot;]+)&quot;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Adresse email">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Tél">
+        <expression>&lt;div class=&quot;num&quot;&gt;([^&lt;]+)&lt;\/div&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>[^0-9]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

@@ -1,0 +1,4 @@
+ErrorDocument 404 /generique/erreur.html
+RewriteEngine on
+RewriteRule ^$ accueil.html
+RewriteRule ^([a-zA-Z]+).html$ controleur.php?action=$1

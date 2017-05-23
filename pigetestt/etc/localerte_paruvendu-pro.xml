@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_paruvendu-pro">
+  <initialisation>
+    <url>http://www.paruvendu.fr/immobilier/annonceimmofo/liste/listeAnnonces?mode=&amp;idChaine=I&amp;ddlFiltres=pro&amp;ddlTri=dateMiseAJour&amp;ddlOrd=desc&amp;numRecherche=2000&amp;nbTotalAnnoncesResultat=233000&amp;ddlAffine=&amp;idAlerte=&amp;tt=5&amp;codeINSEE=&amp;lo=&amp;pa=FR&amp;px0=Mini&amp;px1=Max&amp;tbApp=1&amp;tbDup=1&amp;tbChb=1&amp;tbLof=1&amp;tbAtl=1&amp;tbPla=1&amp;tbMai=1&amp;tbVil=1&amp;tbCha=1&amp;tbPro=1&amp;tbHot=1&amp;tbMou=1&amp;tbFer=1&amp;tbPen=1&amp;tbRem=1&amp;tbVia=1&amp;tbImm=1&amp;tbTer=1&amp;tbPar=1&amp;tbAut=1&amp;sur0=Mini&amp;sur1=Max&amp;nbp0=&amp;nbp1=&amp;mb=&amp;fam=&amp;p=1</url>
+  </initialisation>
+  <navigation>
+    <profondeur>180</profondeur>
+    <pause>0</pause>
+    <timeout>60</timeout>
+    <thread>1</thread>
+    <user_agent>Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)</user_agent>
+    <rang>
+      <a_suivre>
+        <expression>&lt;a href=&quot;([^&quot;]+)&quot;  class=&quot;next[^&quot;]+&quot;</expression>
+        <remplacement>http://www.paruvendu.fr/immobilier/annonceimmofo/liste/$1</remplacement>
+        <limite>1</limite>
+        <suivant>0</suivant>
+      </a_suivre>
+      <a_suivre>
+        <expression>&lt;a href=&quot;(\/immobilier\/location[^&quot;]+)&quot; title=&quot;Location -</expression>
+        <remplacement>http://www.paruvendu.fr$1</remplacement>
+        <limite>100</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <option>s</option>
+        <limite>1</limite>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>localerte_paruvendu-pro.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Id">
+        <valeur>ParuVendu</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>Derni..?re mise ..? jour le ([0-9]{2}\/[0-9]{2}\/[0-9]{4})</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Réf">
+        <expression>([^\/]+)$</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>([^ ]+) \(([0-9]{5})\)(\r|\n|$)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="CP">
+        <expression>([^ ]+) \(([0-9]{5})\)(\r|\n|$)</expression>
+        <remplacement>$2</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>([0-9])\r\npi</expression>
+        <remplacement>T$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;dfn class=&quot;flor&quot;&gt;[^0-9]+([0-9 ,\.]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>s</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression></expression>
+            <remplacement />
+          </filtre>
+          <filtre>
+            <expression>,</expression>
+            <remplacement>.</remplacement>
+          </filtre>
+          <filtre>
+            <expression>[^0-9\.]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Descriptif">
+        <expression>&lt;meta property=&quot;og:description&quot; content=&quot;([^&quot;]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;([^&lt;]+)&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Part/Pro">
+        <valeur>PROFESSIONNEL</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>&lt;img[^&gt;]+src=&quot;([^&quot;]+)&quot;[^&gt;]+id=&quot;pic_main&quot;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Lien">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Email">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Tel">
+        <expression>&lt;meta property=&quot;og:description&quot; content=&quot;([^&quot;]+)((33|0)[ \.\/-]?[1-9]([ \.\/-]?[0-9]){8})</expression>
+        <remplacement>$2</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>[^0-9]+</expression>
+            <remplacement />
+          </filtre>
+          <filtre>
+            <expression>^33</expression>
+            <remplacement>0</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

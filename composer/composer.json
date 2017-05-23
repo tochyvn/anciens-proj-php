@@ -1,0 +1,10 @@
+{
+"require": {
+"propel/propel": "2.0.*@dev",
+"twig/twig": "1.18.*@dev",
+}
+"autoload": {
+    "classmap": ["generated-classes/"]
+  }
+
+}

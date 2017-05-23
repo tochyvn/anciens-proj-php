@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^$ accueil [QSA,L]
+RewriteRule ^([a-zA-Z]+)$ controleur.php?action=$1 [QSA,L]

@@ -1,0 +1,13 @@
+{% extends "base.twig" %}
+{% block title %}page de connexion{% endblock %}
+{% block content %}
+    
+            {% for enchere in liste %}
+                <form action="" method="post">
+                    <input type="hidden" name="id" value="{{enchere.id}}"/>
+                    <h1>{{enchere.titre}}</h1>
+                    <input type="text" value="" name="prix"/>
+                    <input type="submit" value="encherir"/>
+                </form>
+            {% endfor %}
+{% endblock %}

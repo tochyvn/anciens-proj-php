@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="spool_centreimmo">
+  <initialisation>
+    <url>http://www.centreimmo.com/annonces_immobilieres.html?uidRubrique=36&amp;pageNumber=:parametre1:</url>
+    <parametres>
+      <parametre>
+        <valeur>1</valeur>
+        <valeur>2</valeur>
+        <valeur>3</valeur>
+        <valeur>4</valeur>
+        <valeur>5</valeur>
+        <valeur>6</valeur>
+        <valeur>7</valeur>
+        <valeur>8</valeur>
+        <valeur>9</valeur>
+        <valeur>10</valeur>
+        <valeur>11</valeur>
+        <valeur>12</valeur>
+        <valeur>13</valeur>
+        <valeur>14</valeur>
+        <valeur>15</valeur>
+        <valeur>16</valeur>
+        <valeur>17</valeur>
+        <valeur>18</valeur>
+        <valeur>19</valeur>
+        <valeur>20</valeur>
+        <valeur>21</valeur>
+        <valeur>22</valeur>
+        <valeur>23</valeur>
+        <valeur>24</valeur>
+        <valeur>25</valeur>
+        <valeur>26</valeur>
+        <valeur>27</valeur>
+        <valeur>28</valeur>
+        <valeur>29</valeur>
+        <valeur>30</valeur>
+        <valeur>31</valeur>
+        <valeur>32</valeur>
+        <valeur>33</valeur>
+        <valeur>34</valeur>
+        <valeur>35</valeur>
+        <valeur>36</valeur>
+        <valeur>37</valeur>
+        <valeur>38</valeur>
+        <valeur>39</valeur>
+        <valeur>40</valeur>
+        <valeur>41</valeur>
+        <valeur>42</valeur>
+        <valeur>43</valeur>
+        <valeur>44</valeur>
+        <valeur>45</valeur>
+        <valeur>46</valeur>
+        <valeur>47</valeur>
+        <valeur>48</valeur>
+        <valeur>49</valeur>
+        <valeur>50</valeur>
+        <valeur>51</valeur>
+        <valeur>52</valeur>
+        <valeur>53</valeur>
+        <valeur>54</valeur>
+        <valeur>55</valeur>
+        <valeur>56</valeur>
+        <valeur>57</valeur>
+        <valeur>58</valeur>
+        <valeur>59</valeur>
+        <valeur>60</valeur>
+        <valeur>61</valeur>
+        <valeur>62</valeur>
+        <valeur>63</valeur>
+        <valeur>64</valeur>
+        <valeur>65</valeur>
+        <valeur>66</valeur>
+        <valeur>67</valeur>
+        <valeur>68</valeur>
+        <valeur>69</valeur>
+        <valeur>70</valeur>
+        <valeur>71</valeur>
+        <valeur>72</valeur>
+        <valeur>73</valeur>
+        <valeur>74</valeur>
+        <valeur>75</valeur>
+        <valeur>76</valeur>
+        <valeur>77</valeur>
+        <valeur>78</valeur>
+        <valeur>79</valeur>
+        <valeur>80</valeur>
+        <valeur>81</valeur>
+        <valeur>82</valeur>
+        <valeur>83</valeur>
+        <valeur>84</valeur>
+        <valeur>85</valeur>
+        <valeur>86</valeur>
+        <valeur>87</valeur>
+        <valeur>88</valeur>
+        <valeur>89</valeur>
+	    <valeur>90</valeur>
+        <valeur>91</valeur>
+        <valeur>92</valeur>
+        <valeur>93</valeur>
+        <valeur>94</valeur>
+        <valeur>95</valeur>
+        <valeur>96</valeur>
+        <valeur>97</valeur>
+        <valeur>98</valeur>
+        <valeur>99</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+    <profondeur>2</profondeur>
+    <pause>0</pause>
+    <timeout>60</timeout>
+    <thread>5</thread>
+    <rang>
+      <a_suivre>
+        <expression>&lt;a[^&gt;]+href=&quot;([^&quot;]+)&quot;[^&gt;]+id=&quot;detail&quot;</expression>
+        <remplacement>http://www.centreimmo.com$1</remplacement>
+        <limite>10</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <limite>1</limite>
+        <option>s</option>
+      </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+    <destination>localerte_centreimmo.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Site">
+        <valeur>CentreImmo</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^([0-9][^0-9])</expression>
+            <remplacement>0$1</remplacement>
+          </filtre>
+          <filtre>
+            <expression>\/([0-9][^0-9])\/</expression>
+            <remplacement>/0$1/</remplacement>
+          </filtre>
+          <filtre>
+            <expression>\/([0-9]{2})$</expression>
+            <remplacement>/20$1</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) janv(ier|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/01/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) f..?v(rier|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/02/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) mars ([0-9]+)$</expression>
+            <remplacement>$1/03/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) avr(il|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/04/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) mai ([0-9]+)$</expression>
+            <remplacement>$1/05/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) jui(n|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/06/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) juil(let|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/07/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) ao..?t ([0-9]+)$</expression>
+            <remplacement>$1/08/$2</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) sept(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/09/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) oct(obre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/10/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) nov(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/11/$3</remplacement>
+            <option>i</option>
+          </filtre>
+          <filtre>
+            <expression>^([0-9]+) d..?c(embre|\.)? ([0-9]+)$</expression>
+            <remplacement>$1/12/$3</remplacement>
+            <option>i</option>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Réf">
+        <expression>\/([0-9]+)\.htm</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;title&gt;Annonce : [^-]+ - ([^\(]+) \(([0-9]{5})\)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="CP">
+        <expression>&lt;title&gt;Annonce : [^-]+ - ([^\(]+) \(([0-9]{5})\)</expression>
+        <remplacement>$2</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>&gt;Location - Maisons&lt;\/a&gt;</expression>
+        <remplacement>MAISON</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>&lt;p class=&quot;prix&quot;&gt;[^0-9]+([^&amp;]+)&amp;nbsp;&amp;euro;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>\.</expression>
+            <remplacement />
+          </filtre>
+          <filtre>
+            <expression>,</expression>
+            <remplacement>.</remplacement>
+          </filtre>
+          <filtre>
+            <expression>([^0-9\.]+)</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Descriptif">
+        <expression>&lt;meta name=&quot;description&quot; content=&quot;([^&quot;]+)&quot;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;([^&lt;]+)&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Part/Pro">
+        <expression>(Frais d'agence)</expression>
+        <remplacement>$1a</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^Frais d'agencea$</expression>
+            <remplacement>PROFESSIONNEL</remplacement>
+          </filtre>
+          <filtre>
+            <expression>^a$</expression>
+            <remplacement>PARTICULIER</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>&lt;div id=&quot;mea-image&quot;&gt;&lt;div[^&gt;]+&gt;&lt;\/div&gt;&lt;\/div&gt;[^&lt;]+&lt;img src=&quot;([^&quot;]+)&quot;</expression>
+        <remplacement>http://www.centreimmo.com$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Email">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Tél">
+        <expression>&lt;h3&gt;[^0-9]+([^&lt;]+)&lt;br\/&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>[^0-9]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

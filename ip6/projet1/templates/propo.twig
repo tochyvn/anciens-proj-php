@@ -1,0 +1,18 @@
+
+{% extends "base.twig" %}
+{% block title %}page d'accueil{% endblock %}
+{% block content %}
+{% user.jetonParDefaut=(user.jetonParDefaut)-(proposer.prix) %}
+{% if user.jetonParDefaut==0 %}
+<h3>Désolé vous n'avez plus de jeton</h3>
+Pour acheter des nouveau jeton cliquez <a href="achatJeton">Ici</a>
+{% else %}
+<h1>Proposer votre enchère avec le prix qui vous convient !!</h1>
+
+{% endif %}
+
+
+
+
+{{ form|raw }}
+{% endblock %}

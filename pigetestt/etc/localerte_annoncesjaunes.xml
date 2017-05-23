@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="localerte_annoncesjaunes">
+  <initialisation>
+    <url>http://www.annoncesjaunes.fr/immobilier-location/appartement+maison+loft-atelier+parking+terrain+immeuble+chateau-propriete+hotel-particulier+ferme+chambres-d-hotes-gite+chalet/a/:parametre1:/p/1/</url>
+    <parametres>
+      <parametre>
+        <valeur>01</valeur>
+        <valeur>02</valeur>
+        <valeur>03</valeur>
+        <valeur>04</valeur>
+        <valeur>05</valeur>
+        <valeur>06</valeur>
+        <valeur>07</valeur>
+        <valeur>08</valeur>
+        <valeur>09</valeur>
+        <valeur>10</valeur>
+        <valeur>11</valeur>
+        <valeur>12</valeur>
+        <valeur>13</valeur>
+        <valeur>14</valeur>
+        <valeur>15</valeur>
+        <valeur>16</valeur>
+        <valeur>17</valeur>
+        <valeur>18</valeur>
+        <valeur>19</valeur>
+        <valeur>20</valeur>
+        <valeur>21</valeur>
+        <valeur>22</valeur>
+        <valeur>23</valeur>
+        <valeur>24</valeur>
+        <valeur>25</valeur>
+        <valeur>26</valeur>
+        <valeur>27</valeur>
+        <valeur>28</valeur>
+        <valeur>29</valeur>
+        <valeur>30</valeur>
+        <valeur>31</valeur>
+        <valeur>32</valeur>
+        <valeur>33</valeur>
+        <valeur>34</valeur>
+        <valeur>35</valeur>
+        <valeur>36</valeur>
+        <valeur>37</valeur>
+        <valeur>38</valeur>
+        <valeur>39</valeur>
+        <valeur>40</valeur>
+        <valeur>41</valeur>
+        <valeur>42</valeur>
+        <valeur>43</valeur>
+        <valeur>44</valeur>
+        <valeur>45</valeur>
+        <valeur>46</valeur>
+        <valeur>47</valeur>
+        <valeur>48</valeur>
+        <valeur>49</valeur>
+        <valeur>50</valeur>
+        <valeur>51</valeur>
+        <valeur>52</valeur>
+        <valeur>53</valeur>
+        <valeur>54</valeur>
+        <valeur>55</valeur>
+        <valeur>56</valeur>
+        <valeur>57</valeur>
+        <valeur>58</valeur>
+        <valeur>59</valeur>
+        <valeur>60</valeur>
+        <valeur>61</valeur>
+        <valeur>62</valeur>
+        <valeur>63</valeur>
+        <valeur>64</valeur>
+        <valeur>65</valeur>
+        <valeur>66</valeur>
+        <valeur>67</valeur>
+        <valeur>68</valeur>
+        <valeur>69</valeur>
+        <valeur>70</valeur>
+        <valeur>71</valeur>
+        <valeur>72</valeur>
+        <valeur>73</valeur>
+        <valeur>74</valeur>
+        <valeur>75</valeur>
+        <valeur>76</valeur>
+        <valeur>77</valeur>
+        <valeur>78</valeur>
+        <valeur>79</valeur>
+        <valeur>80</valeur>
+        <valeur>81</valeur>
+        <valeur>82</valeur>
+        <valeur>83</valeur>
+        <valeur>84</valeur>
+        <valeur>85</valeur>
+        <valeur>86</valeur>
+        <valeur>87</valeur>
+        <valeur>88</valeur>
+        <valeur>89</valeur>
+        <valeur>90</valeur>
+        <valeur>91</valeur>
+        <valeur>92</valeur>
+        <valeur>93</valeur>
+        <valeur>94</valeur>
+        <valeur>95</valeur>
+        <valeur>97</valeur>
+        <valeur>98</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+     <profondeur>100</profondeur>
+     <pause>0</pause>
+     <timeout>60</timeout>
+     <thread>5</thread>
+    <rang>
+      <a_suivre>
+         <expression>class=&quot;divPageNumber orange divPageNumberOne&quot;&gt;[0-9]+&lt;\/span&gt;[^&lt;]+&lt;a id=&quot;[^&quot;]+&quot; title=&quot;Page [0-9]+&quot; class=&quot;[^&quot;]+&quot; Onclick=&quot;[^&quot;]+&quot; href=&quot;([^&quot;]+)&quot;&gt;[0-9]+&lt;\/a&gt;</expression>
+         <remplacement>htmlspecialchars_decode('http://www.annoncesjaunes.fr$1')</remplacement>
+         <option>e</option>
+         <limite>1</limite>
+         <suivant>0</suivant>
+       </a_suivre>
+      <a_suivre>
+         <expression>&quot;Link&quot; href=&quot;([^&quot;]+)&quot;</expression>
+         <remplacement>http://www.annoncesjaunes.fr$1</remplacement>
+         <limite>50</limite>
+         <suivant>1</suivant>
+       </a_suivre>
+    </rang>
+    <rang>
+      <a_capturer>
+         <expression>(.+)</expression>
+         <remplacement>$1</remplacement>
+         <option>s</option>
+         <limite>1</limite>
+       </a_capturer>
+    </rang>
+  </navigation>
+  <capture>
+     <destination>localerte_annoncesjaunes.csv</destination>
+     <echappement>\</echappement>
+     <separateur>;</separateur>
+     <encapsulateur>"</encapsulateur>
+     <ligne>CRLF</ligne>
+     <enlever_balise>1</enlever_balise>
+     <enlever_entite>0</enlever_entite>
+    <exclusion>
+      <fichier>exclusion.csv</fichier>
+    </exclusion>
+    <parent>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <option>s</option>
+     </parent>
+    <enfant>
+       <expression>(.+)</expression>
+	   <remplacement>$1</remplacement>
+	   <limite>1</limite>
+	   <option>s</option>
+     </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="Site">
+        <valeur>AnnoncesJaunes</valeur>
+      </colonne>
+      <colonne mode="valeur" nom="Actif">
+        <valeur>1</valeur>
+      </colonne>
+      <colonne mode="expression" nom="Date">
+        <expression>Mise ..? jour : ([0-9]{2}\/[0-9]{2}\/[0-9]{4})</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Id">
+        <expression>http:\/\/www\.annoncesjaunes\.fr\/.+(\/|=)([a-f0-9\-]+)(\.html)?</expression>
+        <remplacement>$2</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Ville">
+        <expression>&lt;span class=&quot;TitreBasGauche&quot;&gt;[ \t\r\n]+([^\(]+) \([0-9]{5}</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="CP">
+        <expression>&lt;span class=&quot;TitreBasGauche&quot;&gt;[ \t\r\n]+[^\(]+ \(([0-9]{5})</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Type">
+        <expression>&lt;li&gt;&lt;div class=&quot;&quot; &gt;Pi..?ces : ([0-9]+)&lt;\/div&gt;&lt;\/li&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Loyer">
+        <expression>FDTitrePrix&quot;&gt;[^0-9]+(([0-9]+ )?[0-9]+((\.|,)[0-9]+)?)[^0-9]+</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>,</expression>
+            <remplacement>.</remplacement>
+          </filtre>
+          <filtre>
+            <expression>([^0-9\.]+)</expression>
+            <remplacement />
+          </filtre>
+          <filtre>
+            <expression>^0$</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Description">
+        <expression>&lt;div class=&quot;DescriptifAnnonce&quot;&gt;([^&lt;]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="Titre">
+        <expression>&lt;title&gt;([^&lt;]+)&lt;\/title&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>(.+)</expression>
+            <remplacement>utf8_decode('$1')</remplacement>
+            <option>se</option>
+          </filtre>
+          <filtre>
+            <expression>[\r\n]+</expression>
+            <remplacement />
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="expression" nom="Part/Pro">
+        <expression>Toutes les annonces de l'(agence)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+        <filtres>
+          <filtre>
+            <expression>^(agence)$</expression>
+            <remplacement>PROFESSIONNEL</remplacement>
+          </filtre>
+        </filtres>
+      </colonne>
+      <colonne mode="valeur" nom="Meublé">
+        <valeur />
+      </colonne>
+      <colonne mode="expression" nom="Photo">
+        <expression>\.Open\(\)&quot; src=&quot;(http:\/\/[^&quot;]+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+	    <option>s</option>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="URL">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="valeur" nom="Email">
+        <valeur />
+      </colonne>
+      <colonne mode="valeur" nom="Téléphone">
+        <valeur />
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

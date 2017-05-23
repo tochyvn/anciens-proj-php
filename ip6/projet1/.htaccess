@@ -1,0 +1,12 @@
+
+RewriteEngine On
+
+
+RewriteRule ^$  accueil [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ controleur.php?action=$1 [QSA,L]
+
+Options -Indexes

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="style.css" />
+            <link rel="stylesheet" href="xmlForm/xmlObject2.css" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>{% block title %}{% endblock %}</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h2>Site internet encheres inverses </h2>
+                {% if Utilisateure is defined %}
+                    Bienvenu {{ Utilisateure.email}}. Votre niveau est {{ Utilisateure.role }} <a href="deconnexion">se déconnecter</a>
+                {% endif %}
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="accueil">accueil</a></li>
+                        {% if Utilisateure is defined %}
+
+                        <li><a href="deconnexion">se déconnecter</a></li>
+                        {% else %}
+                        <li><a href="connexion">se connecter</a></li>
+                        {% endif %}
+                        {% if Utilisateure.role==0 %}
+
+                    <li><a href="contact">Nous contacter</a></li>
+                  <li><a href="formulaire">Formulaire</a></li>
+                  <li><a href="AchatJetons">AchantJetons</a></li>
+                  <li><a href="Proposer">Proposer</a></li>
+
+                  {% else %}
+                  <li><a href="AjoutProduit">AjoutProduit</a></li>
+                  <li><a href="ajoutEncheres">AjoutEncheres</a></li>
+                  <li><a href="Jeton">Jeton</a></li>
+                  <li><a href="contact">Nous contacter</a></li>
+                  <li><a href="formulaire">Formulaire</a></li>
+                  <li><a href="AchatJetons">AchantJetons</a></li>
+                  <li><a href="Proposer">Proposer</a></li>
+
+                  {% endif %}
+
+                </ul>
+            </div>
+            <div id="content">{% block content %}{% endblock %}
+                <h2 >{{ msg }}</h2>
+            </div>
+            <div id="footer">
+                {% block footer %}
+                    &copy; Copyright 2011 by <a href="http://domain.invalid/">you</a>.
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

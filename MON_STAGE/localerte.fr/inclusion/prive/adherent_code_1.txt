@@ -1,0 +1,24 @@
+Bonjour,
+
+Merci pour votre inscription à LOCALERTE .fr ; le service d'alertes de recherche en locations immobilières de CHEZNOUS .fr
+
+Bénéficiez d'un Code d'accès pour tester GRATUITEMENT notre service !
+
+Pour le recevoir, merci de confirmer votre inscription en suivant le lien,
+%CODE_1%
+
+------------------------------------------------------------------------
+
+LOCALERTE est un Moteur de recherche dédié à la locations immobilères. Chaque jour, retrouvez plus de 50.000 annonces de moins de 4 jours vues dans la Presse et sur le Web !
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

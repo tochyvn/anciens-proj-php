@@ -1,0 +1,455 @@
+[02-avr-2009 11:30:42] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[02-avr-2009 11:30:42] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[02-avr-2009 11:35:09] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[02-avr-2009 11:35:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[02-avr-2009 11:35:48] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[02-avr-2009 11:35:48] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[02-avr-2009 14:43:47] PHP Notice:  Use of undefined constant ABONNEMENT_EXPRESSION_MAX - assumed 'ABONNEMENT_EXPRESSION_MAX' in /var/www/vhost/aicom/localerte.fr/administration/abonnement_fiche.php on line 101
+[02-avr-2009 14:44:01] PHP Notice:  Use of undefined constant ABONNEMENT_EXPRESSION_MAX - assumed 'ABONNEMENT_EXPRESSION_MAX' in /var/www/vhost/aicom/localerte.fr/administration/abonnement_fiche.php on line 101
+[03-avr-2009 13:41:35] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:41:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:42:36] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:42:36] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:42:40] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:42:40] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:53:08] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:53:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:11] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:39] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:39] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:59] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:54:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:55:14] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:55:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:56:04] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:56:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:56:25] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:56:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:57:05] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 13:57:05] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 13:58:05] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=4qwq4545&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 13:58:35] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 13:58:35] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 13:59:09] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 13:59:09] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 13:59:53] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 13:59:53] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:00:09] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=4qwq4545&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 14:00:16] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:00:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:00:23] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:00:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:01:09] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:01:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:01:25] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:01:25] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:02:37] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 14:02:37] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 14:03:28] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:03:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:03:37] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=05821&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 14:04:10] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:04:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:04:13] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:04:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:04:35] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 14:04:35] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 14:04:54] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:04:54] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:02] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:02] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:14] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:14] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:23] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:05:35] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=9r3hr343&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 14:06:16] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:06:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:07:16] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:07:16] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:07:28] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 14:07:28] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 14:07:35] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:07:35] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:08:15] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:08:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:08:17] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:08:17] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:08:28] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=7R7HS485&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 14:08:58] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 14:08:58] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 14:09:08] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 14:09:08] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 15:36:31] PHP Warning:  <pre>
+					update annonce
+					set
+						identifiant='110148588',
+						parution='2009-04-01',
+						provenance='19',
+						reference='5674092',
+						type='5',
+						meuble=null,
+						ville='410762965',
+						loyer='420.00',
+						descriptif='SIX FOURS (83) VAR F2, balc, park., 400m plage et 100m commerces libre juil aout 420 €/sem. juin et sept 220 €/sem. 04.94.87.49.63.
+ 
+',
+						statut='PARTICULIER',
+						image=null,
+						url='http://www.ledauphine-annonces.com/annonce/six-fours-83-var-f2-balc-par-villegiatures-mer-location-5674092.html',
+						etat='REFUS',
+						commentaire='',
+						enregistrement='2009-03-25 09:48:47',
+						modification='2009-04-03 15:35:40'
+					where
+						identifiant='110148588'
+				</pre> ----- Lock wait timeout exceeded; try restarting transaction ---- /administration/annonce_liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[03-avr-2009 15:37:22] PHP Warning:  <pre>
+					update annonce_telephone
+					set
+						annonce='110148588',
+						telephone='0494874963'
+					where
+						annonce='110148588'
+						and telephone='0494874963'
+				</pre> ----- Lock wait timeout exceeded; try restarting transaction ---- /administration/annonce_liste.php in /var/www/vhost/aicom/localerte.fr/inclusion/mysql.php on line 61
+[03-avr-2009 16:08:04] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:08:04] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:09:07] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:09:07] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:09:22] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:09:22] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:10:23] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:10:23] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:10:29] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:10:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:11:55] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:11:55] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:14:33] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:14:33] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:15:09] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:15:09] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:15:33] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=M364562N&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 16:16:55] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:16:55] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:17:55] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=M364562N&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 16:18:32] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:18:32] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:19:11] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:19:11] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:19:12] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:19:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:19:37] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=+26PTD544&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 16:19:59] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:19:59] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:12] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:15] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:15] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:18] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:18] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:21] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:56] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:56] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:58] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:20:58] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:21:12] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:21:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:21:21] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:21:21] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:22:12] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:22:12] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:22:18] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=26PTD544&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 16:22:55] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:22:55] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:23:13] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:23:13] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:24:10] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:24:10] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:24:28] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:24:28] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:25:29] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:25:29] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:25:29] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:25:58] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:25:58] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:31:03] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:31:03] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:31:55] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to payment.allopass.com:80 (Connection timed out) in /var/www/vhost/aicom/localerte.fr/inclusion/socket_http.php on line 202
+[03-avr-2009 16:31:55] PHP Notice:  Undefined index:  Location in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 161
+[03-avr-2009 16:32:55] PHP Warning:  file_get_contents(http://payment.allopass.com/api/checkcode.apu?code=5qhg6377&amp;auth=102802%2F270837%2F1607385) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 179
+[03-avr-2009 16:33:05] PHP Warning:  file_get_contents(http://payment.allopass.com/api/getnum.apu?format=1&amp;idd=270837) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Connection timed out in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 263
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 300
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  FR in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305
+[03-avr-2009 16:33:05] PHP Notice:  Undefined index:  S1 in /var/www/vhost/aicom/localerte.fr/adherent/annonce/identification.php on line 305

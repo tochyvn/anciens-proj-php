@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<spool nom="kelkoo_marques">
+  <initialisation>
+    <url>:parametre1:</url>
+    <parametres>
+      <parametre>
+        <valeur>http://www.ldlc.com/ordinateurs.html</valeur>
+        <valeur>http://www.ldlc.com/peripheriques.html</valeur>
+        <valeur>http://www.ldlc.com/consommables.html</valeur>
+        <valeur>http://www.ldlc.com/logiciels.html</valeur>
+        <valeur>http://www.ldlc.com/auto-gps.html</valeur>
+        <valeur>http://www.ldlc.com/mp3.html</valeur>
+        <valeur>http://www.ldlc.com/papeterie.html</valeur>
+        <valeur>http://www.ldlc.com/informatique-musicale.html</valeur>
+        <valeur>http://www.ldlc.com/tuning.html</valeur>
+        <valeur>http://www.ldlc.com/pieces.html</valeur>
+        <valeur>http://www.ldlc.com/video.html</valeur>
+        <valeur>http://www.ldlc.com/reseaux.html</valeur>
+        <valeur>http://www.ldlc.com/telephonie.html</valeur>
+        <valeur>http://www.ldlc.com/cables-connectique.html</valeur>
+        <valeur>http://www.ldlc.com/jeux-video.html</valeur>
+        <valeur>http://www.ldlc.com/photo-numerique.html</valeur>
+      </parametre>
+    </parametres>
+  </initialisation>
+  <navigation>
+    <profondeur>1000</profondeur>
+    <pause>0</pause>
+    <timeout>60</timeout>
+    <thread>10</thread>
+    <rang>
+      <a_suivre>
+        <expression>&lt;h2&gt;&lt;A href=&quot;([^&quot;]+)&quot;&gt;+</expression>
+        <remplacement>http://www.ldlc.com$1</remplacement>
+        <limite>100</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+	</rang>
+	<rang>
+      <a_suivre>
+        <expression>&lt;A href=&quot;Javascript:qq\('([^']+)'\);&quot;&gt;Page suivante&lt;\/A&gt;</expression>
+        <remplacement>'http://www.ldlc.com'.ldlc_base16_decode('$1')</remplacement>
+        <option>e</option>
+        <limite>1</limite>
+        <suivant>1</suivant>
+      </a_suivre>
+      <a_suivre>
+        <expression>&lt;h3&gt;&lt;A href=&quot;([^&quot;]+)&quot;&gt;+</expression>
+        <remplacement>http://www.ldlc.com$1</remplacement>
+        <limite>1000</limite>
+        <suivant>2</suivant>
+      </a_suivre>
+    </rang>
+	<rang>
+	  <a_capturer>
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <option>s</option>
+        <limite>1</limite>
+	  </a_capturer>
+	</rang>
+  </navigation>
+  <capture>
+    <destination>autre_ldlc_reference.csv</destination>
+    <echappement>\</echappement>
+    <separateur>;</separateur>
+    <encapsulateur>"</encapsulateur>
+    <ligne>CRLF</ligne>
+    <enlever_balise>1</enlever_balise>
+    <enlever_entite>1</enlever_entite>
+    <parent>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <option>s</option>
+    </parent>
+    <enfant>
+      <expression>(.+)</expression>
+      <remplacement>$1</remplacement>
+      <limite>1</limite>
+      <option>s</option>
+    </enfant>
+    <colonnes>
+      <colonne mode="valeur" nom="marque">
+	    <valeur />
+      </colonne>
+      <colonne mode="expression" nom="reference">
+        <expression>&lt;div id=&quot;arbo&quot;&gt;.+ &amp;gt; ([^&lt;]+)&lt;\/div&gt;</expression>
+        <remplacement>$1</remplacement>
+        <recherche>ENFANT</recherche>
+        <limite>1</limite>
+      </colonne>
+      <colonne mode="expression" nom="location">
+        <expression>(.+)</expression>
+        <remplacement>$1</remplacement>
+        <recherche>LOCATION</recherche>
+        <limite>1</limite>
+      </colonne>
+    </colonnes>
+  </capture>
+</spool>

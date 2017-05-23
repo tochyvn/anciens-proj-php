@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="encheres" defaultIdMethod="native">
+  <table name="CLIENT" phpName="Client">
+    <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+    <column name="passwd" type="varchar" size="25" required="true" />
+    <column name="nom" type="varchar" size="25" required="true"/>
+    <column name="prenom" type="varchar" size="25" required="true"/>
+    <column name="date_naiss" type="date" required="false" />
+    <column name="pays" type="varchar" size="25" required="false"/>
+    <column name="adresse" type="varchar" size="100" required="false"/>
+    <column name="telephone" type="char" size="10"required="false"/>
+    <column name="email" type="varchar" size="50"required="false"/>
+</table>
+  
+  <table name="ADMIN" phpName="Admin">
+    <column name="username" type="varchar" size="25" required="true" primaryKey="true" />
+    <column name="passwd" type="varchar" size="25" required="true" primaryKey="true" />
+    <column name="e_mail" type="varchar" size="100" required="false"/>
+  </table>
+  
+  <table name="ARTICLE" phpName="Article">
+   <column name="id_art" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+   <column name="nom_art" type="varchar" size="25" required="false" />
+   <column name="prix" type="decimal(15,2)" required="true" />
+  </table>
+  
+  <table name="ENCHERE" phpName="Enchere">
+   <column name="id_ench" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+   <column name="date_debut" type="datetime" required="true" />
+   <column name="date_fin" type="datetime" required="true" />
+   <column name="id_art" type="integer" required="true" />
+    <foreign-key foreignTable="ARTICLE" phpName="Article" refPhpName="Enchere">
+      <reference local="id_art" foreign="id_art"/>
+    </foreign-key>
+  </table>
+  
+ <table name="MISE" phpName="Mise">
+   <column name="prix" type="decimal(15,2)" required="true" primaryKey="true"/>
+   <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+   <column name="id_ench" type="integer" required="true" primaryKey="true"/>
+    <foreign-key foreignTable="CLIENT" phpName="Client" refPhpName="Mise">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="ENCHERE" phpName="Enchere" refPhpName="Mise">
+      <reference local="id_ench" foreign="id_ench"/>
+    </foreign-key>
+  </table> 
+  
+  <table name="PACK_JETON" phpName="Pack_Jeton">
+   <column name="id_pack" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+   <column name="jetons" type="integer" required="true"/>
+ </table>
+ 
+ <table name="ACHETE" phpName="Achete">
+   <column name="date_a" type="datetime" required="true" primaryKey="true" />
+   <column name="pseudo" type="varchar" size="25" required="true" primaryKey="true"/>
+   <column name="id_pack" type="integer" required="true" primaryKey="true"/>
+    <foreign-key foreignTable="CLIENT" phpName="Client" refPhpName="Achete">
+      <reference local="pseudo" foreign="pseudo"/>
+    </foreign-key>
+    <foreign-key foreignTable="PACK_JETON" phpName="Pack_Jeton" refPhpName="Achete">
+      <reference local="id_pack" foreign="id_pack"/>
+    </foreign-key>
+ </table>
+  
+</database>

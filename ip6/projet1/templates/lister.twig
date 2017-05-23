@@ -1,0 +1,21 @@
+{% extends "base.twig" %}
+{% block title %}page des utlisateurs{% endblock %}
+{% block content %}
+<h1> le tableau des utilisateurs</h1>
+
+<table border="1">
+
+{% for utilisateur in liste %}
+<tr>
+<td>{{utilisateur.email}}</td>
+<td>{{utilisateur.password}}</td>
+<td>{{utilisateur.pseudo}}</td>
+<td>{{utilisateur.role}}</td>
+<td><a href="inscription?more=supprimer&id={{utilisateur.email}}">supprimer</a></td>
+<td><a href="inscription?more=modifier&id={{utilisateur.email}}">modifier</a></td>
+</tr>
+{% endfor %}
+
+</table>
+<a href="inscription?more=inserer">ajouter un utilisateur</a>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.twig" %}
+{% block title %}page d'accueil{% endblock %}
+{% block content %}
+    {{ msg }}
+    {% if Utilisateure is not defined %}
+    <a href="connexion">Connectez vous</a>
+    {%else %}
+    
+
+     {% endif %}
+            {% for Produit in artlist %}
+                <form action="" method="post">
+                    
+                     <h1>{{Produit.prix}}€</h1>
+                     <img src="image/{{Produit.image}}"" alt="image" height="250" width="250"/>
+                      <a href="Proposer">Proposer</a>
+                     </form>
+            {% endfor %}
+           
+          
+                         
+{% endblock %}

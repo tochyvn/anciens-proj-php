@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta http-equiv="Content-Language" content="fr"/>
+    <title>sudo - Documentation Ubuntu Francophone</title>
+    <meta name="Description" content="Documentation francophone pour la distribution Ubuntu" lang="fr" />
+    <meta name="language" content="fr-FR" />
+
+    <!--[if IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <![endif]-->
+        <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="date" content="2014-11-13T17:52:24+0100"/>
+<meta name="keywords" content="administration,securite,droits"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Documentation Ubuntu Francophone"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/sudo?do=index" title="Plan du site"/>
+<link rel="alternate" type="application/rss+xml" title="Derniers changements" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Namespace actuel" href="/feed.php?mode=list&amp;ns="/>
+<link rel="edit" title="Modifier cette page" href="/sudo?do=edit"/>
+<link rel="alternate" type="text/html" title="HTML brut" href="/_export/xhtml/sudo"/>
+<link rel="alternate" type="text/plain" title="Wiki balise" href="/_export/raw/sudo"/>
+<link rel="canonical" href="http://doc.ubuntu-fr.org/sudo"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=ubuntu-2010&amp;tseed=4af22dedc19f28c99fa67afabbb173df"/>
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"id":"sudo","namespace":""};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=4af22dedc19f28c99fa67afabbb173df"></script>
+    <link rel="shortcut icon" href="//www-static.ubuntu-fr.org/theme2010/images/commun/ubuntu/icone.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="//www-static.ubuntu-fr.org/theme2010/images/commun/ubuntu/touch-ico.png" />
+
+    <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc.css" />
+    <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc-ubuntu.css" />
+    <link rel="stylesheet" media="print" type="text/css" title="Design Ubuntu-fr" href="//www-static.ubuntu-fr.org/theme2010/css/doc-print.css" />
+
+    <script type="text/javascript">
+      var menu_hidden;
+      var static_url = "UFR_STATIC";
+    </script>
+    <script src="//www-static.ubuntu-fr.org/theme2010/js/menu.js" type="text/javascript"></script>
+    <script src="//www-static.ubuntu-fr.org/theme2010/js/common.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div id="accessibar">
+      <a href="#main" tabindex="1">Contenu</a> | <a href="#qsearch__in" tabindex="2">Rechercher</a> | <a href="#navigation" tabindex="3">Menus</a>
+    </div>
+
+    <div id="page">
+
+      <div id="header">
+
+        <div id="logo">
+          <h1>Ubuntu-fr</h1>
+          <a href="/" title="Accueil de la documentation">Communauté francophone d'utilisateurs d'Ubuntu</a>
+        </div>
+
+        <form action="http://ubuntu-fr.org/recherche" accept-charset="utf-8" id="search" onsubmit="if (document.getElementById('qsearch__in').value == 'Recherche rapide....') {document.getElementById('qsearch__in').value = '';}">
+          <fieldset>
+            <label for="qsearch__in">Recherche : </label><input type="text" value="Recherche rapide...." id="qsearch__in" accesskey="f" name="sk_q" alt="[F]" size="34" tabindex="4" />
+            <label for="tsearch_field">Chercher dans : </label><select name="sk_engine" tabindex="5" id="tsearch_field" title="Chercher dans">
+              <option value="all">Site</option>
+              <option selected="selected" value="doc">Documentation</option>
+              <option value="forum">Forum</option>
+              <option value="planet">Planet</option>
+            </select>
+            <input type="submit" value="ok" class="button" alt="Lancer la recherche" tabindex="5" />
+          </fieldset>
+        </form>
+        <!--[if lte IE 7]><div class="clear"></div><![endif]-->
+
+        <form action="" accept-charset="utf-8" id="login_top" method="post">
+          <fieldset>
+            <label for="u_field">Identifiant : </label><input type="text" value="Identifiant" name="u" id="u_field" size="9" /><label for="p_field">Mot de passe : </label><input type="password" value="Mot de passe" name="p" id="p_field" size="9" alt="Mot de passe" /><input type="submit" value="connexion" id="connect" /> / <a href="http://forum.ubuntu-fr.org/register.php">inscription</a>
+          </fieldset>
+        </form>
+ 
+
+      </div>
+
+      <div id="navbar">
+          <h2 id="pagetitle"><a href="/sudo" >sudo</a></h2>
+      </div>
+
+      
+      <div id="main" class="dokuwiki">
+
+        <div id="hidemenu" title="Masquer le menu"></div>
+
+        <div id="pagerror"></div>
+                <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle">Table des matières</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#prealables">Préalables</a></div></li>
+<li class="level1"><div class="li"><a href="#utilisation">Utilisation</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#executer_une_application_graphique_ubuntu_xubuntu">Exécuter une application graphique (Ubuntu, Xubuntu)</a></div></li>
+<li class="level2"><div class="li"><a href="#executer_une_application_graphique_kubuntu">Exécuter une application graphique (Kubuntu)</a></div></li>
+<li class="level2"><div class="li"><a href="#executer_une_application_ou_une_commande_en_console_toutes_variantes">Exécuter une application ou une commande en console (toutes variantes)</a></div></li>
+<li class="level2"><div class="li"><a href="#quand_doit-on_utiliser_sudogksudokdesudo">Quand doit-on utiliser sudo/gksudo/kdesudo ?</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#comment_assigner_le_role_d_administrateur_a_un_compte_d_utilisateur">Comment assigner le rôle d&#039;administrateur à un compte d&#039;utilisateur ?</a></div></li>
+<li class="level1"><div class="li"><a href="#aller_plus_loin">Aller plus loin</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#configuration_avancee_de_l_utilitaire_sudo">Configuration avancée de l&#039;utilitaire sudo</a></div></li>
+<li class="level2"><div class="li"><a href="#les_avantages_de_sudo">Les avantages de sudo</a></div></li>
+<li class="level2"><div class="li"><a href="#sudo_n_est-il_pas_moins_securise_que_su_root">« sudo » n&#039;est-il pas moins sécurisé que « su root » ?</a></div></li>
+<li class="level2"><div class="li"><a href="#observer_le_journal_des_taches_executees_precedemment_par_sudo">Observer le journal des tâches exécutées précédemment par « sudo »</a></div></li>
+<li class="level2"><div class="li"><a href="#ouvrir_un_terminal_en_mode_root">Ouvrir un terminal en mode root</a></div></li>
+<li class="level2"><div class="li"><a href="#rediriger_un_flux_avec_sudo">Rediriger un flux avec « sudo »</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#les_comptes_superutilisateurs_d_applications_particulieres">Les comptes superutilisateurs d&#039;applications particulières</a></div></li>
+<li class="level1"><div class="li"><a href="#a_lire_aussi">À lire aussi</a></div></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+<div class="tags"><span>
+	<a href="/administration" class="wikilink1" title="administration" rel="tag">administration</a>,
+	<a href="/securite" class="wikilink1" title="securite" rel="tag">sécurité</a>,
+	<a href="/droits" class="wikilink1" title="droits" rel="tag">droits</a>
+</span></div>
+<hr />
+
+<h1 class="sectionedit1" id="sudoeffectuez_des_taches_administratives">Sudo : effectuez des tâches administratives</h1>
+<div class="level1">
+
+<p>
+Tout ordinateur a besoin d&#039;un administrateur système. Cette personne est en charge de la configuration initiale et de la maintenance de votre matériel et de votre système d&#039;exploitation Ubuntu : création de comptes d&#039;utilisateurs, installation de programmes, paramétrage du matériel, etc. L&#039;administrateur est une personne ayant un compte d&#039;utilisateur avec des privilèges supplémentaires.
+</p>
+
+<p>
+Dans Ubuntu, l&#039;accomplissement de tâches privilégiées (ou tâches d&#039;administration) s&#039;effectue à travers un « filtre » puissant appelé <strong>sudo</strong>. Son principe est le suivant:
+</p>
+<ul>
+<li class="level1"><div class="li"> Toutes les tâches administratives ne peuvent être exécutées qu&#039;à travers l&#039;utilitaire d&#039;administration <code>sudo</code>. Exécutée hors-<code>sudo</code>, la tâche est bloquée ;</div>
+</li>
+<li class="level1"><div class="li"> Lorsqu&#039;un utilisateur tente d&#039;exécuter une tâche administrative à travers le filtre <code>sudo</code>, cet utilitaire vérifie que cet utilisateur a le droit d&#039;effectuer cette tâche. Dans le cas contraire, il bloque la tâche.</div>
+</li>
+</ul>
+
+</div>
+<div class='secedit editbutton_section editbutton_1'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Sudo : effectuez des tâches administratives] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="51-1091" /><input type="submit" value="Modifier" class="button" title="Sudo : effectuez des tâches administratives" /></div></form></div>
+<h2 class="sectionedit2" id="prealables">Préalables</h2>
+<div class="level2">
+
+<p>
+Pour effectuer des tâches administratives à travers l&#039;utilitaire <code>sudo</code>, votre compte d&#039;utilisateur doit être promu au rôle d&#039;administrateur.
+</p>
+
+<p>
+Vous disposez d&#039;un compte d&#039;administrateur lorsque :
+</p>
+<ul>
+<li class="level1"><div class="li"> votre compte d&#039;utilisateur est celui qui a été créé au moment de l&#039;installation d&#039;Ubuntu. Par défaut, ce compte est un compte privilégié, et c&#039;est le seul compte privilégié ;</div>
+</li>
+<li class="level1"><div class="li"> ou lorsqu&#039;un administrateur a promu manuellement votre compte d&#039;utilisateur au rôle d&#039;administrateur.</div>
+</li>
+</ul>
+
+<p>
+Rapportez-vous à la section <a href="#comment_assigner_le_role_d_administrateur_a_un_compte_d_utilisateur" title="sudo ↵" class="wikilink1">&quot;Comment assigner le rôle d&#039;administrateur à un compte d&#039;utilisateur ?&quot;</a> pour apprendre comment promouvoir un compte d&#039;utilisateur existant au rôle d&#039;administrateur, ou à la section <a href="/sudoers#ajout_ou_retrait_de_privileges_a_un_compte_d_utilisateur_ou_un_groupe_d_utilisateurs" class="wikilink1" title="sudoers">&quot;Ajout ou retrait de privilèges à un compte d&#039;utilisateur ou un groupe d&#039;utilisateurs&quot;</a> pour configurer plus finement les privilèges accordés par l&#039;utilitaire <code>sudo</code>.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_2'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Préalables] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="1092-2172" /><input type="submit" value="Modifier" class="button" title="Préalables" /></div></form></div>
+<h2 class="sectionedit3" id="utilisation">Utilisation</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_3'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Utilisation] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="2173-2197" /><input type="submit" value="Modifier" class="button" title="Utilisation" /></div></form></div>
+<h3 class="sectionedit4" id="executer_une_application_graphique_ubuntu_xubuntu">Exécuter une application graphique (Ubuntu, Xubuntu)</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Appuyez sur les touches [ALT]+[F2] de votre clavier pour ouvrir une invite d&#039;exécution de programme ; <br/>
+<br/>
+</div>
+</li>
+<li class="level1"><div class="li"> Saisissez l&#039;instruction suivante pour exécuter le programme de votre choix à travers l&#039;utilitaire <strong>sudo</strong> : <pre class="code">gksudo &quot;nom du programme&quot;</pre>
+
+<p>
+ <br/>
+<a href="/_detail/sudo-gksudo1.png?id=sudo" class="media" title="sudo-gksudo1.png"><img src="/_media/sudo-gksudo1.png?w=300&amp;tok=9fe5c6" class="mediacenter" title="Saisissez l&#039;instruction sous la forme « gksudo &quot;nom du programme&quot; » (ex : « gksudo &quot;update-manager&quot; »). " alt="Saisissez l&#039;instruction sous la forme « gksudo &quot;nom du programme&quot; » (ex : « gksudo &quot;update-manager&quot; »). " width="300" /></a> <a href="/_detail/sudo-gksudo1-1.png?id=sudo" class="media" title="sudo-gksudo1-1.png"><img src="/_media/sudo-gksudo1-1.png?w=300&amp;tok=8a6cf9" class="mediacenter" title="Saisissez l&#039;instruction sous la forme « gksudo nom du programme » (ex : « gksudo xdg-open /etc/default/grub »)." alt="Saisissez l&#039;instruction sous la forme « gksudo nom du programme » (ex : « gksudo xdg-open /etc/default/grub »)." width="300" /></a> <br/>
+
+</p>
+</div>
+</li>
+<li class="level1"><div class="li"> Un dialogue de saisie de mot de passe s&#039;affiche. Saisissez le mot de passe de votre compte d&#039;utilisateur actuel. <br/>
+<a href="/_detail/sudo-gksudo2.png?id=sudo" class="media" title="sudo-gksudo2.png"><img src="/_media/sudo-gksudo2.png?w=300&amp;tok=289af7" class="mediacenter" title="Saisissez *votre* mot de passe." alt="Saisissez *votre* mot de passe." width="300" /></a> <br/>
+</div>
+</li>
+</ol>
+
+<p>
+Si vous n&#039;avez pas entré un mot de passe erroné, votre programme se charge en mode privilégié. En cas d&#039;erreur dans votre mot de passe, recommencez les opérations ci-dessus. Lors du succès de l&#039;authentification, les tâches administratives sont débloquées pour une durée de 15 minutes : votre mot de passe ne vous sera pas demandé dans les 15 minutes suivantes pour effectuer d&#039;autres tâches administratives.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_4'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Exécuter une application graphique (Ubuntu, Xubuntu)] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="2198-3430" /><input type="submit" value="Modifier" class="button" title="Exécuter une application graphique (Ubuntu, Xubuntu)" /></div></form></div>
+<h3 class="sectionedit5" id="executer_une_application_graphique_kubuntu">Exécuter une application graphique (Kubuntu)</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Appuyez sur les touches [ALT]+[F2] de votre clavier pour ouvrir une invite d&#039;exécution de programme ; <br/>
+<br/>
+</div>
+</li>
+<li class="level1"><div class="li"> Saisissez l&#039;instruction suivante pour exécuter le programme de votre choix à travers l&#039;utilitaire <strong>sudo</strong> : <pre class="code">kdesudo &quot;nom du programme&quot;</pre>
+
+<p>
+Utilisez les guillemets anglais pour entourer le nom de votre programme, particulièrement si celui-ci utilise plusieurs arguments. <br/>
+<a href="/_detail/sudo-kdesudo1.png?id=sudo" class="media" title="sudo-kdesudo1.png"><img src="/_media/sudo-kdesudo1.png?w=300&amp;tok=134ea5" class="mediacenter" title="Saisissez l&#039;instruction sous la forme « gksudo &quot;nom du programme&quot; » (ex : « kdesudo &quot;kpackagekit&quot; »). " alt="Saisissez l&#039;instruction sous la forme « gksudo &quot;nom du programme&quot; » (ex : « kdesudo &quot;kpackagekit&quot; »). " width="300" /></a> <br/>
+
+</p>
+</div>
+</li>
+<li class="level1"><div class="li"> Un dialogue de saisie de mot de passe s&#039;affiche. Saisissez le mot de passe de votre compte d&#039;utilisateur actuel. <br/>
+<a href="/_detail/sudo-kdesudo2.png?id=sudo" class="media" title="sudo-kdesudo2.png"><img src="/_media/sudo-kdesudo2.png?w=300&amp;tok=936545" class="mediacenter" title="Saisissez *votre* mot de passe." alt="Saisissez *votre* mot de passe." width="300" /></a> <br/>
+</div>
+</li>
+</ol>
+
+<p>
+Si vous n&#039;avez pas entré un mot de passe erroné, votre programme se charge en mode privilégié. En cas d&#039;erreur dans votre mot de passe, recommencez les opérations ci-dessus. Lors du succès de l&#039;authentification, les tâches administratives sont débloquées pour une durée de 15 minutes : votre mot de passe ne vous sera pas demandé dans les 15 minutes suivantes pour effectuer d&#039;autres tâches administratives.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_5'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Exécuter une application graphique (Kubuntu)] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="3431-4638" /><input type="submit" value="Modifier" class="button" title="Exécuter une application graphique (Kubuntu)" /></div></form></div>
+<h3 class="sectionedit6" id="executer_une_application_ou_une_commande_en_console_toutes_variantes">Exécuter une application ou une commande en console (toutes variantes)</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Ouvrez <a href="/terminal" class="wikilink1" title="terminal">une fenêtre de terminal</a> ; <br/>
+<a href="/_detail/sudo-sudo1.png?id=sudo" class="media" title="sudo-sudo1.png"><img src="/_media/sudo-sudo1.png?w=300&amp;tok=9509e8" class="mediacenter" title="Ouvrez une fenêtre de terminal dans Ubuntu" alt="Ouvrez une fenêtre de terminal dans Ubuntu" width="300" /></a> <br/>
+</div>
+</li>
+<li class="level1"><div class="li"> Saisissez l&#039;instruction suivante pour exécuter une commande en mode console à travers l&#039;utilitaire <strong>sudo</strong>, puis appuyez sur la touche [Entrée] de votre clavier : <pre class="code">sudo &lt;commande&gt;</pre>
+
+<p>
+Inscrivez votre commande sans les crochets, même si votre commande contient plusieurs arguments. <br/>
+<a href="/_detail/sudo-sudo2.png?id=sudo" class="media" title="sudo-sudo2.png"><img src="/_media/sudo-sudo2.png?w=300&amp;tok=10b2e8" class="mediacenter" title="Saisissez l&#039;instruction sous la forme « sudo &lt;commande&gt; » (ex : « sudo apt-get update »). " alt="Saisissez l&#039;instruction sous la forme « sudo &lt;commande&gt; » (ex : « sudo apt-get update »). " width="300" /></a> <br/>
+
+</p>
+</div>
+</li>
+<li class="level1"><div class="li"> Un dialogue de saisie de mot de passe s&#039;affiche. Saisissez le mot de passe de votre compte d&#039;utilisateur actuel. Aucun caractère n&#039;apparaît lorsque vous saisissez des caractères sur votre clavier ; ceci est normal. Même si rien n&#039;apparaît à l&#039;écran, votre mot de passe est pris en compte.</div>
+</li>
+</ol>
+
+<p>
+Si vous n&#039;avez pas entré un mot de passe erroné, votre commande s&#039;exécute immédiatement en mode privilégié. En cas d&#039;erreur dans votre mot de passe, recommencez les opérations ci-dessus. Lors du succès de l&#039;authentification, les tâches administratives sont débloquées pour une durée de 15 minutes : votre mot de passe ne vous sera pas demandé dans les 15 minutes suivantes pour effectuer d&#039;autres tâches administratives.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_6'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Exécuter une application ou une commande en console (toutes variantes)] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="4639-6015" /><input type="submit" value="Modifier" class="button" title="Exécuter une application ou une commande en console (toutes variantes)" /></div></form></div>
+<h3 class="sectionedit7" id="quand_doit-on_utiliser_sudogksudokdesudo">Quand doit-on utiliser sudo/gksudo/kdesudo ?</h3>
+<div class="level3">
+
+<p>
+<strong>La règle est simple :</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> Pour exécuter un programme en mode <em>graphique</em>, utilisez <strong>gksudo</strong> (Ubuntu et Xubuntu) ou <strong>kdesudo</strong> (Kubuntu) ;</div>
+</li>
+<li class="level1"><div class="li"> Pour exécuter une commande en mode console, utilisez <strong>sudo</strong>.</div>
+</li>
+</ul>
+
+<p>
+<p><div class="notetip"><strong>Prenez de bonnes habitudes !</strong> <br/>
+À l&#039;heure actuelle, on trouve plusieurs fois dans cette documentation, dans le forum et dans le planet l&#039;instruction <code>sudo &lt;commande&gt;</code> pour exécuter de nombreux programmes en mode graphique avec des privilèges d&#039;administration. Bien que ceci fonctionne quand même pour de nombreux programmes, vous devriez prendre l&#039;habitude de lui préférer <code>gksudo</code> ou <code>kdesudo</code>. Utiliser <code>sudo</code> pour exécuter des applications en mode graphique peut causer des problèmes dans votre session utilisateur courante, vous empêchant de poursuivre votre travail.<sup><a href="#fn__1" id="fnt__1" class="fn_top">1)</a></sup>
+</div></p>
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_7'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Quand doit-on utiliser sudo/gksudo/kdesudo ?] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="6016-7301" /><input type="submit" value="Modifier" class="button" title="Quand doit-on utiliser sudo/gksudo/kdesudo ?" /></div></form></div>
+<h2 class="sectionedit8" id="comment_assigner_le_role_d_administrateur_a_un_compte_d_utilisateur">Comment assigner le rôle d&#039;administrateur à un compte d&#039;utilisateur ?</h2>
+<div class="level2">
+
+<p>
+<a href="/_detail/sudo-promoadmin.png?id=sudo" class="media" title="sudo-promoadmin.png"><img src="/_media/sudo-promoadmin.png?w=250&amp;tok=07ea2b" class="mediaright" title="Promouvoir un compte d&#039;utilisateur au rang d&#039;administrateur dans Ubuntu 10.04 LTS" alt="Promouvoir un compte d&#039;utilisateur au rang d&#039;administrateur dans Ubuntu 10.04 LTS" width="250" /></a>
+</p>
+
+<p>
+Seuls les administrateurs sont habilités à effectuer des tâches administratives à travers l&#039;utilitaire <code>sudo</code>. Pour augmenter les privilèges d&#039;un compte d&#039;utilisateur, vous devez vous-même être d&#039;abord un administrateur.
+Pour assigner le rôle d&#039;administrateur à un autre compte d&#039;utilisateur:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Dans Ubuntu et Xubuntu :</strong> utilisez <a href="/users-admin#changer_le_type_de_compte_d_utilisateur" class="wikilink1" title="users-admin">le module de gestion des utilisateurs du panneau de configuration système</a> pour modifier ses privilèges ;</div>
+</li>
+<li class="level1"><div class="li"> <strong>Dans Kubuntu :</strong> utilisez <a href="/kcmshell4_userconfig" class="wikilink1" title="kcmshell4_userconfig">le module de gestion des comptes d&#039;utilisateurs du panneau d&#039;administration de KDE</a> pour modifier ses privilèges ;</div>
+</li>
+<li class="level1"><div class="li"> <strong>En mode console :</strong> Ouvrez un terminal et exécutez la commande suivante : <pre class="code">sudo adduser &lt;identifiant&gt; sudo</pre>
+
+<p>
+où <code>&lt;identifiant&gt;</code> doit être remplacé par l&#039;identifiant du compte d&#039;utilisateur (sans les &lt;chevrons&gt;) auquel des privilèges supplémentaires doivent être accordés.
+</p>
+</div>
+</li>
+</ul>
+
+<p>
+Notez que les changements de privilèges ne sont pas appliqués dès leur enregistrement. Ils ne sont appliqués que lorsque toutes les sessions en cours sont closes pour ce compte-là. À l&#039;ouverture de session suivante pour ce compte, les nouveaux privilèges sont pris en compte.
+</p>
+
+<p>
+Rapportez-vous à la section <a href="/sudoers#ajout_ou_retrait_de_privileges_a_un_compte_d_utilisateur_ou_un_groupe_d_utilisateurs" class="wikilink1" title="sudoers">&quot;Ajout ou retrait de privilèges à un compte d&#039;utilisateur ou un groupe d&#039;utilisateurs&quot;</a> pour configurer plus finement les privilèges accordés par l&#039;utilitaire <code>sudo</code>.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_8'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Comment assigner le rôle d'administrateur à un compte d'utilisateur ?] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="7302-9062" /><input type="submit" value="Modifier" class="button" title="Comment assigner le rôle d'administrateur à un compte d'utilisateur ?" /></div></form></div>
+<h2 class="sectionedit9" id="aller_plus_loin">Aller plus loin</h2>
+<div class="level2">
+
+</div>
+<div class='secedit editbutton_section editbutton_9'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Aller plus loin] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="9063-9091" /><input type="submit" value="Modifier" class="button" title="Aller plus loin" /></div></form></div>
+<h3 class="sectionedit10" id="configuration_avancee_de_l_utilitaire_sudo">Configuration avancée de l&#039;utilitaire sudo</h3>
+<div class="level3">
+
+<p>
+<code>sudo</code> peut être paramétré finement pour autoriser ou refuser l&#039;exécution de tâches privilégiées. Plus que simplement autoriser l&#039;exécution de toutes les tâches administratives à un groupe d&#039;utilisateurs par l&#039;authentification par mot de passe, <code>sudo</code> peut être paramétré pour permettre à un utilisateur particulier ou un groupe d&#039;utilisateurs particulier d&#039;exécuter une ou des tâches bien précises, avec ou sans saisie du mot de passe. D&#039;autres paramètres, tels le délai d&#039;attente avant qu&#039;une ré-authentification soit nécessaire, l&#039;endroit où est enregistré le journal d’événements et le niveau de courtoisie de <code>sudo</code>, sont aussi paramétrables.
+</p>
+<ul>
+<li class="level1"><div class="li"> <em><strong><a href="/sudoers" class="wikilink1" title="sudoers">Configuration avancée de /etc/sudoers</a></strong></em></div>
+</li>
+</ul>
+
+</div>
+<div class='secedit editbutton_section editbutton_10'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Configuration avancée de l'utilitaire sudo] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="9092-9892" /><input type="submit" value="Modifier" class="button" title="Configuration avancée de l'utilitaire sudo" /></div></form></div>
+<h3 class="sectionedit11" id="les_avantages_de_sudo">Les avantages de sudo</h3>
+<div class="level3">
+
+<p>
+Les avantages de l&#039;emploi de <code>sudo</code>, par opposition à l&#039;emploi direct d&#039;un unique compte superutilisateur (<code>root</code>), sont nombreux pour une utilisation dans un environnement domestique ou de PME/PMI :
+</p>
+<ul>
+<li class="level1"><div class="li"> L&#039;installateur d&#039;Ubuntu doit poser moins de questions. Ceci est particulièrement important pour le nouvel arrivant, qui peut ne pas être au courant de l&#039;utilité du compte superutilisateur et de son potentiel dangereux ;</div>
+</li>
+<li class="level1"><div class="li"> Les administrateurs n&#039;ont pas à se souvenir d&#039;un mot de passe supplémentaire, qu&#039;ils peuvent facilement oublier, ou compromettre la sécurité du compte <code>root</code> par des mauvaises habitudes ;</div>
+</li>
+<li class="level1"><div class="li"> Cela évite le comportement du « Je peux tout faire sur ma machine » : avant d&#039;effectuer une action d&#039;administration, Ubuntu vous demande votre mot de passe, ce qui devrait faire réfléchir les administrateurs aux conséquences de leur action ;</div>
+</li>
+<li class="level1"><div class="li"> <code>sudo</code> conserve une trace de toutes les commandes exécutées. Si un problème apparaît, vous pourrez toujours consulter ce journal afin de retrouver la commande ayant causé le problème ;</div>
+</li>
+<li class="level1"><div class="li"> Tous les pirates tentant de pénétrer par la force brute votre système savent qu&#039;il existe un compte appelé <code>root</code> et essaieront de pirater celui-ci d&#039;abord. Ils ne connaissent pas les identifiants des autres utilisateurs de votre ordinateur ;</div>
+</li>
+<li class="level1"><div class="li"> Ceci permet un transfert rapide des droits d&#039;administration, autant pour du long que pour du court terme, par le simple ajout ou retrait d&#039;un utilisateur dans le groupe d&#039;administration. Le tout, sans compromettre la sécurité de votre environnement informatique par le partage d&#039;un mot de passe unique pour le compte <code>root</code> ;</div>
+</li>
+<li class="level1"><div class="li"> <code>sudo</code> peut être configuré avec une politique bien plus raffinée.</div>
+</li>
+</ul>
+
+</div>
+<div class='secedit editbutton_section editbutton_11'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Les avantages de sudo] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="9893-11673" /><input type="submit" value="Modifier" class="button" title="Les avantages de sudo" /></div></form></div>
+<h3 class="sectionedit12" id="sudo_n_est-il_pas_moins_securise_que_su_root">« sudo » n&#039;est-il pas moins sécurisé que « su root » ?</h3>
+<div class="level3">
+
+<p>
+Le modèle de sécurité à la base est le même, et les deux modèles partagent une même faiblesse. Tout utilisateur utilisant <code>su root</code> ou <code>sudo</code> pour effectuer des tâches administratives doit être considéré comme un utilisateur privilégié. Si le compte de l&#039;utilisateur est compromis par un attaquant, celui-ci peut aussi obtenir une élévation de privilèges et compromettre le système d&#039;exploitation. Les utilisateurs ayant les droits d&#039;administration doivent être protégés avec les mêmes soins que le compte superutilisateur.
+</p>
+
+<p>
+Sur une note plus ésotérique, on remarque que <code>sudo</code> encourage la modification des habitudes de travail, qui peuvent provoquer un impact positif sur la sécurité du système d&#039;exploitation. <code>sudo</code> est habituellement utilisé pour exécuter une commande unique, alors que <code>su root</code> est souvent utilisé pour exécuter un terminal <code>root</code> et exécuter des multiples commandes. L&#039;approche de <code>sudo</code> réduit la possibilité qu&#039;un terminal <code>root</code> soit laissé ouvert indéfiniment sur le poste de travail et encourage l&#039;utilisateur à minimiser son utilisation des privilèges d&#039;administration.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_12'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[« sudo » n'est-il pas moins sécurisé que « su root » ?] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="11674-12906" /><input type="submit" value="Modifier" class="button" title="« sudo » n'est-il pas moins sécurisé que « su root » ?" /></div></form></div>
+<h3 class="sectionedit13" id="observer_le_journal_des_taches_executees_precedemment_par_sudo">Observer le journal des tâches exécutées précédemment par « sudo »</h3>
+<div class="level3">
+
+<p>
+L&#039;ensemble des actions exécutées à travers l&#039;utilitaire <code>sudo</code> – qu&#039;elles s&#039;accomplissent avec succès ou échec –  sont journalisées. Elles sont inscrites dans le fichier de journal <em>/var/log/<strong>auth.log</strong></em>.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_13'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Observer le journal des tâches exécutées précédemment par « sudo »] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="12907-13210" /><input type="submit" value="Modifier" class="button" title="Observer le journal des tâches exécutées précédemment par « sudo »" /></div></form></div>
+<h3 class="sectionedit14" id="ouvrir_un_terminal_en_mode_root">Ouvrir un terminal en mode root</h3>
+<div class="level3">
+
+<p>
+Utiliser <code>sudo</code> pour exécuter une seule commande ne cause pas un réel désagrément, mais il peut être désagréable de l&#039;utiliser pour exécuter une longue procédure nécessitant plusieurs interventions en mode superutilisateur (<code>root</code>). L&#039;ouverture d&#039;un terminal en mode <code>root</code> permet d&#039;éviter d&#039;avoir à appeler <code>sudo</code> à chacune des étapes de cette procédure, sans avoir à activer l&#039;accès au compte d&#039;utilisateur <code>root</code>. L&#039;inconvénient de cette méthode est qu&#039;aucune trace des actions posées n&#039;est inscrite dans le journal de <code>sudo</code> (sinon l&#039;ouverture du terminal <code>root</code> lui-même). Il est déconseillé d&#039;ouvrir un terminal <code>root</code>.
+</p>
+
+<p>
+Pour vous servir d&#039;un terminal <code>root</code> :
+</p>
+<ol>
+<li class="level1"><div class="li"> Ouvrez <a href="/terminal" class="wikilink1" title="terminal">une fenêtre de terminal</a> ;</div>
+</li>
+<li class="level1"><div class="li"> Saisissez la commande suivante : <pre class="code">utilisateur@ordinateur:~$ sudo -i</pre>
+</div>
+</li>
+<li class="level1"><div class="li"> Saisissez votre mot de passe à l&#039;invite de saisie de mot de passe ;</div>
+</li>
+<li class="level1"><div class="li"> Exécutez votre série de commandes d&#039;administration ;</div>
+</li>
+<li class="level1"><div class="li"> Fermez la session <code>root</code> : <pre class="code">root@ordinateur:~# exit</pre>
+
+<p>
+ ou <code>Ctrl+D</code>
+</p>
+</div>
+</li>
+</ol>
+
+</div>
+<div class='secedit editbutton_section editbutton_14'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Ouvrir un terminal en mode root] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="13211-14314" /><input type="submit" value="Modifier" class="button" title="Ouvrir un terminal en mode root" /></div></form></div>
+<h3 class="sectionedit15" id="rediriger_un_flux_avec_sudo">Rediriger un flux avec « sudo »</h3>
+<div class="level3">
+
+<p>
+<code>sudo</code> pose <em>a priori</em> des problèmes pour la redirection de flux dans une console. Par exemple, la redirection suivante ne fonctionnera pas : 
+</p>
+<pre class="code">utilisateur@ordinateur:~$ sudo echo 2 &gt; /proc/acpi/thermal_zone/ATF0/polling_frequency</pre>
+
+<p>
+La raison de cet échec est que <code>sudo</code> n&#039;exécute que la première tâche (<code>echo 2</code>) avec l&#039;identité empruntée ; la redirection, elle, est effectuée en mode utilisateur uniquement.
+</p>
+
+<p>
+La solution, pour contourner cette limitation, est d&#039;appeler un nouvel interpréteur de commandes et de lui faire exécuter votre redirection de flux. Par exemple : 
+</p>
+<pre class="code">utilisateur@ordinateur:~$ sudo sh -c &#039;echo 2 &gt; /proc/acpi/thermal_zone/ATF0/polling_frequency&#039;</pre>
+
+<p>
+De cette manière, c&#039;est tout l&#039;interpréteur <code>sh</code> et la commande passée en argument qui est exécutée avec l&#039;identité empruntée.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_15'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Rediriger un flux avec « sudo »] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="14315-15203" /><input type="submit" value="Modifier" class="button" title="Rediriger un flux avec « sudo »" /></div></form></div>
+<h2 class="sectionedit16" id="les_comptes_superutilisateurs_d_applications_particulieres">Les comptes superutilisateurs d&#039;applications particulières</h2>
+<div class="level2">
+
+<p>
+Certains programmes ou services nécessitent des comptes superutilisateurs. C&#039;est généralement le cas avec des systèmes de bases de données (comme MySQL). Prenez note que ce compte superutilisateur est indépendant de celui du système d&#039;exploitation : il est unique au programme ou service en particulier.
+Si un tel programme ou service nécessite un compte superutilisateur, vous devez paramétrer ce compte avec les outils qu&#039;il fournit. À ce sujet, rapportez-vous aux documents d&#039;aide relatifs à chacune de vos applications concernées.
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_16'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[Les comptes superutilisateurs d'applications particulières] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="15204-15825" /><input type="submit" value="Modifier" class="button" title="Les comptes superutilisateurs d'applications particulières" /></div></form></div>
+<h2 class="sectionedit17" id="a_lire_aussi">À lire aussi</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/sudo-annexe" class="wikilink1" title="sudo-annexe">Annexe de cette page</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tutoriel/comment_eviter_root_quand_c_est_possible" class="wikilink1" title="tutoriel:comment_eviter_root_quand_c_est_possible">Éviter de lancer une commande en tant qu&#039;administrateur lorsque c&#039;est possible</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://elban.fr/mot-de-passe-root-perdu/" class="urlextern" title="http://elban.fr/mot-de-passe-root-perdu/"  rel="nofollow">Mot de passe root perdu : comment faire ?</a> (fr) [Lien mort ou inactif le 19/5/2014]</div>
+</li>
+<li class="level1"><div class="li"> <strong><a href="http://www.sudo.ws" class="urlextern" title="http://www.sudo.ws"  rel="nofollow">Site officiel du projet &quot;sudo&quot;</a> (en)</strong></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.sudo.ws/sudo/sudoers.man.html" class="urlextern" title="http://www.sudo.ws/sudo/sudoers.man.html"  rel="nofollow">Sudoers Manual</a> (en)</div>
+</li>
+<li class="level1"><div class="li"> <a href="https://help.ubuntu.com/community/RootSudo" class="urlextern" title="https://help.ubuntu.com/community/RootSudo"  rel="nofollow">RootSudo dans l&#039;Aide d&#039;Ubuntu</a> (en)</div>
+</li>
+<li class="level1"><div class="li"> <a href="http://en.wikipedia.org/wiki/PolicyKit" class="interwiki iw_wp" title="http://en.wikipedia.org/wiki/PolicyKit">PolicyKit</a> (en), une autre méthode de gestion flexible des privilèges utilisateurs</div>
+</li>
+</ul>
+<hr />
+
+<p>
+<em>Contributeurs : <a href="/utilisateurs/alexandrep" class="wikilink1" title="utilisateurs:alexandrep">AlexandreP</a>, <a href="/utilisateurs/chatalors" class="wikilink1" title="utilisateurs:chatalors">Chatalors</a>, <a href="/utilisateurs/damocles" class="wikilink2" title="utilisateurs:damocles" rel="nofollow">Damocles</a>, <a href="/utilisateurs/ju" class="wikilink2" title="utilisateurs:ju" rel="nofollow">Ju</a></em> <br/>
+
+</p>
+
+</div>
+<div class='secedit editbutton_section editbutton_17'><form class="button btn_secedit" method="post" action="/sudo"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1415897544" /><input type="hidden" name="summary" value="[À lire aussi] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="15826-" /><input type="submit" value="Modifier" class="button" title="À lire aussi" /></div></form></div><div class="footnotes">
+<div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
+<code>gksudo</code> paramètre le dossier personnel (la variable d&#039;environnement <code>$HOME</code>) pour l&#039;application exécutée en mode privilégiée à <em>/root</em> plutôt qu&#039;à <em>/home/&lt;identifiant&gt;</em> et copie le fichier <code>.Xauthority</code> dans un dossier temporaire. Ceci empêche que des fichiers du dossier personnel de l&#039;utilisateur changent de propriétaire (et donc corrompent la session graphique en cours).</div>
+</div>
+
+<!-- cachefile /srv/www/doc.ubuntu-fr.org/htdocs/data/cache/c/c3bc9bb0df243baf4cc682a164225d8e.xhtml used -->
+
+        <br style="clear:both;" />
+        <div id="pageinfo">
+            <!--  |  | -->
+            <!-- ?tpl_pageinfo()? -->
+            <br />
+            Le contenu de ce wiki est sous licence : <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" target="_blank">CC BY-SA v3.0</a>
+        </div> 
+      </div>
+
+      
+      <div id="navigation">
+
+        <ul>
+          <li class="menu"><a href="http://www.ubuntu-fr.org" class="title" id="menu-accueil"><span>Accueil</span></a></li>
+          <li class="menu" id="active">
+            <a href="/"  class="title" id="menu-doc"><span>Documentation</span></a>
+            <ul>
+              <li id="navWiki" class="cat">
+                <h2>Actions</h2>
+                <ul>
+                  <li><a href="/sudo?do=index"  class="action index" accesskey="x" rel="nofollow" title="Plan du site [X]">Plan du site</a></li>
+                  <li><a href="/sudo?do=edit&amp;rev=0"  class="action edit" accesskey="e" rel="nofollow" title="Modifier cette page [E]">Modifier cette page</a></li>
+                  <li><a href="/sudo?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Anciennes révisions [O]">Anciennes révisions</a></li>
+                  <li></li>
+                  <li><a href="/sudo?do=recent"  class="action recent" accesskey="r" rel="nofollow" title="Derniers changements [R]">Derniers changements</a></li>
+                  <li><a href="/sudo?do=backlink"  class="action backlink" rel="nofollow" title="Liens vers cette page">Liens vers cette page</a></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <li id="navDivers" class="cat">
+                <h2>Divers</h2>
+                <ul>
+                  <li><bdi><a href="/wiki/participer_wiki" class="wikilink1" title="wiki:participer_wiki">Participer à la documentation</a></bdi></li>
+                  <li><bdi><a href="/documentation_hors_ligne" class="wikilink1" title="documentation_hors_ligne">Documentation hors ligne</a></bdi></li>
+                  <li><a href="http://www.ubuntu-fr.org/telechargement" title="T&eacute;l&eacute;charger Ubuntu">T&eacute;l&eacute;charger Ubuntu</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu"><a href="http://forum.ubuntu-fr.org"  class="title" id="menu-forum"><span>Forum</span></a></li>
+          <li class="menu"><a href="http://planet.ubuntu-fr.org"  class="title" id="menu-planet"><span>Planet</span></a></li>
+        </ul>
+
+      </div>
+      <div id="references-ufr">
+        <ul id="legal-ufr">
+          <li><a href="http://www.ubuntu-fr.org/contacts">Contact</a></li>
+        </ul>
+
+        <ul id="sponsors-ufr">
+          <li><a href="http://www.dokuwiki.org/dokuwiki" id="dokuwiki">Propulsé par Dokuwiki</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- $Id$ -->
+
+    <!-- Piwik Image Tracker -->
+    <!-- img src="http://piwik.infra.ubuntu-fr.org/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" /-->
+    <!-- End Piwik -->
+
+  </body>
+</html>

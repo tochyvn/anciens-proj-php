@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>  
+<urls>
+  <url>
+    <source>autre_icecat_reference.csv</source>
+    <destination>ftp://aicom:rote15%2F-12@dushopping.fr/dushopping.fr/document/reference/autre_icecat_reference.csv</destination>
+  </url>
+</urls>

@@ -1,0 +1,45 @@
+Bonjour,
+
+Vous avez récemment choisi d'utiliser notre service Internet plus (micro paiement sur votre facture Internet) pour consulter les annonces de LOCALERTE .fr
+
+Nous vous en remercions et espérons vous avoir apporté satisfaction.
+
+Si vous prévoyez de reconsulter LOCALERTE prochainement, nos 3 formules d'abonnement vous permettront d'accéder à TOUTES nos annonces à un tarif plus avantageux.
+
+Rappel de nos abonnements 24h/24 (paiement sécurisé) :
+
+7 jours = 7 Euros ; soit 1 Euro/ jour
+14 jours = 13 Euros ; au lieu de 14 Euros
+28 jours = 24 Euros ; au lieu de 28 Euros
+
+Vous pouvez souscrire votre abonnement dès à présent ici :
+%CONSULTATION%
+
+Merci de votre confiance,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

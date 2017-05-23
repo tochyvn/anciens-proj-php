@@ -1,0 +1,26 @@
+Bonjour,
+
+Bonne nouvelle! Je viens de mettre à jour les
+listes d'annonces.
+
+La liste qui vous intéresse (%TYPES% à %VILLE% et alentours)
+est consultable à la page:
+%CONSULTATION%
+
+Voici le détail des premières annonces de votre liste:
+%ANNONCE1%
+%ANNONCE2%
+
+Pour changer vos critères, une fois sur votre liste,
+cliquez sur "Modifier" dans la colonne de gauche.
+
+Pour stopper mon envoi, il suffit simplement d'utiliser
+"Désabonnement alertes mail" en bas de toutes nos pages.
+Vous pouvez aussi appeler le lien:
+%DESABONNEMENT%
+
+Des Questions? Besoin d'aide? Informations complémentaires?
+Répondez à ce mail, je reviens vers vous en moins de 48H.
+
+Bonne recherche,
+Karine Hérault

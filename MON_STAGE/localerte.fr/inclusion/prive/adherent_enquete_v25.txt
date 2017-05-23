@@ -1,0 +1,35 @@
+Bonjour,
+
+Vous avez récemment essayé la nouvelle version de LOCALERTE .fr et nous vous en remercions.
+
+Voici votre CODE D'ACCES pour utiliser GRATUITEMENT notre service, le temps de votre session :
+
+%CODE%
+
+Pour l'utiliser, rendez-vous sur la page Tarifs de notre site et saisissez votre code dans la case "CODE OFFERT" correspondante :
+%CONSULTATION%
+
+------------------------------------------------------------------------
+
+Vous pouvez dès à présent :
+
+CONSULTER vos nouvelles annonces de locations immobilières ici :
+%CONSULTATION%
+
+MODIFIER vos critères de recherche à tout instant ici :
+%PARAMETRE%
+
+Vous DESABONNER ici :
+%DESABONNEMENT%
+
+Merci de votre confiance et à très bientôt sur notre site,
+
+L'équipe LOCALERTE .fr
+
+------------------------------------------------------------------------
+LOCALERTE - On cherche pour vous, PARTOUT
+------------------------------------------------------------------------
+Date d'abonnement: %ENREGISTREMENT%.
+------------------------------------------------------------------------
+Pour SE DESABONNER, cliquez sur:
+%DESABONNEMENT%

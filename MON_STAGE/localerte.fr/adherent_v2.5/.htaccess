@@ -1,0 +1,19 @@
+#RedirectMatch .+ /inclusion/maintenance.html
+RedirectMatch ^(.*\/)$ $1index.php
+RedirectMatch bienvenue.php$ /adherent/index.php
+RedirectMatch redirection.php$ /redirection.php
+
+<Files "general.css">
+	AddType application/x-httpd-php .css
+</Files>
+<Files "general2.css">
+	AddType application/x-httpd-php .css
+</Files>
+
+<Files "general.js">
+	AddType application/x-httpd-php .js
+</Files>
+
+<Files "localisation.js">
+	AddType application/x-httpd-php .js
+</Files>

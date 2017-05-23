@@ -1,0 +1,158 @@
+/*
+div.header {
+    border: aqua solid thick;
+    background-color: blue;
+    //position: relative;
+    min-height: 100px;
+    width: 98%;
+    margin: auto;
+}
+            
+div.footer{
+    background-color: red;
+    border: aqua solid thick;
+    margin-top: 5px;
+    height: 100px;
+    width: 98%;
+    clear: both;
+}
+            
+div.nav ul {
+    list-style-type: none;
+}
+            
+div.nav ul li {
+    display: inline-block;
+    opacity: 1;
+    color: white;
+    margin-right: 50px;
+}
+            
+div.nav {
+    background-color: blue;
+    //position: relative;
+    //top: 100px;
+}
+            
+li a {
+    text-decoration: none;
+    color: white;
+}
+            
+div.produits {
+    border: blue solid thick;
+    padding: 3px;
+}
+            
+div.produit {
+    padding: 5px;
+    border: #0085A1 double 5px;
+    //float: left;
+    margin: 5px;
+    display: inline-block;
+}
+            
+div.item-select {
+    border: black solid thick;
+    min-height: 500px;
+}
+            
+form {
+    border-color: #303F9F;
+}
+            
+div.produit a {
+    border: #303F9F solid thin;
+    text-decoration-line: none;
+    background-color: #0085A1;
+}
+            
+.content .item-select a {
+    border: #303F9F solid thin;
+    text-decoration-line: none;
+    background-color: #0085A1;
+}
+            
+div.content {
+    border: black solid thick;
+    min-height: 500px;
+    padding: 2px;
+}
+            
+div.item-panier {
+    display: inline-block;
+    border: #303F9F thin solid;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+            
+div.nav {
+    margin: 0 auto;
+    width: 98%;
+}
+            
+.item-panier a{
+    border: #303F9F solid thin;
+    text-decoration-line: none;
+    background-color: #0085A1;
+}
+
+/**
+* PARTIE AUTHENTIFICATION
+*
+*/
+/*
+div.form-connexion {
+    position: absolute;
+    border: black solid thick;
+    margin: auto;
+    top: 50%;
+    left: 40%;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div.form-subscribe {
+    //position: absolute;
+    border: black solid thick;
+    margin: auto;
+    top: 30%;
+    left: 35%;
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+*/           
+.form_error {
+    border: #4e50cc solid thin;
+    -moz-box-shadow:0 0 2px 1px red;
+    -webkit-box-shadow: 0 0 2px 1px red;
+    box-shadow: 0 0 2px 1px red;
+}
+
+div.error-msg, div.success-msg {
+    visibility: hidden;
+}
+
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 300px;
+}
+
+div.produits {
+    min-height: 500px;
+}
+
+nav.second_nav {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #94949f;
+}
+
+header.intro-header {
+    margin-bottom: 0;
+}

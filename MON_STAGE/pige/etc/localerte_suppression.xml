@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<fichiers>
+  <fichier>localerte_6clics.csv</fichier>
+  <fichier>localerte_annoncesjaunes.csv</fichier>
+  <fichier>localerte_avendrealouer.csv</fichier>
+  <fichier>localerte_centreimmo.csv</fichier>
+  <fichier>localerte_centreouest.csv</fichier>
+  <fichier>localerte_cheznous.csv</fichier>
+  <fichier>localerte_cologimmo.csv</fichier>
+  <fichier>localerte_ebay.csv</fichier>
+  <fichier>localerte_eurosud.csv</fichier>
+  <fichier>localerte_iookaz.csv</fichier>
+  <fichier>localerte_jannonce.csv</fichier>
+  <fichier>localerte_ladepeche.csv</fichier>
+  <fichier>localerte_lavoiximmo.csv</fichier>
+  <fichier>localerte_leboncoin-part.csv</fichier>
+  <fichier>localerte_leboncoin-pro.csv</fichier>
+  <fichier>localerte_midilibre.csv</fichier>
+  <fichier>localerte_normandie.csv</fichier>
+  <fichier>localerte_ouestfrance.csv</fichier>
+  <fichier>localerte_pap.csv</fichier>
+  <fichier>localerte_paruvendu-part.csv</fichier>
+  <fichier>localerte_paruvendu-pro.csv</fichier>
+  <fichier>localerte_repimmo.csv</fichier>
+  <fichier>localerte_seloger.csv</fichier>
+  <fichier>localerte_sudouest.csv</fichier>
+  <fichier>localerte_topannonces-part.csv</fichier>
+  <fichier>localerte_topannonces-pro.csv</fichier>
+  <fichier>localerte_vivastreet-part.csv</fichier>
+  <fichier>localerte_vivastreet-pro.csv</fichier>
+  <fichier>localerte_wannonce.csv</fichier>
+</fichiers>

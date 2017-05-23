@@ -1,0 +1,5 @@
+#RewriteEngine on
+#RewriteCond %{HTTP_REFERER} !localerte\.mobi
+#RewriteCond %{SCRIPT_FILENAME} !image\.php
+#RewriteRule .* / [R]
+

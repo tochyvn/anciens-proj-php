@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Choisissez la date</title>
+    <style type="text/css">
+		body {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:11px;
+			background-color:#EEEEEE;
+			text-align:center;
+		}
+		input, option {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:11px;
+			vertical-align:top;
+		}
+		table {
+			border-collapse:collapse;
+			width:280px;
+			margin-top:10px;
+			font-size:11px;
+			margin-bottom:10px;
+		}
+		td {
+			text-align:center;
+			border:1px solid #0B5300;
+			width:40px;
+			height:20px;
+			empty-cells:show;
+		}
+		th {
+			text-align:center;
+			border:1px solid #666699;
+			background-color:#666699;
+			color: #DFBFBF;
+			width:40px;
+			height:20px;
+			font-size:11px;
+		}
+		#mois {
+			width:100px;
+		}
+		#annee {
+			width:36px;
+		}
+		#choisir {
+			width:280px;
+			font-size:12px;
+			font-weight:bold;
+		}
+    </style>
+    <script language="javascript" type="text/javascript">
+         function changement_mois(date,nouveau_mois)
+        {
+            var temp=new Date(date.getFullYear() , nouveau_mois,1, date.getHours(), date.getMinutes(), date.getSeconds());
+            var nombre_jour=date_t(temp);
+            if(nombre_jour<date.getDate())
+                var jour=nombre_jour;
+            else
+                var jour=date.getDate();
+            return new Date(date.getFullYear() , nouveau_mois,jour, date.getHours(), date.getMinutes(), date.getSeconds());
+        }
+        
+        function date_t(date) //calcule le nombre de jours dans le mois
+        {
+            var temp=new Date(date.getFullYear() ,date.getMonth() ,31, date.getHours(), date.getMinutes(), date.getSeconds());
+            return 31-temp.getDate()%31;
+        }
+        
+        function date_w(date) //calcule le numeros de jour de la semaine
+        {
+            var temp=new Date(date.getFullYear() ,date.getMonth() ,1, date.getHours(), date.getMinutes(), date.getSeconds());
+            return temp.getDay();
+        }
+        
+        function ecrire(date,masque)
+        {
+            document.getElementById('annee').value=date.getFullYear();
+            document.getElementById('mois').options[date.getMonth()].selected=true;//valeurs de la liste est egale au mois de la date
+			if(masque!=2)
+			{
+	            document.getElementById('heure').options[date.getHours()].selected=true; //idem
+    	        document.getElementById('minute').options[date.getMinutes()].selected=true;
+        	    document.getElementById('seconde').options[date.getSeconds()].selected=true;
+			}
+			else
+			{
+	            document.getElementById('heure').style.display='none'; 
+    	        document.getElementById('minute').style.display='none';
+        	    document.getElementById('seconde').style.display='none';
+			}
+            
+            var jour_semaine=date_w(date);
+            if(jour_semaine==0)
+                jour_semaine=7;
+            var nombre_jour=date_t(date);
+            for(i=1;i<=42;i++){
+                document.getElementById('jour').getElementsByTagName('td')[i-1].style.backgroundColor='#EEEEEE';//donne le style a tte les case de la huitieme à la 49eme (car les 7 premières st deja remplies)
+                if(jour_semaine<=i && i-jour_semaine<nombre_jour)//premier jour && dernier jour du mois
+                {
+					if(date.getDate()==i-jour_semaine+1)//si la case d'index i contient la date selectionnée
+						document.getElementById('jour').getElementsByTagName('td')[i-1].style.backgroundColor='#CCCCCC'; //la case devient rouge
+					else
+						document.getElementById('jour').getElementsByTagName('td')[i-1].style.backgroundColor='#EEEEEE';
+                    document.getElementById('jour').getElementsByTagName('td')[i-1].innerHTML=i-jour_semaine+1; //de plus la valeur du contenu pour i est agale à...
+ 					document.getElementById('jour').getElementsByTagName('td')[i-1].style.cursor='pointer';
+               }
+                else
+                {
+                    document.getElementById('jour').getElementsByTagName('td')[i-1].innerHTML=''; //sinon la chaine de caracteres vides remplis le td ouvert et fermé.
+ 					document.getElementById('jour').getElementsByTagName('td')[i-1].style.cursor='default';
+               }
+            }
+        }
+        
+        function renvoi(date,balise_id,masque)
+        {
+            if(opener!=null && !opener.closed && opener.document.getElementById(balise_id)!=null)
+            {
+                switch(masque)
+                {
+                    case 0:
+                        opener.document.getElementById(balise_id).value=Date.parse(date);
+                        break;
+                    case 1:
+                        opener.document.getElementById(balise_id).value=((date.getDate()<10)?('0'):(''))+date.getDate()+'/'+(((date.getMonth()+1)<10)?('0'):(''))+(date.getMonth()+1)+'/'+((date.getFullYear()<10)?('0'):(''))+date.getFullYear()+' '+((date.getHours()<10)?('0'):(''))+date.getHours()+':'+((date.getMinutes()<10)?('0'):(''))+date.getMinutes()+':'+((date.getSeconds()<10)?('0'):(''))+date.getSeconds();
+                        break;
+                    case 2:
+                        opener.document.getElementById(balise_id).value=((date.getDate()<10)?('0'):(''))+date.getDate()+'/'+(((date.getMonth()+1)<10)?('0'):(''))+(date.getMonth()+1)+'/'+((date.getFullYear()<10)?('0'):(''))+date.getFullYear();
+                }
+                window.close();
+            }
+        }
+        
+        function verifier_annee(annee)
+        {
+            if(isNaN(annee))
+                return date.getFullYear();
+            if(annee<1970)
+                return 1970;
+            if(annee>2099)
+                return 2099;
+            return annee;
+        }
+		
+       function rechercher(chaine,expression)
+        {
+            if(expression.exec(chaine))
+                return RegExp.$2;
+			return '';
+        }
+		
+        var langue=rechercher(window.location.search,/(&|\?)langue=([^&]+)(&|$)/);
+        switch(langue)
+        {
+            default:
+                langue='fr_fr';
+            case 'fr_fr':
+                var semaine=new Array();
+                semaine[0]='L';
+                semaine[1]='M';
+                semaine[2]='M';
+                semaine[3]='J';
+                semaine[4]='V';
+                semaine[5]='S';
+                semaine[6]='D';
+                
+                var mois=new Array();
+                mois[0]='Janvier';
+                mois[1]='F&eacute;vrier';
+                mois[2]='Mars';
+                mois[3]='Avril';
+                mois[4]='Mai';
+                mois[5]='Juin';
+                mois[6]='Juillet';
+                mois[7]='Ao&ucirc;t';
+                mois[8]='Septembre';
+                mois[9]='Octobre';
+                mois[10]='Novembre';
+                mois[11]='D&eacute;cembre';
+                break;
+            case 'en_uk':
+                var semaine=new Array();
+                semaine[0]='M';
+                semaine[1]='T';
+                semaine[2]='W';
+                semaine[3]='T';
+                semaine[4]='F';
+                semaine[5]='S';
+                semaine[6]='S';
+                
+                var mois=new Array();
+                mois[0]='January';
+                mois[1]='February';
+                mois[2]='March';
+                mois[3]='April';
+                mois[4]='May';
+                mois[5]='June'
+                mois[6]='July';
+                mois[7]='August';
+                mois[8]='September';
+                mois[9]='October';
+                mois[10]='November';
+                mois[11]='December';
+                break;
+        }
+        var balise_id=rechercher(window.location.search,/(&|\?)id=([^&]+)(&|$)/);
+        var masque=parseInt(rechercher(window.location.search,/(&|\?)masque=([^&]+)(&|$)/));
+		if(opener!=null && !opener.closed && opener.document.getElementById(balise_id)!=null)
+		{
+			switch(masque)
+			{
+				case 0: //unix timestamp
+					var expression=/^([0-9]+)$/;
+					if(expression.test(opener.document.getElementById(balise_id).value))
+						var date=new Date(parseInt(opener.document.getElementById(balise_id).value));
+					else
+						var date=new Date();
+					break;
+				case 1: //jj/mm/aaaa hh:mm:ss
+					var expression=/^(0[1-9]|[1-2][0-9]|3[0-1])\/(0[1-9]|1[0-2])\/(19[7-9][0-9]|20[0-9]{2}) ([0-1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/;
+					if(expression.test(opener.document.getElementById(balise_id).value))
+					{
+						expression.exec(opener.document.getElementById(balise_id).value);
+						var date=new Date(RegExp.$3,RegExp.$2-1,RegExp.$1,RegExp.$4,RegExp.$5,RegExp.$6);
+					}
+					else
+						var date=new Date();
+					break;
+				case 2://jj/mm/aaaaa
+					var expression=/^(0[1-9]|[1-2][0-9]|3[0-1])\/(0[1-9]|1[0-2])\/(19[7-9][0-9]|20[0-9]{2})$/;
+					if(expression.test(opener.document.getElementById(balise_id).value))
+					{
+						expression.exec(opener.document.getElementById(balise_id).value);
+						var date=new Date(RegExp.$3,RegExp.$2-1,RegExp.$1);
+					}
+					else
+						var date=new Date();
+					break;
+				default:
+					masque=1;
+					var date=new Date();
+					break;
+			}
+		}
+		else
+		{
+			masque=1;
+			var date=new Date();
+		}
+		
+		var date=new Date(verifier_annee(date.getFullYear()), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds());
+    </script>
+</head>
+<body onload="ecrire(date,masque);" >
+    <select name="mois" id="mois" onchange="date=changement_mois(date,this.selectedIndex); ecrire(date,masque);">
+		<script language="javascript">
+			for(i=0;i<12;i++){
+				document.write('<option value="'+i+'">'+mois[i]+'</option>');
+			} 
+        </script>
+    </select>
+    <input name="annee" id="annee" type="text" value="" onchange="date=new Date(verifier_annee(this.value), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()); ecrire(date,masque);" onkeyup="if(this.value.length>=4) this.onchange();" />
+    <table id="jour" align="center">
+        <tr>
+			<script language="javascript">
+				for(i=0;i<7;i++){
+					document.write('<th>'+semaine[i]+'</th>');
+				}
+            </script>
+        </tr>
+        <tr>
+			<script language="javascript">
+				for(i=1;i<=42;i++){
+					document.write('<td onclick="if(this.innerHTML!=\'\') {date=new Date(date.getFullYear() ,date.getMonth() ,this.innerHTML, date.getHours(), date.getMinutes(), date.getSeconds()); ecrire(date,masque);}" ondblclick="if(this.innerHTML!=\'\') {renvoi(date,balise_id,masque);}"></td>');
+					if(i%7==0 && i<42)
+						document.write('</tr><tr>');
+				}
+            </script>
+        </tr>
+    </table>
+    <select name="heure" id="heure" onchange="date=new Date(date.getFullYear(), date.getMonth(), date.getDate(), document.getElementById('heure').selectedIndex, date.getMinutes(), date.getSeconds()); ecrire(date,masque);">
+		<script language="javascript">
+			for(i=0;i<=23;i++){
+				document.write('<option value="'+i+'">'+((i<10)?('0'):(''))+i+'h</option>');
+			}
+        </script>
+    </select>
+    <select name="minute" id="minute" onchange="date=new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), document.getElementById('minute').selectedIndex, date.getSeconds()); ecrire(date,masque);">
+		<script language="javascript">
+			for(i=0;i<=59;i++){
+				document.write('<option value="'+i+'">'+((i<10)?('0'):(''))+i+'\'</option>');
+			}
+        </script>
+    </select>
+    <select name="seconde" id="seconde" onchange="date=new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), document.getElementById('seconde').selectedIndex); ecrire(date,masque);">
+		<script language="javascript">
+			for(i=0;i<=59;i++){
+				document.write('<option value="'+i+'">'+((i<10)?('0'):(''))+i+'\'\'</option>');
+			}
+        </script>
+    </select>
+    <input type="button" name="choisir" id="choisir" value="Valider" onclick="renvoi(date,balise_id,masque);" />
+</body>
+</html>

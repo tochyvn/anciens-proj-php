@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Choisissez une couleur</title>
+<style type="text/css">
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	table{
+		width:306px;
+		height:208px;
+		border-collapse:collapse;
+		border-style:none;
+		margin:0px;
+		padding:0px;
+	}
+</style>
+</head>
+
+<body>
+<script language="javascript">
+	function renvoyer(balise_id,couleur)
+	{
+		if(opener!=null && !opener.closed && opener.document.getElementById(balise_id)!=null)
+		{
+			opener.document.getElementById(balise_id).value=couleur;
+			opener.document.getElementById(balise_id).style.backgroundColor=couleur;
+			//opener.document.getElementById(balise_id).onchange();
+			window.close();
+		}
+	}
+	
+	var balise_id='';
+	var expression=/(&|\?)id=([^&]+)(&|$)/;
+	if(expression.exec(window.location.search))
+    	balise_id=RegExp.$2;
+	
+	if(opener!=null && !opener.closed && opener.document.getElementById(balise_id)!=null)
+		origine=opener.document.getElementById(balise_id).value;
+	else
+		origine='';
+	
+	if(origine=='')
+		origine='#FFFFFF';
+	
+	document.write('<table>');
+	for(l=1;l<=12;l++)
+	{
+		document.write('<tr>');
+		for(c=1;c<=18;c++)
+		{
+			groupe_l=(Math.floor((l-1)/6));
+			groupe_c=(Math.floor((c-1)/6));
+			
+			//Decimal
+			r=((groupe_l*3)+groupe_c)*51;
+			g=((c-1)%6)*51;
+			b=((l-1)%6)*51;
+			
+			//Hexadecimal
+			r=r.toString(16);
+			if(r.length==1)
+				r='0'+r;
+			g=g.toString(16);
+			if(g.length==1)
+				g='0'+g;
+			b=b.toString(16);
+			if(b.length==1)
+				b='0'+b;
+			
+			//Majuscule
+			r=r.toUpperCase();
+			g=g.toUpperCase();
+			b=b.toUpperCase();
+			
+			couleur='#'+r+g+b;
+			
+			document.write('<td style="background-color:'+couleur+';" title="'+couleur+'" alt="'+couleur+'" ondblclick="renvoyer(balise_id,\''+couleur+'\')">&nbsp;</td>');
+		}
+		document.write('</tr>');
+	}
+	document.write('<tr><td colspan="18" style="background-color:'+origine+';" title="'+origine+'" alt="'+origine+'" ondblclick="renvoyer(balise_id,\''+origine+'\')">&nbsp;</td></tr>');
+	document.write('</table>');
+</script>
+</body>
+</html>
